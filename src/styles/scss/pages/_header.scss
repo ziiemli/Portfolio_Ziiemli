@@ -1,0 +1,34 @@
+//___HEADER___//
+
+header {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    top: 50px;
+}
+
+//Menu
+.menu {
+    width: 25px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__line {
+        width: 100%;
+        height: 2px;
+        background-color: white;
+    }
+}
+
+.backgroundHome {
+    width: 100%;
+    height: auto;
+    background-color: $background_color;
+}

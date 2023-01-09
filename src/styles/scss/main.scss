@@ -4,3 +4,9 @@
 @import 'library/colors';
 
 @import 'pages/start';
+@import 'pages/header';
+@import 'pages/home';
+
+img {
+    object-fit: cover;
+}
