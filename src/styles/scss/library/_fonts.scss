@@ -1,2 +1,35 @@
 
 //___FONTS___//
+
+//VARIABLES
+:root {
+    --start_h1: 3rem;
+    --start_text: 1.25rem;
+    --start_start: 2.18rem;  
+}
+
+@font-face {
+    font-family: 'SegoeUi';
+    src: url(../fonts/SegoeUI.woff);
+    src: url(../fonts/SegoeUI.woff2);
+}
+
+//BODY  
+body {
+    color: white;
+    font-family: "SegoeUi", sans-serif;
+}
+
+//START
+.start__content {
+    &__h1 {
+        font-size: var(--start_h1);
+        font-weight: lighter;
+    }
+    &__h2, li {
+        font-size: var(--start_text);
+    }
+    &__start {
+        font-size: var(--start_start);
+    }
+}
