@@ -14,6 +14,12 @@
     src: url(../fonts/SegoeUI.woff2);
 }
 
+@font-face {
+    font-family: 'Cyrene';
+    src: url(../fonts/Cyrene.woff);
+    src: url(../fonts/Cyrene.woff2);
+}
+
 //BODY  
 body {
     color: white;
@@ -28,8 +34,15 @@ body {
     }
     &__h2, li {
         font-size: var(--start_text);
+        font-weight: lighter;
     }
+}
+
+.start__button {
     &__start {
+        font-family: 'Cyrene', sans-serif;
         font-size: var(--start_start);
+        font-weight: 400;
+        color: white;
     }
 }

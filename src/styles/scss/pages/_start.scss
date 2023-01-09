@@ -4,14 +4,27 @@
 .start {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: $background_color;
     position: relative;
     overflow: hidden;
+    //logo
+    &__logo {
+        width: 34px;
+        height: 32px;
+        position: absolute;
+        z-index: 1;
+        left: 25px;
+        top: 50px;
+    }
+    //content
     &__content {
-        width: auto;
+        width: 100%;
         text-align: right;
         position: absolute;
-        right: 29px;
+        padding-right: 29px;
         top: 248px;
         z-index: 1;
         &__h1 {
@@ -23,27 +36,51 @@
         li {
             margin-bottom: 12px;
         }
-        &__start {
-            margin-top: 82px;
-            text-align: center;
+    }
+    //button
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        position: absolute;
+        z-index: 1;
+        bottom: 53px;
+        &__line {
+            width: 100px;
+            height: 2px;
+            background-color: white;
         }
     }
+    //background
     &__background {
         width: auto;
         height: 100%;
+        display: flex;
+        align-self: end;
         position: relative;
-        right: 50%;
+        left: 60%;
         img {
             object-fit: cover;
             height: 100%;
             position: relative;
-            right: 95%;
         }
     }
 }
 
-// .start_photography_background {
-//     width: 100%;
-//     height: 390px;
-//     object-fit: cover;
-// }
+@media screen and (min-width: 480px) {
+    .start {
+        //background
+        &__background {
+            left: 25%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .start {
+        //background
+        &__background {
+            left: 0;
+        }
+    }
+}
