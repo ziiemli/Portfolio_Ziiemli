@@ -1,20 +1,24 @@
 [
     {
+        "id": 1,
         "category": "Web Development & Design",
         "image": "../img/home/Web_Development.jpg",
         "nav" : "Web_Development_and_Design"
     },
     {
+        "id": 2,
         "category": "Digital Art",
         "image": "../img/home/Digital_Art.jpg",
         "nav" : "Digital_Art"
     },
     {
+        "id": 3,
         "category": "Traditional Art",
         "image": "../img/home/Traditional_Art.jpg",
         "nav" : "Traditional_Art"
     },
     {
+        "id": 4,
         "category": "Others",
         "image": "../img/home/Others.jpg",
         "nav" : "Others"
