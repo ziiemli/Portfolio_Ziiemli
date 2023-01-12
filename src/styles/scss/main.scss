@@ -3,9 +3,12 @@
 @import 'library/fonts';
 @import 'library/colors';
 
+@import 'components/header';
+@import 'components/categoriesTitle';
+
 @import 'pages/start';
-@import 'pages/header';
 @import 'pages/home';
+@import 'pages/webDevDesign';
 
 img {
     object-fit: cover;

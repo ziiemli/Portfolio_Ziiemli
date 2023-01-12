@@ -7,6 +7,8 @@
     --start_text: 1.25rem;
     --start_start: 2.18rem;  
     --home_title: 1.5rem;
+    --category_title: 1.9rem;
+    --category_paragraphe: 0.9rem;
 }
 
 @font-face {
@@ -52,4 +54,15 @@ body {
 .homeCategories__article__title {
     font-size: var(--home_title);
     font-weight: 400;
+}
+
+//CATEGORIES TITLE
+.categoriesTitle__informations {
+    &__title {
+        font-size: var(--category_title);
+    }
+    &__paragraphe {
+        font-size: var(--category_paragraphe);
+        font-weight: 400px;
+    }
 }
