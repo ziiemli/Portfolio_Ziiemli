@@ -1,10 +1,12 @@
 import React from 'react';
-import LogoImg from '../assets/Logo.png'
+import { Link } from "react-router-dom"
 
 const Logo = () => {
     return (
         <div>
-            <img src={LogoImg} alt="Logo of Ziiemli" />
+            <Link to="/home">
+            <img src={process.env.PUBLIC_URL + "assets/Logo.png"} alt="Logo of Ziiemli" />
+            </Link>
         </div>
     );
 };

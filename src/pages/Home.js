@@ -1,14 +1,13 @@
 import React from "react"
 import {NavLink} from "react-router-dom"
 import Header from "../components/Header"
-import backgroundHome from "../assets/img/home/Background_Mobile.png"
 import Fetch from "../components/Fetch"
 
 const Home = () => {
     const {data, error} = Fetch()
     if (error) console.log(error)
 
-    const categories = data
+    const categories = data.home
 
     return (
         <div>
@@ -26,7 +25,7 @@ const Home = () => {
                     ))}
             </main>
             <div className="backgroundHome">
-                <img src={backgroundHome} alt="Gray background with soft forms in translucent" />
+                <img src={process.env.PUBLIC_URL + "assets/img/home/Background_Mobile.png"} alt="Gray background with soft forms in translucent" />
             </div>
         </div>
     )

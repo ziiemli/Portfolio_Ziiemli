@@ -1,6 +1,5 @@
 import React from "react"
 import {Link} from "react-router-dom"
-import Photography from "../assets/img/start/Photography_Background.png"
 import Logo from "../components/Logo"
 
 const Start = () => {
@@ -26,7 +25,7 @@ const Start = () => {
                 <div className="start__button__line"></div>
             </div>
             <div className="start__background">
-                <img className="start_photography_background" src={Photography} alt="Photography of Zilin Moulin" />
+                <img className="start_photography_background" src={process.env.PUBLIC_URL + "assets/img/start/Photography_Background.png"} alt="Photography of Zilin Moulin" />
             </div>
         </div>
     )

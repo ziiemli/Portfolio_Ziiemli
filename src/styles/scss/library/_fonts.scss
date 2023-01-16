@@ -9,6 +9,7 @@
     --home_title: 1.5rem;
     --category_title: 1.9rem;
     --category_paragraphe: 0.9rem;
+    --category_projects: 1.7rem;
 }
 
 @font-face {
@@ -21,6 +22,12 @@
     font-family: 'Cyrene';
     src: url(../fonts/Cyrene.woff);
     src: url(../fonts/Cyrene.woff2);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway.woff);
+    src: url(../fonts/Raleway.woff2);
 }
 
 //BODY  
@@ -59,10 +66,12 @@ body {
 //CATEGORIES TITLE
 .categoriesTitle__informations {
     &__title {
+        font-family: 'Raleway', sans-serif;
         font-size: var(--category_title);
+        font-weight: 600;
     }
     &__paragraphe {
         font-size: var(--category_paragraphe);
-        font-weight: 400px;
+        font-weight: 400;
     }
 }
