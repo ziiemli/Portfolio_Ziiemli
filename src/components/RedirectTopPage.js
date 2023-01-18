@@ -4,7 +4,7 @@ const RedirectTopPage = ({anchor}) => {
     return (
         <section>
             <div className="redirectTopPage">
-                <a className="redirectTopPage__svg" href={anchor} >
+                <a className="redirectTopPage__svg" href={"#" + anchor} >
                     <img className="redirectTopPage__svg__arrowTop" src={process.env.PUBLIC_URL + "assets/Arrow_Top.svg"} alt="" />
                 </a>
                 <a href="mailto:ziiemli@outlook.fr" className="redirectTopPage__svg">

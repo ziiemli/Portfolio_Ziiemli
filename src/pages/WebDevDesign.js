@@ -28,12 +28,12 @@ const WebDevDesign = () => {
 
 
     return (
-        <div>
+        <div id="topDev">
             <Header />
             <main className="webDevDesign">
                 <CategoriesTitle image={imageBackground} title={title} paragraphe={paragraphe} />
                 <Projects data={projects}/>
-                <RedirectTopPage />
+                <RedirectTopPage anchor="topDev"/>
                 <Footer />
             </main>
         </div>
