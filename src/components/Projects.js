@@ -5,8 +5,8 @@ const Projects = ({data}) => {
                 <h2 className="projects__title">PROJECTS</h2>
                 {data &&
                     data.map((el) => (
-                        <article className="projectDev">
-                            <h3>{el.nameProject}</h3>
+                        <article className="projectDev" key={el.id}>
+                            <h3 className="projectDev__title">{el.nameProject}</h3>
                             <div className="projectDev__thumbnail">
                                 <img className="projectDev__thumbnail__logo" src={el.logo} alt={el.name + " Logo"} />
                                 <div className="projectDev__thumbnail__gradient"></div>

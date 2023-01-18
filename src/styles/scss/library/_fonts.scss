@@ -1,36 +1,35 @@
-
 //___FONTS___//
 
 //VARIABLES
 :root {
     --start_h1: 3rem;
     --start_text: 1.25rem;
-    --start_start: 2.18rem;  
+    --start_start: 2.18rem;
     --home_title: 1.5rem;
     --category_title: 1.9rem;
-    --category_paragraphe: 0.9rem;
+    --categoryParagraphe_projectDev: 0.9rem;
     --category_projects: 1.7rem;
 }
 
 @font-face {
-    font-family: 'SegoeUi';
+    font-family: "SegoeUi";
     src: url(../fonts/SegoeUI.woff);
     src: url(../fonts/SegoeUI.woff2);
 }
 
 @font-face {
-    font-family: 'Cyrene';
+    font-family: "Cyrene";
     src: url(../fonts/Cyrene.woff);
     src: url(../fonts/Cyrene.woff2);
 }
 
 @font-face {
-    font-family: 'Raleway';
+    font-family: "Raleway";
     src: url(../fonts/Raleway.woff);
     src: url(../fonts/Raleway.woff2);
 }
 
-//BODY  
+//BODY
 body {
     color: white;
     font-family: "SegoeUi", sans-serif;
@@ -42,7 +41,8 @@ body {
         font-size: var(--start_h1);
         font-weight: lighter;
     }
-    &__h2, li {
+    &__h2,
+    li {
         font-size: var(--start_text);
         font-weight: lighter;
     }
@@ -50,7 +50,7 @@ body {
 
 .start__button {
     &__start {
-        font-family: 'Cyrene', sans-serif;
+        font-family: "Cyrene", sans-serif;
         font-size: var(--start_start);
         font-weight: 400;
         color: white;
@@ -66,12 +66,19 @@ body {
 //CATEGORIES TITLE
 .categoriesTitle__informations {
     &__title {
-        font-family: 'Raleway', sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: var(--category_title);
         font-weight: 600;
     }
     &__paragraphe {
-        font-size: var(--category_paragraphe);
+        font-size: var(--categoryParagraphe_projectDev);
         font-weight: 400;
     }
+}
+
+// WEB DEV DESIGN PROJECTS
+.projectDev__title {
+    font-family: "Raleway", sans-serif;
+    font-size: var(--categoryParagraphe_projectDev);
+    font-weight: 400;
 }

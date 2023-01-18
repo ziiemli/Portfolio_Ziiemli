@@ -1,0 +1,19 @@
+
+//___REDIRECT TOP PAGE___//
+
+.redirectTopPage {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    &__svg {
+        width: 34px;
+        align-self: center;
+        &__arrowTop {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        &__mail {
+            width: 100%;
+        }
+    }
+}
