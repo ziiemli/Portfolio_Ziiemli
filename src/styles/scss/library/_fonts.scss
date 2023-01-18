@@ -76,9 +76,17 @@ body {
     }
 }
 
-// WEB DEV DESIGN PROJECTS
+//WEB DEV DESIGN PROJECTS
 .projectDev__title {
     font-family: "Raleway", sans-serif;
     font-size: var(--categoryParagraphe_projectDev);
     font-weight: 400;
+}
+
+//FOOTER 
+footer {
+    color: white;
+    li {
+        color: white;
+    }
 }

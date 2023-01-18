@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import Fetch from "../components/Fetch"
 import Projects from "../components/Projects"
 import RedirectTopPage from "../components/RedirectTopPage"
+import Footer from "../components/Footer"
 
 const WebDevDesign = () => {
     //querystring
@@ -33,6 +34,7 @@ const WebDevDesign = () => {
                 <CategoriesTitle image={imageBackground} title={title} paragraphe={paragraphe} />
                 <Projects data={projects}/>
                 <RedirectTopPage />
+                <Footer />
             </main>
         </div>
     )
