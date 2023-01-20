@@ -35,7 +35,22 @@
     }
 ],
     "dev": [
+        {   
+            "id": "01_01",
+            "nameProject": "Kasa Test",
+            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
+            "imageMobile": "/assets/img/devDesign/Kasa/Kasa_Mobile.png",
+            "logo": "/assets/img/devDesign/Kasa/Kasa_Logo.svg",
+            "description": "Kasa is a school project.",
+            "link": "https://github.com/ziiemli/Kasa",
+            "date": "October, 2023",
+            "techs": "JavaScript, React, Sass",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
+            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
+        },
         {
+            "id": "01_02",
             "nameProject": "Kasa",
             "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
             "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
@@ -49,6 +64,7 @@
             "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
         },
         {
+            "id": "01_03",
             "nameProject": "Kasa",
             "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
             "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
@@ -62,6 +78,7 @@
             "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
         },
         {
+            "id": "01_04",
             "nameProject": "Kasa",
             "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
             "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
@@ -75,19 +92,7 @@
             "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
         },
         {
-            "nameProject": "Kasa",
-            "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
-            "logo": "assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
-            "roles": "Front-end Developer",
-            "thumbnail": "assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
-        },
-        {
+            "id": "01_05",
             "nameProject": "Kasa",
             "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
             "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",

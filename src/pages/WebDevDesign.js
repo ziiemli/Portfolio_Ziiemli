@@ -16,7 +16,6 @@ const WebDevDesign = () => {
     const dev = data.home
 
     const recoverData = dev && dev.find(async (el) => el === querystring)
-    console.log(recoverData)
 
     const imageBackground = recoverData && recoverData.categoryBackground
     const title = recoverData && recoverData.category
@@ -24,18 +23,16 @@ const WebDevDesign = () => {
 
     //data projects
     const projects = data.dev
-    
-
 
     return (
         <div id="topDev">
             <Header />
             <main className="webDevDesign">
                 <CategoriesTitle image={imageBackground} title={title} paragraphe={paragraphe} />
-                <Projects data={projects}/>
-                <RedirectTopPage anchor="topDev"/>
-                <Footer />
+                <Projects data={projects} />
             </main>
+            <RedirectTopPage anchor="topDev" />
+            <Footer />
         </div>
     )
 }

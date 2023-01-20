@@ -4,6 +4,7 @@ import Start from './pages/Start';
 import Home from './pages/Home';
 import WebDevDesign from './pages/WebDevDesign';
 import Error from './pages/Error';
+import ProjectDevDesign from './pages/ProjectDevDesign';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path='/' element={<Start />} />
         <Route path='/*' element={<Home />} />
         <Route path='/Web_Development_and_Design' element={<WebDevDesign />} />
+        <Route path='/Web_Development_and_Design/projects/*' element={<ProjectDevDesign />} />
         <Route path='*' element={<Error />} />
       </Routes>
     </BrowserRouter>

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import {useEffect, useState} from "react"
 import axios from "axios"
 
 const Fetch = () => {
@@ -6,7 +6,7 @@ const Fetch = () => {
     const [error, setError] = useState([])
     useEffect(() => {
         axios
-            .get("data/homeData.json")
+            .get("/data/homeData.json")
             .then((res) => setData(res.data))
             .catch((error) => {
                 setError(error)
