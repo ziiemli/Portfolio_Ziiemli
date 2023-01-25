@@ -35,7 +35,7 @@ const ProjectDevDesign = () => {
             </main>
             <RedirectTopPage anchor="topProject" />
             <Footer />
-            <ProjectsNext data={dataProject}/>
+            <ProjectsNext data={dataProject} dataProjects={dataProjects}/>
         </div>
     )
 }
