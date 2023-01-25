@@ -4,6 +4,8 @@ import Header from "../components/Header"
 import Fetch from "../components/Fetch"
 
 const Home = () => {
+
+    //data Home Page
     const {data, error} = Fetch()
     if (error) console.log(error)
 
@@ -13,6 +15,7 @@ const Home = () => {
         <div>
             <Header />
             <main className="homeCategories">
+                {/* display Categories */}
                 {categories &&
                     categories.map((category) => (
                         <NavLink to={category.nav} className="nav" key={category.id}>

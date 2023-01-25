@@ -8,16 +8,22 @@ import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
 
 const ProjectDevDesign = () => {
+
     //recover url
     const querystring = window.location.pathname.split("/Web_Development_and_Design/projects/").join("")
     //recover name
     const name = querystring.split("_").join(" ")
+
     //data
     const {data, error} = Fetch()
     if (error) console.log(error)
+
+    //data Dev
     const dataProjects = data.dev
+    //find data of good project > Project Top
     const dataProject = dataProjects && dataProjects.find((el) => el.nameProject === name)
 
+    //data Projects Dev > ProjectDevContent
     const dataProjectContent = data && data.devProject
 
     return (

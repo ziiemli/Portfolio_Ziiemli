@@ -12,16 +12,18 @@ const WebDevDesign = () => {
     //data
     const {data, error} = Fetch()
     if (error) console.log(error)
-
+    
+    //data Home
     const dev = data.home
 
+    //find good Data for CategoriesTitle
     const recoverData = dev && dev.find(async (el) => el === querystring)
 
     const imageBackground = recoverData && recoverData.categoryBackground
     const title = recoverData && recoverData.category
     const paragraphe = recoverData && recoverData.description
 
-    //data projects
+    //data Projects
     const projects = data.dev
 
     return (
