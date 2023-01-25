@@ -1,7 +1,6 @@
 import React from "react"
 
 const ProjectTop = ({data}) => {
-    console.log(data)
     const image = data && process.env.PUBLIC_URL + data.imageMobile
     const logo = data && process.env.PUBLIC_URL + data.logo
     return (
@@ -28,6 +27,7 @@ const ProjectTop = ({data}) => {
                     <p>{data && data.roles}</p>
                 </div>
             </div>
+            <div className="projectTop__line"></div>
         </section>
     )
 }

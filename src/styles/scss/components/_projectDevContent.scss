@@ -1,0 +1,16 @@
+
+//___PROJECT DEV CONTENT___//
+
+.projectDevContent {
+    padding-left: 8.7%;
+    padding-right: 8.7%;
+    padding-bottom: 100px;
+    &__screen {
+        margin-bottom: 50px;
+        &__img {
+            width: 100%;
+            height: auto;
+            padding-top: 8px;
+        }
+    }
+}
