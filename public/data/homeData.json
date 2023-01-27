@@ -1,4 +1,7 @@
-{
+{   
+    "menu": [
+        "Shop", "Home", "About", "Contact"
+    ],
     "home": [
     {
         "id": 1,
@@ -41,10 +44,10 @@
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
             "imageMobile": "/assets/img/devDesign/Kasa/Kasa_Mobile.png",
             "logo": "/assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
+            "description": "Kasa is a school project. Integrate the model in React including dropdowns and image sliders.",
             "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
+            "date": "November, 2022",
+            "techs": "JavaScript, React, Scss",
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
             "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
@@ -53,12 +56,12 @@
             "id": "01_02",
             "nameProject": "Kanap",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/Kasa/Kasa_Mobile.png",
-            "logo": "/assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
+            "imageMobile": "/assets/img/devDesign/Kanap/Kanap_Mobile.png",
+            "logo": "/assets/img/devDesign/Kanap/Kanap_Logo.svg",
+            "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
+            "link": "https://github.com/ziiemli/Kanap",
+            "date": "October, 2022",
+            "techs": "JavaScript",
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
             "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
@@ -67,12 +70,12 @@
             "id": "01_03",
             "nameProject": "La Panthère",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/Kasa/Kasa_Mobile.png",
-            "logo": "/assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
+            "imageMobile": "/assets/img/devDesign/LaPanthere/LaPanthere_Mobile.png",
+            "logo": "/assets/img/devDesign/LaPanthere/LaPanthere_Logo.svg",
+            "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
+            "link": "https://github.com/ziiemli/La_Panthere",
+            "date": "October, 2022",
+            "techs": "HTML, CSS",
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
             "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
@@ -80,30 +83,30 @@
         {
             "id": "01_04",
             "nameProject": "OhMyFood",
-            "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
-            "logo": "assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
+            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
+            "imageMobile": "/assets/img/devDesign/OhMyFood/OhMyFood_Mobile.png",
+            "logo": "/assets/img/devDesign/OhMyFood/OhMyFood_Logo.svg",
+            "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
+            "link": "https://github.com/ziiemli/Oh_my_food",
+            "date": "September, 2022",
+            "techs": "HTML, Scss",
             "roles": "Front-end Developer",
-            "thumbnail": "assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
+            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
         },
         {
             "id": "01_05",
             "nameProject": "Booki",
-            "imageDesktop": "assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "assets/img/devDesign/Kasa/Kasa_Mobile.png",
-            "logo": "assets/img/devDesign/Kasa/Kasa_Logo.svg",
-            "description": "Kasa is a school project.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "October, 2023",
-            "techs": "JavaScript, React, Sass",
+            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
+            "imageMobile": "/assets/img/devDesign/Booki/Booki_Mobile.png",
+            "logo": "/assets/img/devDesign/Booki/Booki_Logo.svg",
+            "description": "Booki is a school project. I had to realize the integration of the model in HTML and CSS.",
+            "link": "https://github.com/ziiemli/Booki",
+            "date": "August, 2022",
+            "techs": "HTML, CSS",
             "roles": "Front-end Developer",
-            "thumbnail": "assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["assets/img/devDesign/Kasa/Kasa_Home.jpg", "assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
+            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
         }
         
     ],

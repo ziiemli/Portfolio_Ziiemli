@@ -1,15 +1,12 @@
 import React from "react"
 import Logo from "./Logo"
+import Menu from "./Menu"
 
 const Header = () => {
     return (
         <header>
             <Logo />
-            <div className="menu">
-                <div className="menu__line"></div>
-                <div className="menu__line"></div>
-                <div className="menu__line"></div>
-            </div>
+            <Menu />
         </header>
     )
 }
