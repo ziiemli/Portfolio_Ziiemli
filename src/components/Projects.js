@@ -1,11 +1,11 @@
-import Project from "./Project"
+import ProjectDev from "./ProjectDev"
 
 const Projects = ({data}) => {
     return (
         <section>
             <div className="projects">
-                <h2 className="projects__title">PROJECTS</h2>
-                {data && data.map((el) => <Project data={el} key={el.id} />)}
+                <h2 className="projects__title">Projects</h2>
+                {data && data.map((el) => <ProjectDev data={el} key={el.id} />)}
             </div>
         </section>
     )

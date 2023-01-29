@@ -1,4 +1,3 @@
-
 //___START___//
 
 .start {
@@ -70,14 +69,15 @@
     }
 }
 
-
 //_____START RESPONSIVE_____//
 
 @media screen and (min-width: 480px) {
     .start {
         //background
         &__background {
-            left: 25%;
+            // left: 25%;
+            // transform: translateX(-25%);
+            animation: 0.5s linear both back1;
         }
     }
 }
@@ -87,6 +87,26 @@
         //background
         &__background {
             left: 0;
+            animation: 0.5s linear forwards back;
+            // transform: left(0) 0.5s linear both;
         }
+    }
+}
+
+@keyframes back {
+    from {
+        left: 10%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+@keyframes back1 {
+    from {
+        left: 60%;
+    }
+    to {
+        left: 25%;
     }
 }

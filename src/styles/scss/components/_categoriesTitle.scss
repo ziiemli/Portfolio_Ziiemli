@@ -12,10 +12,14 @@
     }
     //infos
     &__informations {
-        margin: 51px 51px 170px 25px;
+        padding-left: 9%;
+        padding-right: 9%;
+        padding-top: 50px;
+        padding-bottom: 170px;
         //title of category
         &__title{
             height: 104px;
+            padding-right: 10%;
         }
         //description 
         &__paragraphe{
