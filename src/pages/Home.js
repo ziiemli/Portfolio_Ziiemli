@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <main className="homeCategories">
+            <main className="homeCategories" id="homeCategoriesHeight">
                 {/* display Categories */}
                 {categories &&
                     categories.map((category) => (
