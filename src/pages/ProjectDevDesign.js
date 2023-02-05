@@ -13,6 +13,7 @@ const ProjectDevDesign = () => {
     const querystring = window.location.pathname.split("/Web_Development_and_Design/projects/").join("")
     //recover name
     const name = querystring.split("_").join(" ")
+    console.log(name);
 
     //data
     const {data, error} = Fetch()
@@ -21,7 +22,7 @@ const ProjectDevDesign = () => {
     //data Dev
     const dataProjects = data.dev
     //find data of good project > Project Top
-    const dataProject = dataProjects && dataProjects.find((el) => el.nameProject === name)
+    const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f]/g, "") === name)
 
     //data Projects Dev > ProjectDevContent
     const dataProjectContent = data && data.devProject
