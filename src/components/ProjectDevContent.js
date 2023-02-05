@@ -9,12 +9,12 @@ const ProjectDevContent = ({data}) => {
     const name = querystring.split("_").join(" ")
     //find good data of project
     const dataContent = data && data.find((el) => el.nameProject === name)
-
+    console.log(dataContent && dataContent);
     return (
         <section className="projectDevContent">
             <Screen title={"HOME"} img={dataContent && dataContent.home} projectName={dataContent && dataContent.nameProject}/>
-            <Screen title={"HOME"} img={dataContent && dataContent.home} projectName={dataContent && dataContent.nameProject}/>
-            <Screen title={"HOME"} img={dataContent && dataContent.home} projectName={dataContent && dataContent.nameProject}/>
+            <Screen title={"ARTICLE"} img={dataContent && dataContent.article} projectName={dataContent && dataContent.nameProject}/>
+            <Screen title={"ABOUT"} img={dataContent && dataContent.about} projectName={dataContent && dataContent.nameProject}/>
         </section>
     )
 }

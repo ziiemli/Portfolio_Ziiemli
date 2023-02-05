@@ -15,7 +15,7 @@ const ProjectTop = ({data}) => {
             {/* infos */}
             <div className="projectTop__infos">
                 <p className="projectTop__infos__description">{data && data.description}</p>
-                <a className="projectTop__infos__link" href={data && data.link}>
+                <a className="projectTop__infos__link" href={data && data.link} target="_blank" rel="noreferrer">
                     LINK
                 </a>
                 <div className="projectTop__infos__group">
