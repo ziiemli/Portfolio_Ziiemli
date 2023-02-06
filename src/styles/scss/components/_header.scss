@@ -37,3 +37,13 @@ header {
     height: auto;
     background-color: $background_color;
 }
+
+//___HEADER RESPONSIVE___//
+
+@media screen and (min-width: 996px) {
+    header {
+        padding-left: 6.1%;
+        padding-right: 6.1%;
+        top: 75px;
+    }
+}

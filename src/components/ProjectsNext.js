@@ -38,7 +38,7 @@ const ProjectsNext = ({data, dataProjects}) => {
     return (
         <section className="projectsNext">
             <a href="/Web_Development_and_Design">PROJECTS</a>
-            <button onClick={nextProject}>NEXT</button>
+            <a href={nextProject} onClick={nextProject}>NEXT</a>
         </section>
     )
 }
