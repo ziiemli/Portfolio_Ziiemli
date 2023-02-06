@@ -1,44 +1,42 @@
-{   
-    "menu": [
-        "Shop", "Home", "About", "Contact"
-    ],
+{
+    "menu": ["Shop", "Home", "About", "Contact"],
     "home": [
-    {
-        "id": 1,
-        "category": "Web Development & Design",
-        "image": "img/home/Web_Development.jpg",
-        "nav" : "Web_Development_and_Design",
-        "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-        "categoryTitle": "Web Development & Web Design",
-        "description": "I develop websites and create webdesign models. Animated by visuals, I use my experience in UI & UX in my realizations. I master: HTML, CSS, SCSS, JavaScript and React."
-    },
-    {
-        "id": 2,
-        "category": "Digital Art",
-        "image": "img/home/Digital_Art.jpg",
-        "nav" : "Digital_Art",
-        "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-    },
-    {
-        "id": 3,
-        "category": "Traditional Art",
-        "image": "img/home/Traditional_Art.jpg",
-        "nav" : "Traditional_Art",
-        "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-    },
-    {
-        "id": 4,
-        "category": "Others",
-        "image": "img/home/Others.jpg",
-        "nav" : "Others",
-        "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
-    }
-],
+        {
+            "id": 1,
+            "category": "Web Development & Design",
+            "image": "img/home/Web_Development.jpg",
+            "nav": "Web_Development_and_Design",
+            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
+            "categoryTitle": "Web Development & Web Design",
+            "description": "I develop websites and create webdesign models. Animated by visuals, I use my experience in UI & UX in my realizations. I master: HTML, CSS, SCSS, JavaScript and React."
+        },
+        {
+            "id": 2,
+            "category": "Digital Art",
+            "image": "img/home/Digital_Art.jpg",
+            "nav": "Digital_Art",
+            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },
+        {
+            "id": 3,
+            "category": "Traditional Art",
+            "image": "img/home/Traditional_Art.jpg",
+            "nav": "Traditional_Art",
+            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        },
+        {
+            "id": 4,
+            "category": "Others",
+            "image": "img/home/Others.jpg",
+            "nav": "Others",
+            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+        }
+    ],
     "dev": [
-        {   
+        {
             "id": "01_01",
             "nameProject": "Kasa",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
@@ -55,59 +53,54 @@
             "id": "01_02",
             "nameProject": "Kanap",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/Kanap/Kanap_Mobile.png",
+            "imageMobile": "/assets/img/devDesign/Kanap/Kanap_Mobile.jpg",
             "logo": "/assets/img/devDesign/Kanap/Kanap_Logo.svg",
             "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
             "link": "https://github.com/ziiemli/Kanap",
             "date": "October, 2022",
             "techs": "JavaScript",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
         },
         {
             "id": "01_03",
             "nameProject": "La Panthère",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/LaPanthere/LaPanthere_Mobile.png",
+            "imageMobile": "/assets/img/devDesign/LaPanthere/LaPanthere_Mobile.jpg",
             "logo": "/assets/img/devDesign/LaPanthere/LaPanthere_Logo.svg",
             "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
             "link": "https://github.com/ziiemli/La_Panthere",
             "date": "October, 2022",
             "techs": "HTML, CSS",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
         },
         {
             "id": "01_04",
             "nameProject": "OhMyFood",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/OhMyFood/OhMyFood_Mobile.png",
+            "imageMobile": "/assets/img/devDesign/OhMyFood/OhMyFood_Mobile.jpg",
             "logo": "/assets/img/devDesign/OhMyFood/OhMyFood_Logo.svg",
             "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
             "link": "https://github.com/ziiemli/Oh_my_food",
             "date": "September, 2022",
             "techs": "HTML, Scss",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
         },
         {
             "id": "01_05",
             "nameProject": "Booki",
             "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.png",
-            "imageMobile": "/assets/img/devDesign/Booki/Booki_Mobile.png",
+            "imageMobile": "/assets/img/devDesign/Booki/Booki_Mobile.jpg",
             "logo": "/assets/img/devDesign/Booki/Booki_Logo.svg",
             "description": "Booki is a school project. I had to realize the integration of the model in HTML and CSS.",
             "link": "https://github.com/ziiemli/Booki",
             "date": "August, 2022",
             "techs": "HTML, CSS",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "content": ["/assets/img/devDesign/Kasa/Kasa_Home.jpg", "/assets/img/devDesign/Kasa_Home.jpg"]
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
         }
-        
     ],
     "devProject": [
         {
@@ -118,19 +111,23 @@
         },
         {
             "nameProject": "Kanap",
-            "home": "/assets/img/devDesign/Kasa/Kasa_Home.jpg"
+            "home": "/assets/img/devDesign/Kanap/Kanap_Home.jpg",
+            "article": "/assets/img/devDesign/Kanap/Kanap_Article.jpg",
+            "cart": "/assets/img/devDesign/Kanap/Kanap_Cart.jpg"
         },
         {
             "nameProject": "La Panthère",
-            "home": "/assets/img/devDesign/Kasa/Kasa_Home.jpg"
+            "home": "/assets/img/devDesign/LaPanthere/LaPanthere_Home.jpg",
+            "contact": "/assets/img/devDesign/LaPanthere/LaPanthere_Contact.jpg"
         },
         {
             "nameProject": "OhMyFood",
-            "home": "/assets/img/devDesign/Kasa/Kasa_Home.jpg"
+            "home": "/assets/img/devDesign/OhMyFood/OhMyFood_Home.jpg",
+            "menu": "/assets/img/devDesign/OhMyFood/OhMyFood_Menu.jpg"
         },
         {
             "nameProject": "Booki",
-            "home": "/assets/img/devDesign/Kasa/Kasa_Home.jpg"
+            "home": "/assets/img/devDesign/Booki/Booki_Home.jpg"
         }
     ]
 }
