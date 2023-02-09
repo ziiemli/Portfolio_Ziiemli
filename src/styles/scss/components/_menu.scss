@@ -2,7 +2,7 @@
 
 .menu__active {
     width: 100%;
-    height: auto;
+    height: 100vh;
     position: absolute;
     top: 0;
     // bottom: 0;
@@ -34,4 +34,12 @@
 
 .heightHomeCategories {
     height: 110%;
+}
+
+//_____HOME RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .menu__active {
+        margin-top: -75px;
+    }
 }

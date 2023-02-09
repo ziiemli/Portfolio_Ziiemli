@@ -4,7 +4,6 @@ import Header from "../components/Header"
 import Fetch from "../components/Fetch"
 
 const Home = () => {
-
     //data Home Page
     const {data, error} = Fetch()
     if (error) console.log(error)
@@ -28,7 +27,17 @@ const Home = () => {
                     ))}
             </main>
             <div className="backgroundHome">
-                <img src={process.env.PUBLIC_URL + "assets/img/home/Background_Mobile.png"} alt="Gray background with soft forms in translucent" />
+                <div className="backgroundLines">
+                    <div className="backgroundLines__line"></div>
+                    <div className="backgroundLines__line"></div>
+                    <div className="backgroundLines__line"></div>
+                    <div className="backgroundLines__line"></div>
+                    <div className="backgroundLines__line"></div>
+                </div>
+                <picture>
+                    <source media="(min-width: 996px)" srcSet={`${process.env.PUBLIC_URL}/assets/img/home/Background_Desktop.png`} />
+                    <img src={`${process.env.PUBLIC_URL}/assets/img/home/Background_Mobile.png`} alt="Gray background with soft forms in translucent" />
+                </picture>
             </div>
         </div>
     )
