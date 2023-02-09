@@ -8,7 +8,6 @@ const ProjectDevContent = ({data}) => {
     const name = querystring.split("_").join(" ")
     //find good data of project
     const dataContent = data && data.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f]/g, "") === name)
-    console.log(dataContent && dataContent)
     return (
         <section className="projectDevContent">
             {/* HOME PAGE */}
