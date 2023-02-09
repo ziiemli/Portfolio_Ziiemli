@@ -33,3 +33,36 @@
         background-color: white;
     }
 }
+
+//_____CATEGORIES TITLE RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .categoriesTitle {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: end;
+        img {
+            width: 50%;
+            height: 100vh;
+        }
+        &__informations{
+            width: 31%;
+            padding-left: 2.2%;
+            padding-right: 5.8%;
+            padding-top: 310px;
+            &__title {
+                width: 100%;
+                height: auto;
+                padding-right: 0;
+                padding-bottom: 42px;
+            }
+        }
+        &__line {
+            width: 2px;
+            height: 100vh;
+            margin-left: 16.7%;
+            align-self: start;
+
+        }
+    }
+}

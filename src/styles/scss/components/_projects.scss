@@ -11,4 +11,15 @@
     }
 }
 
+//_____PROJECTS RESPONSIVE_____//
 
+@media screen and (min-width: 996px) {
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &__title {
+            width: 100%;
+        }
+    }
+}

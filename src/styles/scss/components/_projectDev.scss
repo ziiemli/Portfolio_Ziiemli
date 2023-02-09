@@ -28,3 +28,19 @@
         }
     }
 }
+
+//_____PROJECTS RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    .projectDev {
+        width: 252px;
+        height: 420px;
+        a {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &__title {
+            align-self: flex-end;
+        }
+    }
+}
