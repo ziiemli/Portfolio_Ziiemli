@@ -3,7 +3,11 @@ import {NavLink} from "react-router-dom"
 import Header from "../components/Header"
 import Fetch from "../components/Fetch"
 
+
+
+
 const Home = () => {
+    
     //data Home Page
     const {data, error} = Fetch()
     if (error) console.log(error)
