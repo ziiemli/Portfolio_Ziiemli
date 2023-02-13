@@ -1,4 +1,3 @@
-
 //_____PROJECTS_____//
 
 .projects {
@@ -11,15 +10,46 @@
     }
 }
 
+.backgroundLinesProjects {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end:18;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.3;
+    &__line {
+        width: 2px;
+        height: 100vh;
+        background-color: white;
+    }
+}
+
 //_____PROJECTS RESPONSIVE_____//
 
 @media screen and (min-width: 996px) {
-    .projects{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+    .projects {
+        display: grid;
+        grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
+        grid-template-rows: 5% 45% 45% 5%;
+        padding-left: 18%;
+        padding-right: 18%;
+        // display: flex;
+        // flex-wrap: wrap;
+        // justify-content: space-between;
+        padding-top: 200px;
         &__title {
-            width: 100%;
+            display: none;
         }
+    }
+    
+}
+
+@media screen and (max-width: 996px) {
+    .backgroundLinesProjects {
+        display: none;
     }
 }

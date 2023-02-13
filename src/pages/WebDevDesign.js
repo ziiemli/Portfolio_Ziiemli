@@ -61,6 +61,7 @@ const WebDevDesign = () => {
     const recoverData = dev && dev.find(async (el) => el === querystring)
 
     const imageBackground = recoverData && recoverData.categoryBackground
+    const imageBackgroundDesktop = recoverData && recoverData.categoryBackgroundDesktop
     const title = recoverData && recoverData.category
     const paragraphe = recoverData && recoverData.description
 
@@ -71,7 +72,7 @@ const WebDevDesign = () => {
         <div id="topDev">
             <Header />
             <main className="webDevDesign">
-                <CategoriesTitle image={imageBackground} title={title} paragraphe={paragraphe} />
+                <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects data={projects} />
             </main>
             <RedirectTopPage anchor="topDev" />

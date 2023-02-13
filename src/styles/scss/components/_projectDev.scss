@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 996px) {
     .projectDev {
-        width: 252px;
+        width: 100%;
         height: 420px;
         a {
             display: flex;
@@ -43,4 +43,25 @@
             align-self: flex-end;
         }
     }
+    #Kasa {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+    #Kanap {
+        grid-column-start: 7;
+        grid-row-start: 2;
+    }
+    #La_Panthere {
+        grid-column-start: 11;
+        grid-row-start: 2;
+    }
+    #OhMyFood {
+        grid-column-start: 15;
+        grid-row-start: 2;
+    }
+    #Booki {
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
 }
