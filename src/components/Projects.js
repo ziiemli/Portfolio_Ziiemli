@@ -1,6 +1,7 @@
+import DigitalArtworks from "./DigitalArtworks"
 import ProjectDev from "./ProjectDev"
 
-const Projects = ({data}) => {
+const Projects = ({data, digitalArtworks}) => {
     return (
         <section id="test2">
             <div className="projects">
@@ -13,6 +14,7 @@ const Projects = ({data}) => {
                 </div>
                 <h2 className="projects__title">Projects</h2>
                 {data && data.map((el) => <ProjectDev data={el} key={el.id} />)}
+                {digitalArtworks && <DigitalArtworks data={digitalArtworks}/>}
             </div>
         </section>
     )

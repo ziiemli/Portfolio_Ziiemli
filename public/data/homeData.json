@@ -16,8 +16,9 @@
             "category": "Digital Art",
             "image": "/assets/img/home/Digital_Art.jpg",
             "nav": "Digital_Art",
-            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            "categoryBackground": "/assets/img/digitalArt/digitalArt_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/digitalArt/digitalArt_TitleBackground_Desktop.png",
+            "description": "I create digital illustrations and concept art. Most of the time I create environments, but also like to imagine characters."
         },
         {
             "id": 3,
@@ -130,5 +131,79 @@
             "nameProject": "Booki",
             "home": "/assets/img/devDesign/Booki/Booki_Home.jpg"
         }
+    ],
+    "digital": [
+        {
+            "titleArtwork": "Stairs At Night",
+            "description": "Illustration, personal project",
+            "date": "June, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Purple Landscape",
+            "description": "Illustration, personal project",
+            "date": "02.2023",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Waterfall",
+            "description": "Illustration, personal project",
+            "date": "September, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Sea",
+            "description": "Illustration, personal project",
+            "date": "June, 2022",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Stairs At Night",
+            "description": "Illustration, personal project",
+            "date": "02.2023",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Environment Researches",
+            "description": "Concept Art, board of Environment Researches",
+            "date": "March, 2022",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Pharmaceuticul Building",
+            "description": "Concept Art of pharmaceutical building, Sci-fi thematic",
+            "date": "October, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Micro-World",
+            "description": "Concept Art for a school assignment. Create a micro-world with a treehouse and integrate a bus. Two versions: colorful and Halloween.",
+            "date": "November, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        },
+        {
+            "titleArtwork": "Mirror Evolution",
+            "description": "Concept Art for a school assignment. Create the evolution of a mirror.",
+            "date": "November, 2021",
+            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "alt": "Blablablabalba",
+            "className": "stairsAtNight"
+        } 
     ]
 }
