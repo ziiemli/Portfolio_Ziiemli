@@ -16,6 +16,7 @@
             position: absolute;
             z-index: 1;
             bottom: 20px;
+            pointer-events: none;
         }
         img {
             width: 100%;
@@ -107,7 +108,7 @@
         height: 100vh;
     }
 
-    .homeCategories__article :hover {
+    .homeCategories__article:hover img {
         height: 80vh;
     }
 }
