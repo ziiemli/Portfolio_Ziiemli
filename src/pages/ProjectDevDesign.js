@@ -13,7 +13,6 @@ const ProjectDevDesign = () => {
     const querystring = window.location.pathname.split("/Web_Development_and_Design/projects/").join("")
     //recover name
     const name = querystring.split("_").join(" ")
-    console.log(name);
 
     //data
     const {data, error} = Fetch()
