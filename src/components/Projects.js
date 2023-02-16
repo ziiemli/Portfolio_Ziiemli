@@ -3,7 +3,7 @@ import ProjectDev from "./ProjectDev"
 
 const Projects = ({data, digitalArtworks}) => {
     return (
-        <section id="test2">
+        <section>
             <div className="projects">
                 <div className="backgroundLinesProjects">
                     <div className="backgroundLinesProjects__line"></div>

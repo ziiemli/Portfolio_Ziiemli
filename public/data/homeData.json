@@ -145,25 +145,25 @@
             "titleArtwork": "Purple Landscape",
             "description": "Illustration, personal project",
             "date": "02.2023",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "img": "assets/img/digitalArt/Purple_Landscape.jpg",
             "alt": "Blablablabalba",
-            "className": "stairsAtNight"
+            "className": "purpleLandscape"
         },
         {
             "titleArtwork": "Waterfall",
             "description": "Illustration, personal project",
             "date": "September, 2021",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "img": "assets/img/digitalArt/Waterfall.jpg",
             "alt": "Blablablabalba",
-            "className": "stairsAtNight"
+            "className": "waterfall"
         },
         {
             "titleArtwork": "Sea",
             "description": "Illustration, personal project",
             "date": "June, 2022",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
+            "img": "assets/img/digitalArt/Sea.jpg",
             "alt": "Blablablabalba",
-            "className": "stairsAtNight"
+            "className": "sea"
         },
         {
             "titleArtwork": "Stairs At Night",
