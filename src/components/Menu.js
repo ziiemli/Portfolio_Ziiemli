@@ -36,7 +36,7 @@ const Menu = () => {
                             {querystring && querystring === "shop" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>Shop</p>
                         </NavLink>
-                        <NavLink className="menu__active__nav__page">
+                        <NavLink  to="/home" className="menu__active__nav__page">
                             {querystring && querystring === "home" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>Home</p>
                         </NavLink>

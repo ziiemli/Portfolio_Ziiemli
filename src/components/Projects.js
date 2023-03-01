@@ -2,19 +2,24 @@ import DigitalArtworks from "./DigitalArtworks"
 import ProjectDev from "./ProjectDev"
 
 const Projects = ({data, digitalArtworks}) => {
+    const webDevData = data && "projects"
+    const artData = digitalArtworks && "projectsArt"
     return (
         <section>
-            <div className="projects">
-                <div className="backgroundLinesProjects">
-                    <div className="backgroundLinesProjects__line"></div>
-                    <div className="backgroundLinesProjects__line"></div>
-                    <div className="backgroundLinesProjects__line"></div>
-                    <div className="backgroundLinesProjects__line"></div>
-                    <div className="backgroundLinesProjects__line"></div>
-                </div>
+            <div className={(webDevData && webDevData) || (artData && artData)}>
+                {data && (
+                    <div className="backgroundLinesProjects">
+                        <div className="backgroundLinesProjects__line"></div>
+                        <div className="backgroundLinesProjects__line"></div>
+                        <div className="backgroundLinesProjects__line"></div>
+                        <div className="backgroundLinesProjects__line"></div>
+                        <div className="backgroundLinesProjects__line"></div>
+                    </div>
+                )}
                 <h2 className="projects__title">Projects</h2>
                 {data && data.map((el) => <ProjectDev data={el} key={el.id} />)}
-                {digitalArtworks && <DigitalArtworks data={digitalArtworks}/>}
+                {digitalArtworks && <DigitalArtworks data={digitalArtworks} />}
+
             </div>
         </section>
     )

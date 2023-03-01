@@ -1,10 +1,9 @@
 //_____PROJECTS_____//
 
-.projects {
+.projects, .projectsArt {
     width: 100%;
     padding-left: 10.25%;
     padding-right: 10.25%;
-    padding-bottom: 150px;
     &__title {
         margin-bottom: 46px;
     }
@@ -34,13 +33,9 @@
     .projects {
         display: grid;
         grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
-        grid-template-rows: 5% 45% 45% 5%;
+        grid-template-rows: 20% 45% 45% 5%;
         padding-left: 18%;
         padding-right: 18%;
-        // display: flex;
-        // flex-wrap: wrap;
-        // justify-content: space-between;
-        padding-top: 200px;
         &__title {
             display: none;
         }

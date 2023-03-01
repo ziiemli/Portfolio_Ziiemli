@@ -28,7 +28,7 @@ const DigitalArt = () => {
     return (
         <div id="topDigital">
             <Header />
-            <main className="webDevDesign">
+            <main className="digitalArt">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects digitalArtworks={digitalArtworks} />
                 {/* <ProjectsDigital /> */}

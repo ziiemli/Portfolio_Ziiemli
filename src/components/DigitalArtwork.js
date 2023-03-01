@@ -2,7 +2,7 @@ import React from "react"
 
 const DigitalArtwork = ({data}) => {
     return (
-        <article className={data.className + " digitalArtwork"}>
+        <article className={data.className + " digitalArtwork"} id={data.className}>
             <img src={data.img} alt={data.alt} />
             <div className="digitalArtwork__description">
                 <h2 className="digitalArtwork__title">{data.titleArtwork}</h2>

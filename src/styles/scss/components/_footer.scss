@@ -9,3 +9,19 @@ footer {
         margin-bottom: 10px;
     }
 }
+
+//_____FOOTER RESPONSIVE_____//
+
+@media screen and (min-width: 996px) {
+    footer {
+        padding-left: 18%;
+        background-color: black;
+        ul {
+            padding-top: 8%;
+            display: flex;
+            li {
+                padding-right: 10%;
+            }
+        }
+    }
+}

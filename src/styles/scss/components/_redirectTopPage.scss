@@ -1,11 +1,9 @@
-
 //___REDIRECT TOP PAGE___//
 
 .redirectTopPage {
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
-    background-color: $background-color;
     //logo
     &__svg {
         width: 34px;
@@ -17,5 +15,21 @@
         &__mail {
             width: 100%;
         }
+    }
+}
+
+//_____REDIRECT TOP PAGE RESPONSIVE_____//
+
+@media screen and (max-width: 996px) {
+    .redirectTopPage {
+        background-color: $background-color;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .redirectTopPage {
+        position: fixed;
+        top: 88%;
+        right: 10%;
     }
 }

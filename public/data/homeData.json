@@ -166,44 +166,40 @@
             "className": "sea"
         },
         {
-            "titleArtwork": "Stairs At Night",
-            "description": "Illustration, personal project",
-            "date": "02.2023",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
-            "className": "stairsAtNight"
-        },
-        {
-            "titleArtwork": "Environment Researches",
-            "description": "Concept Art, board of Environment Researches",
-            "date": "March, 2022",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
-            "className": "stairsAtNight"
-        },
-        {
-            "titleArtwork": "Pharmaceuticul Building",
-            "description": "Concept Art of pharmaceutical building, Sci-fi thematic",
-            "date": "October, 2021",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
-            "className": "stairsAtNight"
-        },
-        {
-            "titleArtwork": "Micro-World",
-            "description": "Concept Art for a school assignment. Create a micro-world with a treehouse and integrate a bus. Two versions: colorful and Halloween.",
-            "date": "November, 2021",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
-            "className": "stairsAtNight"
-        },
-        {
-            "titleArtwork": "Mirror Evolution",
-            "description": "Concept Art for a school assignment. Create the evolution of a mirror.",
-            "date": "November, 2021",
-            "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
-            "className": "stairsAtNight"
-        } 
+            "digitalConcepts": [
+                {
+                    "titleArtwork": "Environment Researches",
+                    "description": "Concept Art, board of Environment Researches",
+                    "date": "March, 2022",
+                    "img": "assets/img/digitalArt/EnvironmentResearches.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "stairsAtNight"
+                },
+                {
+                    "titleArtwork": "Pharmaceuticul Building",
+                    "description": "Concept Art of pharmaceutical building, Sci-fi thematic",
+                    "date": "October, 2021",
+                    "img": "assets/img/digitalArt/PharmaceuticalBuilding.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "stairsAtNight"
+                },
+                {
+                    "titleArtwork": "Micro-World",
+                    "description": "Concept Art for a school assignment. Create a micro-world with a treehouse and integrate a bus. Two versions: colorful and Halloween.",
+                    "date": "November, 2021",
+                    "img": "assets/img/digitalArt/MicroWorld.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "stairsAtNight"
+                },
+                {
+                    "titleArtwork": "Mirror Evolution",
+                    "description": "Concept Art for a school assignment. Create the evolution of a mirror.",
+                    "date": "November, 2021",
+                    "img": "assets/img/digitalArt/MirrorEvolution.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "stairsAtNight"
+                }
+            ]
+        }
     ]
 }
