@@ -8,6 +8,10 @@ const DigitalArtworks = ({data}) => {
     const waterfall = data[2]
     const sea = data[3]
     const digitalConcepts = data[4].digitalConcepts
+    const sfTower = data[5]
+    const chibi = data[6]
+    const fragmentOfTime = data[7]
+    const digitalPortraits = data[8].digitalPortraits
     
     return (
         <section>
@@ -16,6 +20,10 @@ const DigitalArtworks = ({data}) => {
             <DigitalArtwork data={waterfall} />
             <DigitalArtwork data={sea} />
             <Carousel data={digitalConcepts}/>
+            <DigitalArtwork data={sfTower} />
+            <DigitalArtwork data={chibi} />
+            <DigitalArtwork data={fragmentOfTime} />
+            <Carousel data={digitalPortraits}/>
         </section>
     )
 }

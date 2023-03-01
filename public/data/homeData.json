@@ -173,7 +173,7 @@
                     "date": "March, 2022",
                     "img": "assets/img/digitalArt/EnvironmentResearches.jpg",
                     "alt": "Blablablabalba",
-                    "className": "stairsAtNight"
+                    "className": "environmentResearches"
                 },
                 {
                     "titleArtwork": "Pharmaceuticul Building",
@@ -181,7 +181,7 @@
                     "date": "October, 2021",
                     "img": "assets/img/digitalArt/PharmaceuticalBuilding.jpg",
                     "alt": "Blablablabalba",
-                    "className": "stairsAtNight"
+                    "className": "pharmaceuticalBuilding"
                 },
                 {
                     "titleArtwork": "Micro-World",
@@ -189,7 +189,7 @@
                     "date": "November, 2021",
                     "img": "assets/img/digitalArt/MicroWorld.jpg",
                     "alt": "Blablablabalba",
-                    "className": "stairsAtNight"
+                    "className": "microWorld"
                 },
                 {
                     "titleArtwork": "Mirror Evolution",
@@ -197,7 +197,67 @@
                     "date": "November, 2021",
                     "img": "assets/img/digitalArt/MirrorEvolution.jpg",
                     "alt": "Blablablabalba",
-                    "className": "stairsAtNight"
+                    "className": "mirrorEvolution"
+                }
+            ]
+        },
+        {
+            "titleArtwork": "SF Tower",
+            "description": "Concept art, personal project",
+            "date": "August, 2021",
+            "img": "assets/img/digitalArt/SF_Tower.jpg",
+            "alt": "Blablablabalba",
+            "className": "sfTower"
+        },
+        {
+            "titleArtwork": "Chibi",
+            "description": "Chibi, personal project",
+            "date": "August, 2022",
+            "img": "assets/img/digitalArt/Chibi.jpg",
+            "alt": "Blablablabalba",
+            "className": "chibi"
+        },
+        {
+            "titleArtwork": "Fragment of Time",
+            "description": "Book cover, young adult, personal project",
+            "date": "January, 2022",
+            "img": "assets/img/digitalArt/Fragment_of_Time.jpg",
+            "alt": "Blablablabalba",
+            "className": "chibi"
+        },
+        {
+            "digitalPortraits": [
+                {
+                    "titleArtwork": "Jonathan Bertin portrait",
+                    "description": "Jonathan Bertin portrait",
+                    "date": "January, 2021",
+                    "img": "assets/img/digitalArt/Jonathan_Bertin.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "jonathanBertin"
+                },
+                {
+                    "titleArtwork": "Nuit Incolore portrait",
+                    "description": "Nuit Incolore portrait",
+                    "date": "September, 2022",
+                    "img": "assets/img/digitalArt/Nuit_Incolore.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "nuitIncolore"
+                },
+                {
+                    "titleArtwork": "Chara Concept",
+                    "description": "Character conception",
+                    "date": "December, 2022",
+                    "img": "assets/img/digitalArt/Chara.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "chara"
+                },
+                {
+                    "titleArtwork": "Model Vtuber",
+                    "description": "Model Vtuber and animations tracking",
+                    "date": "June, 2022",
+                    "img": "assets/img/digitalArt/Model_Vtuber.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "modelVtuber"
                 }
             ]
         }
