@@ -7,7 +7,7 @@ import Projects from "../components/Projects"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 
-const DigitalArt = () => {
+const TraditionalArt = () => {
     //data
     const {data} = Fetch()
 
@@ -26,16 +26,15 @@ const DigitalArt = () => {
     const digitalArtworks = data.digital
 
     return (
-        <div id="topDigital">
+        <div id="topTraditional">
             <Header />
-            <main className="digitalArt">
+            <main className="traditionalArt">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
-                <Projects digitalArtworks={digitalArtworks} />
             </main>
-            <RedirectTopPage anchor="topDigital" />
+            <RedirectTopPage anchor="topTraditional" />
             <Footer />
         </div>
     )
 }
 
-export default DigitalArt
+export default TraditionalArt

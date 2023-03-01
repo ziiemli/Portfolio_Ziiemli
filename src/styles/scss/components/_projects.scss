@@ -2,6 +2,7 @@
 
 .projects, .projectsArt {
     width: 100%;
+    height: auto;
     padding-left: 10.25%;
     padding-right: 10.25%;
     &__title {
@@ -20,9 +21,10 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.3;
+    background-color: aqua;
     &__line {
         width: 2px;
-        height: 100vh;
+        height: 110vh;
         background-color: white;
     }
 }
@@ -33,7 +35,7 @@
     .projects {
         display: grid;
         grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
-        grid-template-rows: 20% 45% 45% 5%;
+        grid-template-rows: 20% 28% 37.5% 5%;
         padding-left: 18%;
         padding-right: 18%;
         &__title {

@@ -25,15 +25,17 @@
             "category": "Traditional Art",
             "image": "/assets/img/home/Traditional_Art.jpg",
             "nav": "Traditional_Art",
-            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            "categoryBackground": "/assets/img/traditionalArt/TraditionalArt_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/traditionalArt/TraditionalArt_TitleBackground_Desktop.png",
+            "description": "I love experiment and explore different mediums. I practice paiting (oil, watercolor, acrylic), pencil, pyrography etc..."
         },
         {
             "id": 4,
             "category": "Others",
             "image": "/assets/img/home/Others.jpg",
             "nav": "Others",
-            "categoryBackground": "img/webDevDesign/WebDevDesign_TitleBackground.png",
+            "categoryBackground": "/assets/img/others/Others_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/others/Others_TitleBackground_Desktop.png",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
         }
     ],
