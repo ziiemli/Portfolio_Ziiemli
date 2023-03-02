@@ -228,6 +228,14 @@
             "className": "chibi"
         },
         {
+            "titleArtwork": "The hands of darkness",
+            "description": " I realized this illustration for an exhibition inspired by the world of Hans Ruedi Giger.",
+            "date": "December, 2021",
+            "img": "assets/img/digitalArt/Hands_of_Darkness.jpg",
+            "alt": "Blablablabalba",
+            "className": "chibi"
+        },
+        {
             "digitalPortraits": [
                 {
                     "titleArtwork": "Jonathan Bertin portrait",

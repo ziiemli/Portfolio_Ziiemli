@@ -10,6 +10,7 @@ const DigitalArtwork = ({data}) => {
                 <h3>Date</h3>
                 <p>{data.date}</p>
             </div>
+            <h2 className="digitalArtwork__title__desktop">{data.titleArtwork}</h2>
         </article>
     )
 }

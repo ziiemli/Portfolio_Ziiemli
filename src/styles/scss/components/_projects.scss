@@ -1,8 +1,9 @@
 //_____PROJECTS_____//
 
-.projects, .projectsArt {
+.projects,
+.projectsArt {
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-left: 10.25%;
     padding-right: 10.25%;
     &__title {
@@ -12,19 +13,17 @@
 
 .backgroundLinesProjects {
     width: 100%;
-    height: 100%;
-    display: grid;
+    height: 100vh;
     grid-column-start: 1;
-    grid-column-end:18;
-    grid-row-start: 1;
-    grid-row-end: 6;
+    grid-column-end: 18;
+    // grid-row-start: 1;
+    // grid-row-end: 6;
     display: flex;
     justify-content: space-between;
     opacity: 0.3;
-    background-color: aqua;
     &__line {
         width: 2px;
-        height: 110vh;
+        height: 224.5vh;
         background-color: white;
     }
 }
@@ -35,14 +34,27 @@
     .projects {
         display: grid;
         grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
-        grid-template-rows: 20% 28% 37.5% 5%;
-        padding-left: 18%;
-        padding-right: 18%;
+        grid-template-rows: 15% 27.5% 10% 27.5% 20%;
+        padding-left: 17.8%;
+        padding-right: 17.8%;
         &__title {
             display: none;
         }
     }
-    
+    .projectsArt{
+        padding-left: 17.8%;
+        padding-right: 17.8%;
+    }
+    .linesArt{
+        height: 15vh;
+    }
+    .lineArt{
+        height: 100vh;
+    }
+    .digitalArtworks {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media screen and (max-width: 996px) {

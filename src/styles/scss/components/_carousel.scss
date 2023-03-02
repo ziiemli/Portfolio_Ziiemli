@@ -9,17 +9,19 @@
         width: 100%;
         height: auto;
     }
-    &__leftArrow{
+    &__leftArrow {
         position: absolute;
         left: 2%;
         top: 50%;
+        cursor: pointer;
     }
-    &__rightArrow{
+    &__rightArrow {
         position: absolute;
         right: 2%;
         top: 50%;
+        cursor: pointer;
     }
-    &__description{
+    &__description {
         width: 70%;
         position: absolute;
         left: 15%;
@@ -34,16 +36,16 @@
             padding-bottom: 5%;
         }
     }
-    &:hover .carousel__description{
+    &:hover:not(.carousel__leftArrow):not(.carousel__rightArrow) .carousel__description {
         opacity: 1;
         transition: 0.5s;
     }
-    &:hover .carousel__slide {
+    &:hover:not(.carousel__leftArrow):not(.carousel__rightArrow) .carousel__slide {
         filter: grayscale(50%) brightness(0.3);
         transition: 0.5s;
     }
     &:hover .carousel__rightArrow, .carousel__leftArrow{
         z-index: 1;
     }
-
 }
+

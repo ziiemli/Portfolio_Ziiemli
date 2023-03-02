@@ -11,19 +11,26 @@ const DigitalArtworks = ({data}) => {
     const sfTower = data[5]
     const chibi = data[6]
     const fragmentOfTime = data[7]
-    const digitalPortraits = data[8].digitalPortraits
-    
+    const handsOfDarkness = data[8]
+    const digitalPortraits = data[9].digitalPortraits
+
     return (
-        <section>
+        <section className="digitalArtworks">
             <DigitalArtwork data={stairsAtNight} />
             <DigitalArtwork data={purpleLandscape} />
+
             <DigitalArtwork data={waterfall} />
             <DigitalArtwork data={sea} />
-            <Carousel data={digitalConcepts}/>
+
+            <Carousel data={digitalConcepts} id="digitalConcepts" />
+
             <DigitalArtwork data={sfTower} />
             <DigitalArtwork data={chibi} />
+
             <DigitalArtwork data={fragmentOfTime} />
-            <Carousel data={digitalPortraits}/>
+            <DigitalArtwork data={handsOfDarkness} />
+
+            <Carousel data={digitalPortraits} id="digitalPortraits"/>
         </section>
     )
 }

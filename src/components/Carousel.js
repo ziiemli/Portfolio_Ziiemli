@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-const Carousel = ({data}) => {
+const Carousel = ({data, id}) => {
     const [current, setCurrent] = useState(0)
     const picturesLength = data && data.length
     const pictures = data
@@ -18,7 +18,7 @@ const Carousel = ({data}) => {
     if (!Array.isArray(pictures) || pictures.length <= 0) return null
 
     return (
-        <section className="carousel">
+        <section className="carousel" id={id}>
             {picturesLength > 1 && <img className="carousel__leftArrow" src={leftArrow} alt="Flèche en direction de la gauche" onClick={prevSlide} />}
             {picturesLength > 1 && <img className="carousel__rightArrow" src={rightArrow} alt="Flèche en direction de la droite" onClick={nextSlide} />}
             {pictures &&

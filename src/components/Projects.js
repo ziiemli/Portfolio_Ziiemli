@@ -16,6 +16,13 @@ const Projects = ({data, digitalArtworks}) => {
                         <div className="backgroundLinesProjects__line"></div>
                     </div>
                 )}
+                {digitalArtworks && (
+                    <div className="backgroundLinesProjects linesArt">
+                        <div className="backgroundLinesProjects__line lineArt"></div>
+                        <div className="backgroundLinesProjects__line lineArt"></div>
+                        <div className="backgroundLinesProjects__line lineArt"></div>
+                    </div>
+                )}
                 <h2 className="projects__title">Projects</h2>
                 {data && data.map((el) => <ProjectDev data={el} key={el.id} />)}
                 {digitalArtworks && <DigitalArtworks data={digitalArtworks} />}
