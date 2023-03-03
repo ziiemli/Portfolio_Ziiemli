@@ -30,7 +30,7 @@ const ProjectDevDesign = () => {
         <div className="project" id="topProject">
             <Header />
             <main className="projectDevDesign">
-                <ProjectTop data={dataProject} />
+                <ProjectTop data={dataProject}  dataProjects={dataProjects}/>
                 <ProjectDevContent data={dataProjectContent}/>
             </main>
             <RedirectTopPage anchor="topProject" />

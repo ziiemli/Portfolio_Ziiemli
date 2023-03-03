@@ -8,7 +8,7 @@ const Projects = ({data, digitalArtworks}) => {
         <section>
             <div className={(webDevData && webDevData) || (artData && artData)}>
                 {data && (
-                    <div className="backgroundLinesProjects">
+                    <div className="backgroundLinesProjects linesDev">
                         <div className="backgroundLinesProjects__line"></div>
                         <div className="backgroundLinesProjects__line"></div>
                         <div className="backgroundLinesProjects__line"></div>

@@ -1,0 +1,54 @@
+//_____CAROUSEL DEV_____//
+
+.carouselDev{
+    width: 66%;
+    padding-left: 17.8%;
+    padding-top: 193px;
+    z-index: 1;
+    &__leftArrow {
+        position: absolute;
+        left: 15%;
+        top: 48%;
+        z-index: 1;
+    }
+    &__rightArrow {
+        position: absolute;
+        right: 31%;
+        top: 48%;
+        z-index: 1;
+    }
+    &__title{
+        padding-bottom: 4%;
+    }
+    &__back{
+        display: flex;
+        align-items: center;
+        padding-left: 2%;
+        padding-top: 2%;
+        img {
+            padding-right: 2%;
+        }
+        a {
+            display: flex;
+            padding-right: 72%;
+            p{
+                padding-left: 8%;
+            }
+        }
+    }
+}
+.linesProjectDev {
+    position: absolute;
+    padding-left: 17.8%;
+    padding-right: 17.8%;
+
+}
+.lastLineProjectDev{
+    opacity: 0;
+}
+
+@media screen and (max-width: 996px) {
+    .carouselDev {
+        display: none;
+    }
+}

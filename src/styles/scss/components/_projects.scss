@@ -34,26 +34,36 @@
     .projects {
         display: grid;
         grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
-        grid-template-rows: 15% 27.5% 10% 27.5% 20%;
+        grid-template-rows: 50% 50%;
+        position: relative;
         padding-left: 17.8%;
         padding-right: 17.8%;
+        padding-top: 12%;
         &__title {
             display: none;
         }
     }
-    .projectsArt{
+    .projectsArt {
         position: relative;
         padding-left: 17.8%;
         padding-right: 17.8%;
         padding-top: 15%;
     }
-    .linesArt{
+    .linesDev {
+        position: absolute;
+        height: 100%;
+        bottom: 0;
+    }
+    .linesArt {
         position: absolute;
         width: 64.5%;
         height: 100%;
         bottom: 0;
     }
-    .lineArt{
+    .backgroundLinesProjects__line{
+        height: 100%;
+    }
+    .lineArt {
         height: 100%;
     }
     .digitalArtworks {

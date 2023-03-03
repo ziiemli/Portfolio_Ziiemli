@@ -1,9 +1,10 @@
 import React from "react"
+import CarouselDev from "./CarouselDev"
 
-const ProjectTop = ({data}) => {
-    
+const ProjectTop = ({data, dataProjects}) => {
     const image = data && process.env.PUBLIC_URL + data.imageMobile
     const logo = data && process.env.PUBLIC_URL + data.logo
+    console.log(data)
 
     return (
         <section className="projectTop">
@@ -12,6 +13,7 @@ const ProjectTop = ({data}) => {
                 <img className="projectTop__img__logo" src={logo} alt="" />
                 <img className="projectTop__img__background" src={image} alt="" />
             </div>
+            <CarouselDev dataProjects={dataProjects} data={data && data}/>
             {/* infos */}
             <div className="projectTop__infos">
                 <p className="projectTop__infos__description">{data && data.description}</p>
@@ -33,6 +35,13 @@ const ProjectTop = ({data}) => {
             </div>
             {/* separation */}
             <div className="projectTop__line"></div>
+            <div className="backgroundLinesProjects linesProjectDev">
+                <div className="backgroundLinesProjects__line"></div>
+                <div className="backgroundLinesProjects__line"></div>
+                <div className="backgroundLinesProjects__line"></div>
+                <div className="backgroundLinesProjects__line"></div>
+                <div className="backgroundLinesProjects__line lastLineProjectDev"></div>
+            </div>
         </section>
     )
 }

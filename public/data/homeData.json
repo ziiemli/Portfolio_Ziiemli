@@ -51,7 +51,8 @@
             "date": "November, 2022",
             "techs": "JavaScript, React, Scss",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.png"
         },
         {
             "id": "01_02",

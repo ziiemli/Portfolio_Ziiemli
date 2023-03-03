@@ -50,3 +50,36 @@
         background-color: white;
     }
 }
+
+//______RESPONSIVE PROJECT TOP_____//
+@media screen and (min-width: 996px) {
+    .projectTop {
+        height: 1080px;
+        flex-direction: row;
+        // align-items: center;
+        justify-content: space-between;
+        &__img {
+            display: none;
+        }
+        &__line {
+            display: none;
+        }
+        &__infos {
+            width: 28%;
+            height: 40%;
+            // align-self: flex-end;
+            padding-left: 0;
+            padding-right: 6%;
+            padding-top: 285px;
+            padding-bottom: 0;
+            // padding-top: 25%;
+        }
+    }
+    .thumbnailDesktopBackground {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
