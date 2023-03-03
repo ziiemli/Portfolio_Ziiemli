@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-const Carousel = ({data, id}) => {
+const Carousel = ({data, id, classDescription}) => {
     const [current, setCurrent] = useState(0)
     const picturesLength = data && data.length
     const pictures = data
@@ -27,7 +27,7 @@ const Carousel = ({data, id}) => {
                         {index === current && <img className="carousel__slide" src={picture.img} alt={"image " + picture.className} />}
                     </div>
                 ))}
-            <div className="carousel__description">
+            <div className={"carousel__description " + classDescription}>
                 <h2 className="digitalArtwork__title">{pictures[current].titleArtwork}</h2>
                 <p>{pictures[current].description}</p>
                 <h3>Date</h3>

@@ -42,14 +42,19 @@
         }
     }
     .projectsArt{
+        position: relative;
         padding-left: 17.8%;
         padding-right: 17.8%;
+        padding-top: 15%;
     }
     .linesArt{
-        height: 15vh;
+        position: absolute;
+        width: 64.5%;
+        height: 100%;
+        bottom: 0;
     }
     .lineArt{
-        height: 100vh;
+        height: 100%;
     }
     .digitalArtworks {
         display: grid;

@@ -14,20 +14,22 @@
         left: 2%;
         top: 50%;
         cursor: pointer;
+        z-index: 1;
     }
     &__rightArrow {
         position: absolute;
         right: 2%;
         top: 50%;
         cursor: pointer;
+        z-index: 1;
     }
     &__description {
         width: 70%;
         position: absolute;
         left: 15%;
         top: 25%;
-        z-index: 1;
         opacity: 0;
+        pointer-events: none;
         h2 {
             padding-bottom: 10%;
         }
@@ -36,16 +38,38 @@
             padding-bottom: 5%;
         }
     }
-    &:hover:not(.carousel__leftArrow):not(.carousel__rightArrow) .carousel__description {
+}
+.descriptionConcepts{
+    top: 30%;
+}
+.descriptionPortraits{
+    top: 35%;
+}
+
+//hover
+.slide_active:hover {
+    .carousel__slide {
+        filter: grayscale(50%) brightness(0.1);
+        transition: 0.5s;
+    }
+    ~ .carousel__description {
         opacity: 1;
         transition: 0.5s;
     }
-    &:hover:not(.carousel__leftArrow):not(.carousel__rightArrow) .carousel__slide {
-        filter: grayscale(50%) brightness(0.3);
-        transition: 0.5s;
-    }
-    &:hover .carousel__rightArrow, .carousel__leftArrow{
-        z-index: 1;
+    ~.carousel__rightArrow {
+        z-index: 2;
     }
 }
 
+//_____RESPONSIVE  CAROUSEL_____//
+@media screen and (min-width: 996px) {
+    .descriptionPortraits {
+        left: 30%;
+    }
+    .carousel__rightArrow {
+        right: 1%;
+    }
+    .carousel__leftArrow {
+        left: 1%;
+    }
+}

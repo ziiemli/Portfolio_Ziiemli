@@ -22,7 +22,7 @@ const DigitalArtworks = ({data}) => {
             <DigitalArtwork data={waterfall} />
             <DigitalArtwork data={sea} />
 
-            <Carousel data={digitalConcepts} id="digitalConcepts" />
+            <Carousel data={digitalConcepts} id="digitalConcepts" classDescription="descriptionConcepts"/>
 
             <DigitalArtwork data={sfTower} />
             <DigitalArtwork data={chibi} />
@@ -30,7 +30,7 @@ const DigitalArtworks = ({data}) => {
             <DigitalArtwork data={fragmentOfTime} />
             <DigitalArtwork data={handsOfDarkness} />
 
-            <Carousel data={digitalPortraits} id="digitalPortraits"/>
+            <Carousel data={digitalPortraits} id="digitalPortraits" classDescription="descriptionPortraits"/>
         </section>
     )
 }

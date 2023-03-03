@@ -77,8 +77,19 @@
     }
 }
 
+//_____RESPONSIVE DIGITAL ARTWORK_____//
+
 @media screen and (max-width: 996px) {
     .digitalArtwork__title__desktop{
         display: none;
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .digitalArtwork__description{
+        width: 50%;
+        left: 25%;
+        top: 23%;
+
     }
 }
