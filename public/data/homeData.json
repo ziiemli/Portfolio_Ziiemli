@@ -52,7 +52,7 @@
             "techs": "JavaScript, React, Scss",
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.png"
+            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.jpg"
         },
         {
             "id": "01_02",
@@ -65,7 +65,8 @@
             "date": "October, 2022",
             "techs": "JavaScript",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
+            "thumbnail": "/assets/img/devDesign/Kanap/Kanap_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/Kanap/Kanap_ThumbnailBackground.jpg"
         },
         {
             "id": "01_03",
@@ -78,7 +79,9 @@
             "date": "October, 2022",
             "techs": "HTML, CSS",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
+            "thumbnail": "/assets/img/devDesign/LaPanthere/LaPanthere_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
+
         },
         {
             "id": "01_04",
@@ -91,7 +94,9 @@
             "date": "September, 2022",
             "techs": "HTML, Scss",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
+            "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
+
         },
         {
             "id": "01_05",
@@ -104,7 +109,9 @@
             "date": "August, 2022",
             "techs": "HTML, CSS",
             "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg"
+            "thumbnail": "/assets/img/devDesign/Booki/Booki_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/Booki/Booki_ThumbnailBackground.jpg"
+
         }
     ],
     "devProject": [

@@ -28,6 +28,7 @@
         padding-left: 34px;
         padding-right: 34px;
         padding-bottom: 136px;
+        z-index: 2;
         &__description {
             padding-bottom: 40px;
         }
@@ -54,10 +55,9 @@
 //______RESPONSIVE PROJECT TOP_____//
 @media screen and (min-width: 996px) {
     .projectTop {
-        height: 1080px;
         flex-direction: row;
-        // align-items: center;
         justify-content: space-between;
+        position: relative;
         &__img {
             display: none;
         }
@@ -66,13 +66,20 @@
         }
         &__infos {
             width: 28%;
-            height: 40%;
-            // align-self: flex-end;
+            height: 20%;
             padding-left: 0;
             padding-right: 6%;
             padding-top: 285px;
-            padding-bottom: 0;
             // padding-top: 25%;
+        }
+        &::after {
+            width: 100vw;
+            height: 50%;
+            position: absolute;
+            bottom: 0;
+            content: '';
+            z-index: 1;
+            background: linear-gradient(rgba(39, 39, 39, 0) 0%, #1B1B1B 71.67%);
         }
     }
     .thumbnailDesktopBackground {
@@ -81,5 +88,7 @@
         position: absolute;
         left: 0;
         top: 0;
+        opacity: 0.2;
+        filter: brightness(0.5);
     }
 }

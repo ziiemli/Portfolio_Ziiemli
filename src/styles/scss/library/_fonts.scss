@@ -2,13 +2,18 @@
 
 //VARIABLES
 :root {
-    --start_h1_carouselDevTitle: 3rem;
+    --start_h1: 3rem;
     --start_text: 1.25rem;
     --start_start: 2.18rem;
     --home_title: 1.5rem;
     --category_title: 1.9rem;
     --categoryParagraphe_projectDev: 0.9rem;
     --category_projects_projects: 1.7rem;
+    --carouselDev_title: 3rem;
+    --carouselDev_back: 1rem;
+    --projectTop: 1rem;
+    --projectTop__link: 1.2rem;
+    --projectTop__descriptionLineHeight: 1.2rem;
 }
 
 @font-face {
@@ -40,16 +45,17 @@ a:visited {
 }
 
 //HEADER MENU
-.menu__active__nav__page, .menu__active__nav__shop {
+.menu__active__nav__page,
+.menu__active__nav__shop {
     font-family: "SegoeUi", sans-serif;
     font-size: 1.8rem;
-    font-weight:100;
+    font-weight: 100;
 }
 
 //START
 .start__content {
     &__h1 {
-        font-size: var(--start_h1_carouselDevTitle);
+        font-size: var(--start_h1);
         font-weight: lighter;
     }
     &__h2,
@@ -101,6 +107,21 @@ a:visited {
     font-weight: 400;
 }
 
+//PROJECT TOP DEV
+.projectTop {
+    font-size: var(--projectTop);
+    &__infos__description{
+        line-height: var(--projectTop__descriptionLineHeight);
+        font-weight: lighter;
+    }
+    &__infos__link {
+        font-size: var(--projectTop__link);
+    }
+    h2 {
+        font-size: var(--projectTop__link);
+    }
+}
+
 //WEB DEV DESIGN PROJECTS
 .projectDev__title {
     font-family: "Raleway", sans-serif;
@@ -108,14 +129,18 @@ a:visited {
     font-weight: 400;
 }
 
-//CAROUSEL DEV 
-.carouselDev__title{
+//CAROUSEL DEV
+.carouselDev__title {
     font-family: "Raleway", sans-serif;
-    font-size: var(--start_h1_carouselDevTitle);
+    font-size: var(--carouselDev_title);
     font-weight: 400;
 }
+.carouselDev__back p {
+    font-size: var(--carouselDev_back);
+    font-weight: lighter;
+}
 
-//FOOTER 
+//FOOTER
 footer {
     color: white;
     li {
