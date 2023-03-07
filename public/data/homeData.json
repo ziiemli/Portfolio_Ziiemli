@@ -81,7 +81,6 @@
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/LaPanthere/LaPanthere_Thumbnail.jpg",
             "thumbnailBackground": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
-
         },
         {
             "id": "01_04",
@@ -96,7 +95,6 @@
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.jpg",
             "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
-
         },
         {
             "id": "01_05",
@@ -111,7 +109,6 @@
             "roles": "Front-end Developer",
             "thumbnail": "/assets/img/devDesign/Booki/Booki_Thumbnail.jpg",
             "thumbnailBackground": "/assets/img/devDesign/Booki/Booki_ThumbnailBackground.jpg"
-
         }
     ],
     "devProject": [
@@ -154,7 +151,7 @@
         {
             "titleArtwork": "Purple Landscape",
             "description": "Illustration, personal project",
-            "date": "02.2023",
+            "date": "July 2023",
             "img": "assets/img/digitalArt/Purple_Landscape.jpg",
             "alt": "Blablablabalba",
             "className": "purpleLandscape"
@@ -276,6 +273,144 @@
                     "img": "assets/img/digitalArt/Model_Vtuber.jpg",
                     "alt": "Blablablabalba",
                     "className": "modelVtuber"
+                }
+            ]
+        }
+    ],
+    "traditional": [
+        {
+            "titleArtwork": "House Sketch",
+            "description": "Line on sketchbook",
+            "date": "April, 2021",
+            "img": "assets/img/traditionalArt/House_Sketch.jpg",
+            "alt": "Blablablabalba",
+            "className": "houseSketch"
+        },
+        {
+            "titleArtwork": "Skull",
+            "description": "China Ink, Art, technique and civilization highschool sketchbook",
+            "date": "September, 2018",
+            "img": "assets/img/traditionalArt/Skull.jpg",
+            "alt": "Blablablabalba",
+            "className": "skull"
+        },
+        {
+            "titleArtwork": "Oil Hand",
+            "description": "Oil painting, 50x50, hand thematic",
+            "date": "August, 2020",
+            "img": "assets/img/traditionalArt/Oil_Hand.jpg",
+            "alt": "Blablablabalba",
+            "className": "oilHand"
+        },
+        {
+            "titleArtwork": "Spirit",
+            "description": "Oil painting, based on feeling",
+            "date": "June, 2022",
+            "img": "assets/img/traditionalArt/Spirit.jpg",
+            "alt": "Blablablabalba",
+            "className": "spirit"
+        },
+        {
+            "titleArtwork": "Acrylic Hand",
+            "description": "Oil painting, 50x50, hand thematic",
+            "date": "April, 2020",
+            "img": "assets/img/traditionalArt/Acrylic_Hand.jpg",
+            "alt": "Blablablabalba",
+            "className": "acrylicHand"
+        },
+        {
+            "traditionalPaintings": [
+                {
+                    "titleArtwork": "Nature",
+                    "description": "Oil painting, size?",
+                    "date": "April, 2021",
+                    "img": "assets/img/traditionalArt/Nature.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "nature"
+                },
+                {
+                    "titleArtwork": "Purple Sky",
+                    "description": "First oil painting",
+                    "date": "July, 2020",
+                    "img": "assets/img/traditionalArt/Purple_Sky.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "purpleSky"
+                },
+                {
+                    "titleArtwork": "Water scene",
+                    "description": "Oil painting, water thematic",
+                    "date": "August, 2022",
+                    "img": "assets/img/traditionalArt/Water_Scene.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "waterScene"
+                },
+                {
+                    "titleArtwork": "Mask",
+                    "description": "Acrylic painting",
+                    "date": "August, 2019",
+                    "img": "assets/img/traditionalArt/Mask.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "mask"
+                }
+            ]
+        },
+        {
+            "titleArtwork": "Teddy",
+            "description": "white pen on black paper, observation drawing",
+            "date": "November, 2019",
+            "img": "assets/img/traditionalArt/Teddy.jpg",
+            "alt": "Blablablabalba",
+            "className": "teddy"
+        },
+        {
+            "titleArtwork": "Toas",
+            "description": "toas school project, decorate a block of wood",
+            "date": "January, 2019",
+            "img": "assets/img/traditionalArt/Toas.jpg",
+            "alt": "Blablablabalba",
+            "className": "toas"
+        },
+        {
+            "traditionalPyrography": [
+                {
+                    "titleArtwork": "Pyrography 01",
+                    "description": "First pyrography",
+                    "date": "April, 2020",
+                    "img": "assets/img/traditionalArt/Pyrography_01.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "pyrography01"
+                },
+                {
+                    "titleArtwork": "Pyrography 02",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_02.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "pyrography02"
+                },
+                {
+                    "titleArtwork": "Pyrography 03",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_03.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "pyrography03"
+                },
+                {
+                    "titleArtwork": "Pyrography 04",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_04.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "pyrography04"
+                },
+                {
+                    "titleArtwork": "Pyrography 05",
+                    "description": "pyrography on wood, hands thematic",
+                    "date": "June, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_05.jpg",
+                    "alt": "Blablablabalba",
+                    "className": "pyrography05"
                 }
             ]
         }

@@ -69,7 +69,7 @@ const CarouselDev = ({dataProjects, data}) => {
             window.location.href = "/Web_Development_and_Design/projects/" + urlNameLastArrayNoAccents
         }
     }
-    
+
     const arrowBack = process.env.PUBLIC_URL + "/assets/ArrowBack.svg"
     const projectNumber = indexActualProject && indexActualProject === 0 ? 1 : indexActualProject+1
     const currentProjectIndicate = dataProjects && projectNumber && ` 0${projectNumber} / 0${dataProjects.length} `
@@ -80,8 +80,8 @@ const CarouselDev = ({dataProjects, data}) => {
             <img className="carouselDev__rightArrow" src={rightArrow} alt="Flèche en direction de la droite" onClick={nextProject} />
             <div>
                 <h1 className="carouselDev__title">{data && data.nameProject}</h1>
-                <img className="carouselDev__slide" src={data && data.thumbnail} alt={"image Thumbnail of " + data && data.nameProject} />
-                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={"image Background of " + data && data.nameProject} />
+                <img className="carouselDev__slide" src={data && data.thumbnail} alt={"image Thumbnail of "} />
+                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={"image Background of "} />
                 <div className="carouselDev__back">
                     <a href="/Web_Development_and_Design">
                         <img src={arrowBack && arrowBack} alt="left arrow"/>

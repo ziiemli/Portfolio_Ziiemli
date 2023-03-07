@@ -75,6 +75,20 @@
         padding-left: 50%;
         padding-right: 50%;
     }
+    //traditionalArtworks
+    #acrylicHand{
+        width: 180%;
+        grid-column: 2;
+        margin-right: 100%;
+    }
+    #traditionalPaintings{
+        width: 200%;
+        grid-column: 2;
+        margin-left: -100%;
+    }
+    #traditionalPyrography{
+        width: 200%;
+    }
 }
 
 //_____RESPONSIVE DIGITAL ARTWORK_____//

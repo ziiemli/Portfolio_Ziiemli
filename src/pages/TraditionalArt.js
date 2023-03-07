@@ -23,13 +23,14 @@ const TraditionalArt = () => {
     // const projects = data.digital
 
     //data Digita Artworks
-    const digitalArtworks = data.digital
+    const traditionalArtworks = data.traditional
 
     return (
         <div id="topTraditional">
             <Header />
             <main className="traditionalArt">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
+                <Projects traditionalArtworks={traditionalArtworks} />
             </main>
             <RedirectTopPage anchor="topTraditional" />
             <Footer />
