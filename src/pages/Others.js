@@ -19,13 +19,14 @@ const Others = () => {
     const paragraphe = dataCategory && dataCategory.description
 
     //data Projects
-    const projects = data.dev
+    const projects = data.others
 
     return (
         <div id="topOthers">
             <Header />
             <main className="others">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
+                <Projects  data={projects}/>
             </main>
             <RedirectTopPage anchor="topOthers" />
             <Footer />

@@ -414,5 +414,59 @@
                 }
             ]
         }
+    ],
+    "others": [
+        {
+            "id": "02_01",
+            "nameProject": "Le recueil de l'étrange",
+            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.jpg",
+            "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.jpg",
+            "description": "Kasa is a school project. Integrate the model in React including dropdowns and image sliders.",
+            "link": "https://github.com/ziiemli/Kasa",
+            "date": "November, 2022",
+            "techs": "JavaScript, React, Scss",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.jpg"
+        },
+        {
+            "id": "02_02",
+            "nameProject": "Le trésor de Khnoumkhoufou",
+            "imageDesktop": "/assets/img/devDesign/Kanap/Kanap_Desktop.jpg",
+            "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.jpg",
+            "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
+            "link": "https://github.com/ziiemli/Kanap",
+            "date": "October, 2022",
+            "techs": "JavaScript",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/Kanap/Kanap_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/Kanap/Kanap_ThumbnailBackground.jpg"
+        },
+        {
+            "id": "02_03",
+            "nameProject": "Lyon",
+            "imageDesktop": "/assets/img/devDesign/LaPanthere/LaPanthere_Desktop.jpg",
+            "imageMobile": "/assets/img/others/Lyon/Lyon_Mobile.jpg",
+            "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
+            "link": "https://github.com/ziiemli/La_Panthere",
+            "date": "October, 2022",
+            "techs": "HTML, CSS",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/LaPanthere/LaPanthere_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
+        },
+        {
+            "id": "02_04",
+            "nameProject": "Bleu",
+            "imageDesktop": "/assets/img/devDesign/OhMyFood/OhMyFood_Desktop.jpg",
+            "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.jpg",
+            "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
+            "link": "https://github.com/ziiemli/Oh_my_food",
+            "date": "September, 2022",
+            "techs": "HTML, Scss",
+            "roles": "Front-end Developer",
+            "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
+        }
     ]
 }

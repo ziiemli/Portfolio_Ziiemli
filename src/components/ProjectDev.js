@@ -12,7 +12,7 @@ const ProjectDev = ({data}) => {
             <Link to={urlNameNoAccents}>
                 <h3 className="projectDev__title">{data.nameProject}</h3>
                 <div className="projectDev__thumbnail">
-                    <img className="projectDev__thumbnail__logo" src={data.logo} alt={data.name + " Logo"} />
+                    {data.logo && <img className="projectDev__thumbnail__logo" src={data.logo} alt={data.name + " Logo"} />}
                     <picture>
                         <source media="(min-width: 996px)" srcSet={data.imageDesktop} />
                         <img className="projectDev__thumbnail__img" src={data.imageMobile} alt={"Thumbnail to represent " + data.nameProject + " website"} />
