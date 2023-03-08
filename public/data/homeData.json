@@ -468,5 +468,32 @@
             "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.jpg",
             "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
         }
+    ],
+    "about": [
+        {
+            "career": [
+                {
+                    "training": "Bac+2, Web Development",
+                    "years": "2020 - 2022",
+                    "description": ["- 6 projects completed", "- HTML, CSS, Sass, Javascript, React", "- Web integration, CSS Animations, API Management, SEO Referencing"]
+                },
+                {
+                    "training": "Bachelor’s degree, Game Art",
+                    "years": "2020 - 2022",
+                    "description": [
+                        "- Disciplines: UI/UX, Concept Art, Digital Painting, 3D Modeling, Texturing, Lighting, Fx, Composition, Use of game engines",
+                        "- Group Projects: Card Game, Board Game, Shoot 'em up, Dungeon Crawler, Tower Defense, Adventure/Puzzle Game"
+                    ]
+                },
+                {
+                    "training": "Baccaulaureat, STD2A",
+                    "years": "2017 - 2020",
+                    "description": [
+                        "- Disciplines: Design and Applied Arts, Art History, DTP (Desktop Publishing), Design and Arts in English",
+                        "- Creative approach projects, plastic and technological practices"
+                    ]
+                }
+            ]
+        }
     ]
 }
