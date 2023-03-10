@@ -473,11 +473,13 @@
         {
             "career": [
                 {
+                    "id":"03_01",
                     "training": "Bac+2, Web Development",
                     "years": "2020 - 2022",
                     "description": ["- 6 projects completed", "- HTML, CSS, Sass, Javascript, React", "- Web integration, CSS Animations, API Management, SEO Referencing"]
                 },
                 {
+                    "id":"03_02",
                     "training": "Bachelor’s degree, Game Art",
                     "years": "2020 - 2022",
                     "description": [
@@ -486,12 +488,63 @@
                     ]
                 },
                 {
+                    "id":"03_03",
                     "training": "Baccaulaureat, STD2A",
                     "years": "2017 - 2020",
                     "description": [
                         "- Disciplines: Design and Applied Arts, Art History, DTP (Desktop Publishing), Design and Arts in English",
                         "- Creative approach projects, plastic and technological practices"
                     ]
+                }
+            ]
+        },
+        {
+            "dev":["Web Design", "UI & UX", "Web Integration", "API Management", "Animation CSS", "Website Maintenance", "SEO Referencing"],
+            "stacks": [
+                {
+                    "stackName":"HTML",
+                    "stackLogo":"/assets/html.svg"
+                },
+                {
+                    "stackName":"CSS",
+                    "stackLogo":"/assets/css.svg"
+                },
+                {
+                    "stackName":"Sass",
+                    "stackLogo":"/assets/sass.svg"
+                },
+                {
+                    "stackName":"JavaScript",
+                    "stackLogo":"/assets/javascript.svg"
+                },
+                {
+                    "stackName":"React",
+                    "stackLogo":"/assets/react.svg"
+                }
+            ]
+        },
+        {
+            "art":["Traditional Painting (oil, acrylic, watercolor)", "Digital Painting", "Line", "Pyrography", "Graphism & Design", "UI & UX"],
+            "softwares":[
+                {
+                    "softwareName":"Photoshop",
+                    "softwareLogo":"/assets/photoshop.svg"
+                },
+                {
+                    "softwareName":"InDesign",
+                    "softwareLogo":"/assets/inDesign.svg"
+                },
+                {
+                    "softwareName":"Illustrator",
+                    "softwareLogo":"/assets/illustrator.svg"
+                },
+                {
+                    "softwareName":"Figma",
+                    "softwareLogo":"/assets/figma.svg"
+                },
+                {
+                    "softwareName":"Maya",
+                    "softwareLogo":"/assets/maya.svg"
                 }
             ]
         }

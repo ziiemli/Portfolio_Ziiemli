@@ -1,5 +1,6 @@
 import React from "react"
 import Fetch from "../components/Fetch"
+import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
 
@@ -21,6 +22,10 @@ const About = () => {
 
     const aboutData = data && data.about
     const careerData = aboutData && aboutData[0].career
+    const devSkillsData = aboutData && aboutData[1].dev
+    const devStacksData = aboutData && aboutData[1].stacks
+    const artSkillsData = aboutData && aboutData[2].art
+    const artSoftwaresData = aboutData && aboutData[2].softwares
 
     return (
         <div id="topAbout">
@@ -66,23 +71,55 @@ const About = () => {
                 <section className="about__career">
                     <h4>CAREER</h4>
                     {careerData &&
-                        careerData.map((el) => (
-                            <div>
+                        careerData.map((el, index) => (
+                            <div className="about__career__training" key={index}>
                                 <h5>{el.training}</h5>
-                                <p>{el.years}</p>
-                                {el.description && el.description.map(des => (
-                                    <p>{des}</p>
-                                ))}
+                                <p className="about__career__training__years">{el.years}</p>
+                                {el.description && el.description.map((des, index) => <p className={"about__career__training__p__" + el.id + "__" + index}>{des}</p>)}
                             </div>
                         ))}
+                    <div className="about__career__line"></div>
                 </section>
                 <section className="about__dev">
                     <h4>DEV</h4>
+                    {<ul className="about__dev__skills">{devSkillsData && devSkillsData.map((skill) => <li>{skill}</li>)}</ul>}
+                    <h5>STACKS</h5>
+                    {
+                        <ul className="about__dev__stacks">
+                            {devStacksData &&
+                                devStacksData.map((stack, index) => (
+                                    <li key={index}>
+                                        <figure>
+                                            <img src={stack.stackLogo} alt={stack.stackName} />
+                                            <figcaption>{stack.stackName}</figcaption>
+                                        </figure>
+                                    </li>
+                                ))}
+                        </ul>
+                    }
+                    <div className="about__dev__line"></div>
                 </section>
                 <section className="about__art">
                     <h4>ART</h4>
+                    {<ul className="about__art__skills">{artSkillsData && artSkillsData.map((skill) => <li>{skill}</li>)}</ul>}
+                    <h5>STACKS</h5>
+                    {
+                        <ul className="about__art__softwares">
+                            {artSoftwaresData &&
+                                artSoftwaresData.map((software) => (
+                                    <li>
+                                        <figure>
+                                            <img src={software.softwareLogo} alt={software.softwareName} />
+                                            <figcaption>{software.softwareName}</figcaption>
+                                        </figure>
+                                    </li>
+                                ))}
+                        </ul>
+                    }
+                    <div className="about__art__line"></div>
                 </section>
             </main>
+            <RedirectTopPage />
             <Footer />
         </div>
     )

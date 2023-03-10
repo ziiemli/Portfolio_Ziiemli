@@ -5,6 +5,7 @@
     background-color: $background-color;
     padding-left: 6.4%;
     padding-right: 6.4%;
+    padding-bottom: 30px;
     position: relative;
     //informations
     &__informations {
@@ -69,19 +70,135 @@
                 width: 31.5%;
             }
         }
-        &__fields{
+        &__fields {
             gap: 3%;
-            &__art{
+            &__art {
                 width: 32.5%;
             }
-            &__dev{
+            &__dev {
                 width: 66%;
             }
         }
-        &__line{
+        &__line {
             height: 1px;
             background-color: white;
             margin-bottom: 30px;
+        }
+    }
+    //career
+    &__career {
+        h4 {
+            padding-bottom: 57px;
+        }
+        &__training {
+            padding-bottom: 45px;
+            h5{
+                padding-bottom: 16px;
+            }
+            &__years{
+                padding-bottom: 45px;
+            }
+            &__p__03_01{
+                &__0{
+                    padding-bottom: 26px;
+                }
+                &__1{
+                    padding-bottom: 7px;
+                }
+            }
+            &__p__03_02{
+                &__0{
+                    padding-bottom: 26px;
+                }
+            }
+            &__p__03_03{
+                &__0{
+                    padding-bottom: 26px;
+                }
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-top: 74px;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+    }
+    //dev
+    &__dev {
+        h4 {
+            padding-bottom: 65px;
+        }
+        &__skills{
+            padding-bottom: 70px;
+            li{
+                list-style: disc;
+                padding-bottom: 8px;
+            }
+        }
+        h5{
+            padding-bottom: 30px;
+        }
+        &__stacks {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 90px;
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                figcaption {
+                    padding-top: 20px;
+                }
+            }
+            img {
+                height: 45px;
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+    }
+    //art
+    &__art {
+        h4 {
+            padding-bottom: 65px;
+        }
+        &__skills{
+            padding-bottom: 70px;
+            li{
+                list-style: disc;
+                padding-bottom: 8px;
+            }
+        }
+        h5{
+            padding-bottom: 30px;
+        }
+        &__softwares{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 90px;
+            figure {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                figcaption {
+                    padding-top: 20px;
+                }
+            }
+            img {
+                height: 45px;
+            }
+        }
+        &__line {
+            width: 100%;
+            height: 1px;
+            margin-top: 30px;
+            background: white;
         }
     }
 }
