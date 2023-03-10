@@ -6,7 +6,7 @@ import Header from "../components/Header"
 
 const About = () => {
     const ziiemliMobile = process.env.PUBLIC_URL + "/assets/img/about/About_Mobile.png"
-    const ziiemliDesktop = process.env.PUBLIC_URL + "/assets/img/about/About_Mobile.png"
+    const ziiemliDesktop = process.env.PUBLIC_URL + "/assets/img/about/About_Desktop.png"
 
     const mail = process.env.PUBLIC_URL + "/assets/About_Mail.svg"
     const twitter = process.env.PUBLIC_URL + "/assets/Twitter.svg"
@@ -18,7 +18,6 @@ const About = () => {
 
     //data
     const {data, error} = Fetch()
-    if (error) console.log(error)
 
     const aboutData = data && data.about
     const careerData = aboutData && aboutData[0].career
@@ -70,54 +69,71 @@ const About = () => {
                 </section>
                 <section className="about__career">
                     <h4>CAREER</h4>
-                    {careerData &&
-                        careerData.map((el, index) => (
-                            <div className="about__career__training" key={index}>
-                                <h5>{el.training}</h5>
-                                <p className="about__career__training__years">{el.years}</p>
-                                {el.description && el.description.map((des, index) => <p className={"about__career__training__p__" + el.id + "__" + index}>{des}</p>)}
-                            </div>
-                        ))}
+                    <div className="about__career__trainings">
+                        {careerData &&
+                            careerData.map((el, index) => (
+                                <div className="about__career__training" key={index}>
+                                    <h5>{el.training}</h5>
+                                    <p className="about__career__training__years">{el.years}</p>
+                                    {el.description && el.description.map((des, index) => <p className={"about__career__training__p about__career__training__p__" + el.id + "__" + index} key={index}>{des}</p>)}
+                                </div>
+                            ))}
+                    </div>
                     <div className="about__career__line"></div>
                 </section>
                 <section className="about__dev">
-                    <h4>DEV</h4>
-                    {<ul className="about__dev__skills">{devSkillsData && devSkillsData.map((skill) => <li>{skill}</li>)}</ul>}
-                    <h5>STACKS</h5>
-                    {
-                        <ul className="about__dev__stacks">
-                            {devStacksData &&
-                                devStacksData.map((stack, index) => (
-                                    <li key={index}>
-                                        <figure>
-                                            <img src={stack.stackLogo} alt={stack.stackName} />
-                                            <figcaption>{stack.stackName}</figcaption>
-                                        </figure>
-                                    </li>
-                                ))}
-                        </ul>
-                    }
+                    <div>
+                        <h4>DEV</h4>
+                        {<ul className="about__dev__skills">{devSkillsData && devSkillsData.map((skill, index) => <li className={"about__dev__skills__" + index} key={index}>{skill}</li>)}</ul>}
+                    </div>
+                    <div>
+                        <h5>STACKS</h5>
+                        {
+                            <ul className="about__dev__stacks">
+                                {devStacksData &&
+                                    devStacksData.map((stack, index) => (
+                                        <li key={index}>
+                                            <figure>
+                                                <img src={stack.stackLogo} alt={stack.stackName} />
+                                                <figcaption>{stack.stackName}</figcaption>
+                                            </figure>
+                                        </li>
+                                    ))}
+                            </ul>
+                        }
+                    </div>
                     <div className="about__dev__line"></div>
                 </section>
                 <section className="about__art">
-                    <h4>ART</h4>
-                    {<ul className="about__art__skills">{artSkillsData && artSkillsData.map((skill) => <li>{skill}</li>)}</ul>}
-                    <h5>STACKS</h5>
-                    {
-                        <ul className="about__art__softwares">
-                            {artSoftwaresData &&
-                                artSoftwaresData.map((software) => (
-                                    <li>
-                                        <figure>
-                                            <img src={software.softwareLogo} alt={software.softwareName} />
-                                            <figcaption>{software.softwareName}</figcaption>
-                                        </figure>
-                                    </li>
-                                ))}
-                        </ul>
-                    }
+                    <div>
+                        <h4>ART</h4>
+                        {<ul className="about__art__skills">{artSkillsData && artSkillsData.map((skill, index) => <li className={"about__art__skills__" + index} key={index}>{skill}</li>)}</ul>}
+                    </div>
+                    <div>
+                        <h5>STACKS</h5>
+                        {
+                            <ul className="about__art__softwares">
+                                {artSoftwaresData &&
+                                    artSoftwaresData.map((software, index) => (
+                                        <li key={index}>
+                                            <figure>
+                                                <img src={software.softwareLogo} alt={software.softwareName} />
+                                                <figcaption>{software.softwareName}</figcaption>
+                                            </figure>
+                                        </li>
+                                    ))}
+                            </ul>
+                        }
+                    </div>
                     <div className="about__art__line"></div>
                 </section>
+                <div className="backgroundLinesProjects linesAbout">
+                    <div className="backgroundLinesProjects__line"></div>
+                    <div className="backgroundLinesProjects__line  lineAbout"></div>
+                    <div className="backgroundLinesProjects__line"></div>
+                    <div className="backgroundLinesProjects__line  lineAbout"></div>
+                    <div className="backgroundLinesProjects__line  lineAbout"></div>
+                </div>
             </main>
             <RedirectTopPage />
             <Footer />

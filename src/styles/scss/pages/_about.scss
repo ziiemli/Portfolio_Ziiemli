@@ -91,28 +91,28 @@
             padding-bottom: 57px;
         }
         &__training {
-            padding-bottom: 45px;
-            h5{
+            padding-bottom: 60px;
+            h5 {
                 padding-bottom: 16px;
             }
-            &__years{
+            &__years {
                 padding-bottom: 45px;
             }
-            &__p__03_01{
-                &__0{
+            &__p__03_01 {
+                &__0 {
                     padding-bottom: 26px;
                 }
-                &__1{
+                &__1 {
                     padding-bottom: 7px;
                 }
             }
-            &__p__03_02{
-                &__0{
+            &__p__03_02 {
+                &__0 {
                     padding-bottom: 26px;
                 }
             }
-            &__p__03_03{
-                &__0{
+            &__p__03_03 {
+                &__0 {
                     padding-bottom: 26px;
                 }
             }
@@ -130,14 +130,21 @@
         h4 {
             padding-bottom: 65px;
         }
-        &__skills{
+        &__skills {
             padding-bottom: 70px;
-            li{
-                list-style: disc;
+            &__1 {
+                padding-bottom: 25px;
+            }
+            &__0,
+            &__2,
+            &__3,
+            &__4,
+            &__5,
+            &__6 {
                 padding-bottom: 8px;
             }
         }
-        h5{
+        h5 {
             padding-bottom: 30px;
         }
         &__stacks {
@@ -168,17 +175,24 @@
         h4 {
             padding-bottom: 65px;
         }
-        &__skills{
+        &__skills {
             padding-bottom: 70px;
-            li{
-                list-style: disc;
+            &__3 {
+                padding-bottom: 25px;
+            }
+            &__0,
+            &__1,
+            &__2,
+            &__4,
+            &__5,
+            &__6 {
                 padding-bottom: 8px;
             }
         }
-        h5{
+        h5 {
             padding-bottom: 30px;
         }
-        &__softwares{
+        &__softwares {
             display: flex;
             justify-content: space-between;
             padding-bottom: 90px;
@@ -200,5 +214,129 @@
             margin-top: 30px;
             background: white;
         }
+    }
+}
+
+//_____ABOUT RESPONSIVE_____//
+@media screen and (min-width: 996px) {
+    .about {
+        padding-left: 0;
+        padding-right: 0;
+        &__informations {
+            padding-left: 52%;
+            padding-top: 15%;
+            &__img {
+                height: 100vh;
+                position: fixed;
+                bottom: 0;
+                left: 0;
+            }
+            h1 {
+                position: fixed;
+                z-index: 2;
+                top: 25%;
+            }
+            h2 {
+                position: fixed;
+                z-index: 2;
+                top: 32%;
+            }
+            h3 {
+                position: fixed;
+                z-index: 2;
+                top: 35%;
+            }
+            p{
+                position: relative;
+                z-index: 2;
+                padding-left: 50%;
+                padding-right: 2%;
+                padding-top: 30%;
+                padding-bottom: 40px;
+            }
+            &__socialMedia{
+                position: relative;
+                z-index: 2;
+                padding-left: 50%;
+                padding-right: 12%;
+            }
+            &__line{
+                display: none;
+            }
+        }
+        &__skills{
+            position: absolute;
+            z-index: 2;
+            left: 52%;
+            top: 0;
+            padding-top: 28%;
+            ul{
+                padding-bottom: 27%;
+            }
+            &__line{
+                display: none;
+            }
+        }
+        &__career{
+            padding-left: 52%;
+            padding-top: 25%;
+            position: relative;
+            z-index: 2;
+            &__trainings{
+                display: flex;
+                gap: 2%;
+            }
+            &__training{
+                width: 30%;
+            }
+            &__line{
+                display: none;
+            }
+        }
+        &__dev{
+            display: flex;
+            position: relative;
+            z-index: 2;
+            padding-left: 52%;
+            padding-right: 2%;
+            padding-top: 20%;
+            div {
+                width: 48%;
+            }
+            &__line{
+                display: none;
+            }
+        }
+        &__art{
+            display: flex;
+            position: relative;
+            z-index: 2;
+            padding-left: 52%;
+            padding-right: 2%;
+            padding-top: 20%;
+            div{
+                width: 48%;
+            }
+            &__line{
+                display: none;
+            }
+        }
+    }
+
+    .linesAbout {
+        top: 0;
+        position: fixed;
+        padding-left: 17.8%;
+        padding-right: 17.8%;
+        z-index: 1;
+    }
+    .lineAbout {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .linesAbout {
+        display: none;
     }
 }
