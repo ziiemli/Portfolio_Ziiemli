@@ -18,11 +18,16 @@
         align-items: center;
         padding-top: 250px;
         padding-bottom: 266px;
+        a {
+            position: relative;
+            display: flex;
+        }
         &__diamond {
             width: 15.2px;
             height: auto;
+            align-self: center;
             position: absolute;
-            left: 100px;
+            left: -100px;
         }
         &__shop {
             margin-bottom: 128px;
@@ -35,9 +40,9 @@
 
 .heightHomeCategories {
     height: 110%;
-} 
+}
 
-.bodyOverflow{
+.bodyOverflow {
     overflow: hidden;
 }
 
@@ -46,5 +51,12 @@
 @media screen and (min-width: 996px) {
     .menu__active {
         margin-top: -75px;
+        &__nav {
+            padding-top: 320px;
+            &__diamond {
+                width: 35px;
+                left: -150px;
+            }
+        }
     }
 }
