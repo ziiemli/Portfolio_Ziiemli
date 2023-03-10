@@ -1,7 +1,6 @@
 import React from "react"
 
 const CarouselDev = ({dataProjects, data}) => {
-
     // const pictures = dataProjects
     const rightArrow = process.env.PUBLIC_URL + "/assets/Right_Arrow.svg"
     const leftArrow = process.env.PUBLIC_URL + "/assets/Left_Arrow.svg"
@@ -42,8 +41,8 @@ const CarouselDev = ({dataProjects, data}) => {
 
     const prevProject = () => {
         //next Index of Array
-        const indexPrevArray = dataProjects[indexActualProject - 1 ]
-        console.log(indexPrevArray);
+        const indexPrevArray = dataProjects[indexActualProject - 1]
+        console.log(indexPrevArray)
         // find the number of actual array
         const numberOfArray = indexPrevArray && dataProjects.indexOf(indexPrevArray)
         //if length of table data > actual number of array = next page
@@ -71,20 +70,22 @@ const CarouselDev = ({dataProjects, data}) => {
     }
 
     const arrowBack = process.env.PUBLIC_URL + "/assets/ArrowBack.svg"
-    const projectNumber = indexActualProject && indexActualProject === 0 ? 1 : indexActualProject+1
+    const projectNumber = indexActualProject && indexActualProject === 0 ? 1 : indexActualProject + 1
     const currentProjectIndicate = dataProjects && projectNumber && ` 0${projectNumber} / 0${dataProjects.length} `
 
     return (
         <section className="carouselDev">
-            <img className="carouselDev__leftArrow" src={leftArrow} alt="Flèche en direction de la gauche" onClick={prevProject} />
-            <img className="carouselDev__rightArrow" src={rightArrow} alt="Flèche en direction de la droite" onClick={nextProject} />
             <div>
                 <h1 className="carouselDev__title">{data && data.nameProject}</h1>
-                <img className="carouselDev__slide" src={data && data.thumbnail} alt={"image Thumbnail of "} />
-                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={"image Background of "} />
+                <div className="carouselDev__slide">
+                    <img className="carouselDev__slide__img" src={data && data.thumbnail} alt={"Thumbnail of "} />
+                    <img className="carouselDev__slide__leftArrow" src={leftArrow} alt="Flèche en direction de la gauche" onClick={prevProject} />
+                    <img className="carouselDev__slide__rightArrow" src={rightArrow} alt="Flèche en direction de la droite" onClick={nextProject} />
+                </div>
+                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={"Background of "} />
                 <div className="carouselDev__back">
                     <a href="/Web_Development_and_Design">
-                        <img src={arrowBack && arrowBack} alt="left arrow"/>
+                        <img src={arrowBack && arrowBack} alt="left arrow" />
                         <p>Projects</p>
                     </a>
                     <p>{currentProjectIndicate}</p>

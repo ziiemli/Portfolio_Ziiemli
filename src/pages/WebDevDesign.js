@@ -66,7 +66,7 @@ const WebDevDesign = () => {
     return (
         <div id="topDev">
             <Header />
-            <main className="webDevDesign">
+            <main className="webDevDesign heightHomeCategories">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects data={projects} />
             </main>

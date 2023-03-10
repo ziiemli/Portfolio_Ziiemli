@@ -7,17 +7,30 @@ const Menu = () => {
     //menu is active ?
     const [menu, setMenu] = useState(false)
 
-    //homeCategories Height disable
-    //select ID homeCategoriesHeight
-    const homeCategoriesHeight = document.getElementById("homeCategoriesHeight")
-    //if menu false > height 110%
+    // // homeCategories Height disable
+    // //select ID homeCategoriesHeight
+    // const homeCategoriesHeight = document.getElementById("homeCategoriesHeight")
+    // //if menu false > height 110%
+    // if (!menu) {
+    //     homeCategoriesHeight && homeCategoriesHeight.classList.add("heightHomeCategories")
+    // }
+    // //if menu true > height disable
+    // else {
+    //     homeCategoriesHeight && homeCategoriesHeight.classList.remove("heightHomeCategories")
+    // }
+
+    //no scroll when menu is open
+    //select body tag
+    const bodyContent = document.querySelector("body")
+    //if menu false > remove overflow = hidden to body tag
     if (!menu) {
-        homeCategoriesHeight && homeCategoriesHeight.classList.add("heightHomeCategories")
+        bodyContent && bodyContent.classList.remove("bodyOverflow")
     }
-    //if menu true > height disable
+    //if menu true > add overflow = hidden to body tag
     else {
-        homeCategoriesHeight && homeCategoriesHeight.classList.remove("heightHomeCategories")
+        bodyContent && bodyContent.classList.add("bodyOverflow")
     }
+    
 
     //diamond selected page active?
     const querystring = window.location.pathname.split("/").join("")
