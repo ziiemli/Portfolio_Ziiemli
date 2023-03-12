@@ -1,0 +1,28 @@
+//_____PROJECT OTHER CONTENT_____//
+
+.screensOtherContent {
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.screenOtherProject{
+    width: 100%;
+    padding-bottom: 30%;
+    h3 {
+        padding-bottom: 25px;
+    }
+    &__screens{
+        img{
+            width: 100%;
+            padding-bottom: 8%;
+        }
+    }
+}
+
+//_____PROJECT OTHER CONTENT RESPONSIVE_____//
+@media screen and (min-width: 996px){
+    .screensOtherContent {
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}

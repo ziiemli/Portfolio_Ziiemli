@@ -7,6 +7,7 @@ import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
 import TopOtherProject from "../components/TopOtherProject"
+import ProjectOtherContent from "../components/ProjectOtherContent"
 
 const ProjectOtherPage = () => {
  //recover url
@@ -23,22 +24,18 @@ const ProjectOtherPage = () => {
  const dataProjects = data && data.others
  //find data of good project > Project Top
  const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
-console.log(dataProject);
  //data Projects Dev > ProjectDevContent
- const dataProjectContent = data && data.devProject
+ const dataProjectContent = data && data.othersProjects
     return (
         <div className="project" id="topProject">
         <Header />
         <main>
-            <TopOtherProject data={dataProject}/>
+            <TopOtherProject data={dataProject} dataProjects={dataProjects}/>
+            <ProjectOtherContent data={dataProjectContent}/>
         </main>
-        {/* <main className="projectDevDesign">
-            <ProjectTop data={dataProject}  dataProjects={dataProjects}/>
-            <ProjectDevContent data={dataProjectContent}/>
-        </main> */}
         <RedirectTopPage anchor="topProject" />
         <Footer />
-        <ProjectsNext data={dataProject} dataProjects={dataProjects}/>
+        <ProjectsNext data={dataProject} dataProjects={dataProjects} category="Others"/>
     </div>
     )
 }

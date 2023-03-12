@@ -61,24 +61,30 @@
 //______RESPONSIVE PROJECT TOP_____//
 @media screen and (min-width: 996px) {
     .topOtherProject {
+        height: 100vh;
         flex-direction: row;
         justify-content: space-between;
         position: relative;
         margin-bottom: 10%;
         &__img {
-            display: none;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            h1{
+                position: relative;
+                width: 50%;
+                left: 20%;
+                top: 26%;
+            }
         }
         &__line {
             display: none;
         }
         &__infos {
-            width: 28%;
-            height: 30vh;
-            padding-left: 0;
+            width: 50%;
+            padding-left: 20%;
             padding-right: 6%;
-            // padding-top: 285px;
-            // padding-bottom: 200px;
-            padding-top: 29vh;
+            padding-top: 33vh;
         }
         &::after {
             width: 100vw;
@@ -98,5 +104,30 @@
         top: 0;
         opacity: 0.2;
         filter: brightness(0.5);
+    }
+    .linesOther {
+        width: 100%;
+        opacity: 0.4;
+    }
+    .projectNextOther{
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        a{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            p {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .projectNextOther{
+        display: none;
     }
 }

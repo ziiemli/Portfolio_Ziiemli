@@ -418,7 +418,7 @@
     "others": [
         {
             "id": "02_01",
-            "nameProject": "Le recueil de l'étrange",
+            "nameProject": "Le Recueil de l'étrange",
             "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.jpg",
             "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.jpg",
             "description": "Le recueil de l'étrange is a Video Game Project in school realized with Team Mates, it's an Adventure/Puzzle Game Directives.",
@@ -432,38 +432,94 @@
             "nameProject": "Le trésor de Khnoumkhoufou",
             "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.jpg",
             "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.jpg",
-            "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
-            "date": "October, 2022",
-            "techs": "JavaScript",
-            "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kanap/Kanap_Thumbnail.jpg",
-            "thumbnailBackground": "/assets/img/devDesign/Kanap/Kanap_ThumbnailBackground.jpg"
+            "description": "Le trésor de Khnoumkhoufou is a board game project, school assignment with team mates.",
+            "date": "October, 2021",
+            "techs": "Photoshop",
+            "roles": "Illustrator, UI/UX Designer",
+            "backgroundDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_BackgroundDesktop.jpg"
         },
         {
             "id": "02_03",
             "nameProject": "Lyon",
             "imageDesktop": "/assets/img/others/Lyon/Lyon_Desktop.jpg",
             "imageMobile": "/assets/img/others/Lyon/Lyon_Mobile.jpg",
-            "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
+            "description": "Somes pictures takes in Lyon.",
             "link": "https://github.com/ziiemli/La_Panthere",
             "date": "October, 2022",
-            "techs": "HTML, CSS",
-            "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/LaPanthere/LaPanthere_Thumbnail.jpg",
-            "thumbnailBackground": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
+            "techs": "Sony A6400",
+            "roles": "Photographer",
+            "backgroundDesktop": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
         },
         {
             "id": "02_04",
             "nameProject": "Bleu",
             "imageDesktop": "/assets/img/others/Bleu/Bleu_Desktop.jpg",
             "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.jpg",
-            "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
-            "link": "https://github.com/ziiemli/Oh_my_food",
+            "description": "Some experiments around Blue Thematic. HighSchool Assignment",
             "date": "September, 2022",
-            "techs": "HTML, Scss",
-            "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/OhMyFood/OhMyFood_Thumbnail.jpg",
-            "thumbnailBackground": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
+            "techs": "Sony RX100",
+            "roles": "Artist",
+            "backgroundDesktop": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
+        }
+    ],
+    "othersProjects":[
+        {
+            "nameProject": "Le Recueil de l'étrange",
+            "visualsOfGame": [
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.jpg",
+                    "description": "blabalbalbalbal"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
+                    "description": "blabalbalbalbal"
+                }
+            ],
+            "conceptArt": [
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.jpg",
+                    "description": "blabalbalbalbal"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
+                    "description": "blabalbalbalbal"
+                }
+            ],
+            "uiUx":  [
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.jpg",
+                    "description": "blabalbalbalbal"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.jpg",
+                    "description": "blabalbalbalbal"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.jpg",
+                    "description": "blabalbalbalbal"
+                }
+            ]
+        },
+        {
+            "nameProject": "Le trésor de Khnoumkhoufou",
+            "boardGame": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
+                    "description": "blabalbalbalbal"
+                }
+            ]
+        },
+        {
+            "nameProject": "Le Recueil de l'étrange",
+            "visualsOfGame": "/assets/others/",
+            "conceptArt": "/assets/others/",
+            "uiUx": "/assets/others/"
+        },
+        {
+            "nameProject": "Le Recueil de l'étrange",
+            "visualsOfGame": "/assets/others/",
+            "conceptArt": "/assets/others/",
+            "uiUx": "/assets/others/"
         }
     ],
     "about": [
