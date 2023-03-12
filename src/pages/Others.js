@@ -26,7 +26,7 @@ const Others = () => {
             <Header />
             <main className="others">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
-                <Projects  data={projects}/>
+                <Projects othersData={projects}/>
             </main>
             <RedirectTopPage anchor="topOthers" />
             <Footer />

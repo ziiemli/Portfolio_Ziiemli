@@ -4,7 +4,6 @@ import CarouselDev from "./CarouselDev"
 const ProjectTop = ({data, dataProjects}) => {
     const image = data && process.env.PUBLIC_URL + data.imageMobile
     const logo = data && process.env.PUBLIC_URL + data.logo
-    console.log(data)
 
     return (
         <section className="projectTop">

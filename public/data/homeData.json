@@ -419,23 +419,20 @@
         {
             "id": "02_01",
             "nameProject": "Le recueil de l'étrange",
-            "imageDesktop": "/assets/img/devDesign/Kasa/Kasa_Desktop.jpg",
+            "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.jpg",
             "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.jpg",
-            "description": "Kasa is a school project. Integrate the model in React including dropdowns and image sliders.",
-            "link": "https://github.com/ziiemli/Kasa",
-            "date": "November, 2022",
-            "techs": "JavaScript, React, Scss",
-            "roles": "Front-end Developer",
-            "thumbnail": "/assets/img/devDesign/Kasa/Kasa_Thumbnail.jpg",
-            "thumbnailBackground": "/assets/img/devDesign/Kasa/Kasa_ThumbnailBackground.jpg"
+            "description": "Le recueil de l'étrange is a Video Game Project in school realized with Team Mates, it's an Adventure/Puzzle Game Directives.",
+            "date": "April, 2022",
+            "techs": "Photoshop, Maya, Unreal Engine",
+            "roles": "Concept Artist, UI/UX Designer, Texture Artist",
+            "backgroundDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_BackgroundDesktop.jpg"
         },
         {
             "id": "02_02",
             "nameProject": "Le trésor de Khnoumkhoufou",
-            "imageDesktop": "/assets/img/devDesign/Kanap/Kanap_Desktop.jpg",
+            "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.jpg",
             "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.jpg",
             "description": "Kanap is a school project. Project in Javascript which consisted in making the front part. Display of the different products, their product page, management of the cart and the form.",
-            "link": "https://github.com/ziiemli/Kanap",
             "date": "October, 2022",
             "techs": "JavaScript",
             "roles": "Front-end Developer",
@@ -445,7 +442,7 @@
         {
             "id": "02_03",
             "nameProject": "Lyon",
-            "imageDesktop": "/assets/img/devDesign/LaPanthere/LaPanthere_Desktop.jpg",
+            "imageDesktop": "/assets/img/others/Lyon/Lyon_Desktop.jpg",
             "imageMobile": "/assets/img/others/Lyon/Lyon_Mobile.jpg",
             "description": "La Panthère is a school project. The work consisted in correcting the website and improving the SEO.",
             "link": "https://github.com/ziiemli/La_Panthere",
@@ -458,7 +455,7 @@
         {
             "id": "02_04",
             "nameProject": "Bleu",
-            "imageDesktop": "/assets/img/devDesign/OhMyFood/OhMyFood_Desktop.jpg",
+            "imageDesktop": "/assets/img/others/Bleu/Bleu_Desktop.jpg",
             "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.jpg",
             "description": "OhMyFood is a school project. I had to realize the integration of the model in HTML with CSS animations.",
             "link": "https://github.com/ziiemli/Oh_my_food",

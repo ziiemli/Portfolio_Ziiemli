@@ -68,7 +68,7 @@ const WebDevDesign = () => {
             <Header />
             <main className="webDevDesign heightHomeCategories">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
-                <Projects data={projects} />
+                <Projects webData={projects} />
             </main>
             <RedirectTopPage anchor="topDev" />
             <Footer />

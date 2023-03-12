@@ -7,7 +7,7 @@ const ProjectDevContent = ({data}) => {
     //recover name
     const name = querystring.split("_").join(" ")
     //find good data of project
-    const dataContent = data && data.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f]/g, "") === name)
+    const dataContent = data && data.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
     return (
         <section className="projectDevContent">
             {/* HOME PAGE */}

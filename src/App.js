@@ -9,6 +9,8 @@ import DigitalArt from "./pages/DigitalArt"
 import TraditionalArt from "./pages/TraditionalArt"
 import Others from "./pages/Others"
 import About from "./pages/About"
+import ProjectOther from "./components/ProjectOther"
+import ProjectOtherPage from "./pages/ProjectOtherPage"
 
 const App = () => {
     return (
@@ -21,6 +23,7 @@ const App = () => {
                 <Route path="/Digital_Art" element={<DigitalArt />} />
                 <Route path="/Traditional_Art" element={<TraditionalArt />} />
                 <Route path="/Others" element={<Others />} />
+                <Route path="/Others/projects/*" element={<ProjectOtherPage />} />
                 <Route path="/About" element={<About />} />
                 <Route path="*" element={<Error />} />
             </Routes>

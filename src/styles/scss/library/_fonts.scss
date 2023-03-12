@@ -18,6 +18,8 @@
     --projectTop: 1rem;
     --projectTop__link: 1.2rem;
     --projectTop__descriptionLineHeight: 1.2rem;
+
+    --topOtherProject_h1: 2.2rem;
     
     --menu:1.8rem;
     
@@ -139,11 +141,29 @@ a:visited {
     }
 }
 
-//WEB DEV DESIGN PROJECTS
-.projectDev__title {
+//TOP OTHER PROJECT
+.topOtherProject {
+    h1{
+        font-family: "Raleway", sans-serif;
+        font-size: var(--topOtherProject_h1);
+        font-weight: 5 00;
+    }
+    &__infos__description {
+        line-height: var(--projectTop__descriptionLineHeight);
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: var(--projectTop__link);
+    }
+}
+
+//WEB DEV DESIGN PROJECTS / OTHERS
+.projectDev__title, .projectOther__title {
     font-family: "Raleway", sans-serif;
     font-size: var(--categoryParagraphe_projectDev);
     font-weight: 400;
+    color: white;
+    text-align: end;
 }
 
 //CAROUSEL DEV

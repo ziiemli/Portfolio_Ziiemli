@@ -1,14 +1,15 @@
 import DigitalArtworks from "./DigitalArtworks"
 import ProjectDev from "./ProjectDev"
+import ProjectOther from "./ProjectOther"
 import TraditionalArtworks from "./TraditionalArtworks"
 
-const Projects = ({data, digitalArtworks, traditionalArtworks}) => {
-    const webDevData = data && "projects"
-    const artData = (digitalArtworks && "projectsArt") || (traditionalArtworks && "projectsArt")
+const Projects = ({webData, digitalArtworks, traditionalArtworks, othersData}) => {
+    const webDevData = webData && "projects"
+    const artData = (digitalArtworks && "projectsArt") || (traditionalArtworks && "projectsArt") || (othersData && "projectsOther")
     return (
         <section>
             <div className={(webDevData && webDevData) || (artData && artData)}>
-                {data && (
+                {webData && (
                     <div className="backgroundLinesProjects linesDev">
                         <div className="backgroundLinesProjects__line"></div>
                         <div className="backgroundLinesProjects__line"></div>
@@ -24,10 +25,18 @@ const Projects = ({data, digitalArtworks, traditionalArtworks}) => {
                         <div className="backgroundLinesProjects__line lineArt"></div>
                     </div>
                 )}
+                {othersData && (
+                    <div className="backgroundLinesProjects linesOther">
+                        <div className="backgroundLinesProjects__line lineOther"></div>
+                        <div className="backgroundLinesProjects__line lineOther"></div>
+                        <div className="backgroundLinesProjects__line lineOther"></div>
+                    </div>
+                )}
                 <h2 className="projects__title">Projects</h2>
-                {data && data.map((el) => <ProjectDev data={el} key={el.id} />)}
+                {webData && webData.map((el) => <ProjectDev data={el} key={el.id} />)}
                 {digitalArtworks && <DigitalArtworks data={digitalArtworks} />}
                 {traditionalArtworks && <TraditionalArtworks data={traditionalArtworks} />}
+                {othersData && othersData.map(el => <ProjectOther data={el} key={el.id} />)}
 
             </div>
         </section>
