@@ -12,9 +12,7 @@ const About = () => {
     const twitter = process.env.PUBLIC_URL + "/assets/Twitter.svg"
     const github = process.env.PUBLIC_URL + "/assets/github.svg"
     const artstation = process.env.PUBLIC_URL + "/assets/artstation.svg"
-    const instagram = process.env.PUBLIC_URL + "/assets/artstation.svg"
-    const malt = process.env.PUBLIC_URL + "/assets/artstation.svg"
-    const twitch = process.env.PUBLIC_URL + "/assets/artstation.svg"
+    const instagram = process.env.PUBLIC_URL + "/assets/Instagram.svg"
 
     //data
     const {data, error} = Fetch()
@@ -48,8 +46,6 @@ const About = () => {
                         <img src={github} alt="github icon" />
                         <img src={artstation} alt="artstation icon" />
                         <img src={instagram} alt="instagram icon" />
-                        <img src={malt} alt="malt icon" />
-                        <img src={twitch} alt="twitch icon" />
                     </div>
                     <div className="about__informations__line"></div>
                 </section>

@@ -18,10 +18,14 @@ const Menu = () => {
     else {
         bodyContent && bodyContent.classList.add("bodyOverflow")
     }
-    
 
     //diamond selected page active?
     const querystring = window.location.pathname.split("/").join("")
+
+    //contact mail
+    function sendEmail() {
+        window.location.href = "mailto:ziiemli@outlook.fr"
+    }
 
     return (
         <div>
@@ -33,11 +37,11 @@ const Menu = () => {
             {menu && (
                 <section className="menu__active">
                     <div className="menu__active__nav">
-                        <NavLink className="menu__active__nav__shop">
+                        <NavLink to="/" className="menu__active__nav__shop">
                             {/* {querystring && querystring === "shop" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />} */}
                             <p>Shop</p>
                         </NavLink>
-                        <NavLink  to="/home" className="menu__active__nav__page">
+                        <NavLink to="/home" className="menu__active__nav__page">
                             {querystring && querystring === "home" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>Home</p>
                         </NavLink>
@@ -45,7 +49,7 @@ const Menu = () => {
                             {querystring && querystring === "About" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>About</p>
                         </NavLink>
-                        <NavLink className="menu__active__nav__page">
+                        <NavLink className="menu__active__nav__page" onClick={sendEmail}>
                             <p>Contact</p>
                         </NavLink>
                     </div>

@@ -5,13 +5,13 @@ const Footer = () => {
     return (
         <footer>
             <ul>
-                <Link>
+                <Link to="/LegalNotice">
                     <li>Legal Notice</li>
                 </Link>
-                <Link>
+                <Link to="/PrivacyPolicy">
                     <li>Privacy Policy</li>
                 </Link>
-                <Link>
+                <Link to="/TermsAndConditions">
                     <li>Terms and Conditions</li>
                 </Link>
             </ul>

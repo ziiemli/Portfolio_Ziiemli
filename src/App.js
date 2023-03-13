@@ -11,6 +11,9 @@ import Others from "./pages/Others"
 import About from "./pages/About"
 import ProjectOther from "./components/ProjectOther"
 import ProjectOtherPage from "./pages/ProjectOtherPage"
+import LegalNotice from "./pages/LegalNotice"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
+import TermsAndConditions from "./pages/TermsAndConditions"
 
 const App = () => {
     return (
@@ -25,6 +28,9 @@ const App = () => {
                 <Route path="/Others" element={<Others />} />
                 <Route path="/Others/projects/*" element={<ProjectOtherPage />} />
                 <Route path="/About" element={<About />} />
+                <Route path="/LegalNotice" element={<LegalNotice />} />
+                <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
                 <Route path="*" element={<Error />} />
             </Routes>
         </BrowserRouter>
