@@ -28,7 +28,7 @@ const ProjectDevDesign = () => {
 
     return (
         <div className="project" id="topProject">
-            <Header />
+            <Header fixed="positionFixed"/>
             <main className="projectDevDesign">
                 <ProjectTop data={dataProject}  dataProjects={dataProjects}/>
                 <ProjectDevContent data={dataProjectContent}/>

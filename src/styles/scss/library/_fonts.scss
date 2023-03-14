@@ -9,7 +9,9 @@
     --home_title: 1.5rem;
 
     --category_title: 1.9rem;
-    --categoryParagraphe_projectDev: 0.9rem;
+    --category_title_lineHeight: 2.2rem;
+    --category_title_paragraphe: 0.9rem;
+    --category_title_paragraphe_lineHeight: 1.25rem;
     --category_projects_projects: 1.7rem;
 
     --carouselDev_title: 3rem;
@@ -20,9 +22,17 @@
     --projectTop__descriptionLineHeight: 1.2rem;
 
     --topOtherProject_h1: 2.2rem;
-    
-    --menu:1.8rem;
-    
+
+    --projectDev_h3: 1rem;
+    --projectDevContent_h3: 1rem;
+
+    --menu: 1.8rem;
+
+    --digitalArtwork_title: 1.2rem;
+    --digitalArtwork_title_desktop: 1rem;
+    --digitalArtwork_h3: 1.1rem;
+    --digitalArtwork_p: 1rem;
+
     --about_h1: 2.5rem;
     --about_h2_h3: 1.25rem;
     --about_description_p: 0.9rem;
@@ -69,6 +79,7 @@ a:visited {
     font-family: "SegoeUi", sans-serif;
     font-size: var(--menu);
     font-weight: 100;
+    // text-align: center;
 }
 
 //START
@@ -110,12 +121,12 @@ a:visited {
         font-family: "Raleway", sans-serif;
         font-size: var(--category_title);
         font-weight: 600;
-        line-height: 2.2rem;
+        line-height: var(--category_title_lineHeight);
     }
     &__paragraphe {
-        font-size: var(--categoryParagraphe_projectDev);
-        font-weight: 400;
-        line-height: 1.25rem;
+        font-size: var(--category_title_paragraphe);
+        font-weight: lighter;
+        line-height: var(--category_title_paragraphe_lineHeight);
     }
 }
 
@@ -135,15 +146,19 @@ a:visited {
     }
     &__infos__link {
         font-size: var(--projectTop__link);
+        color: white;
     }
     h2 {
         font-size: var(--projectTop__link);
+    }
+    p {
+        font-size: var(--carouselDev_back);
     }
 }
 
 //TOP OTHER PROJECT
 .topOtherProject {
-    h1{
+    h1 {
         font-family: "Raleway", sans-serif;
         font-size: var(--topOtherProject_h1);
         font-weight: 5 00;
@@ -158,12 +173,12 @@ a:visited {
 }
 
 //WEB DEV DESIGN PROJECTS / OTHERS
-.projectDev__title, .projectOther__title {
+.projectDev__title,
+.projectOther__title {
     font-family: "Raleway", sans-serif;
-    font-size: var(--categoryParagraphe_projectDev);
+    font-size: var(--projectDev_h3);
     font-weight: 400;
     color: white;
-    text-align: end;
 }
 
 //CAROUSEL DEV
@@ -175,6 +190,41 @@ a:visited {
 .carouselDev__back p {
     font-size: var(--carouselDev_back);
     font-weight: lighter;
+}
+
+//PROJECT DEV CONTENT
+.projectDevContent h3 {
+    font-size: var(--projectDevContent_h3);
+    font-weight: lighter;
+}
+
+//DIGITAL ARTWORK
+.digitalArtwork {
+    &__title {
+        font-size: var(--digitalArtwork_title);
+    }
+    &__title__desktop {
+        font-size: var(--digitalArtwork_title_desktop);
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: var(--digitalArtwork_h3);
+    }
+    p {
+        font-size: var(--digitalArtwork_p);
+    }
+}
+
+.carousel__description {
+    h2 {
+        font-size: var(--digitalArtwork_title);
+    }
+    h3 {
+        font-size: var(--digitalArtwork_h3);
+    }
+    p {
+        font-size: var(--digitalArtwork_p);
+    }
 }
 
 //ABOUT
@@ -241,7 +291,7 @@ a:visited {
             font-size: var(--about_stacks_softwares);
             font-weight: 500;
         }
-        figcaption{
+        figcaption {
             font-size: var(--about_stacks_softwares_figcaption);
             font-weight: 300;
         }
@@ -260,7 +310,7 @@ a:visited {
             font-size: var(--about_stacks_softwares);
             font-weight: 500;
         }
-        figcaption{
+        figcaption {
             font-size: var(--about_stacks_softwares_figcaption);
             font-weight: 300;
         }

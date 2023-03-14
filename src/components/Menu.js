@@ -38,19 +38,20 @@ const Menu = () => {
                 <section className="menu__active">
                     <div className="menu__active__nav">
                         <NavLink to="/" className="menu__active__nav__shop">
-                            {/* {querystring && querystring === "shop" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />} */}
                             <p>Shop</p>
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />
                         </NavLink>
                         <NavLink to="/home" className="menu__active__nav__page">
-                            {querystring && querystring === "home" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>Home</p>
+                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                         </NavLink>
                         <NavLink to="/About" className="menu__active__nav__page">
-                            {querystring && querystring === "About" && <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                             <p>About</p>
+                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
                         </NavLink>
                         <NavLink className="menu__active__nav__page" onClick={sendEmail}>
                             <p>Contact</p>
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />
                         </NavLink>
                     </div>
                 </section>

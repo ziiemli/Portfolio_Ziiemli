@@ -15,7 +15,7 @@ const About = () => {
     const instagram = process.env.PUBLIC_URL + "/assets/Instagram.svg"
 
     //data
-    const {data, error} = Fetch()
+    const {data} = Fetch()
 
     const aboutData = data && data.about
     const careerData = aboutData && aboutData[0].career
@@ -26,9 +26,10 @@ const About = () => {
 
     return (
         <div id="topAbout">
-            <Header />
+            <Header fixed={"positionFixed"}/>
             <main className="about">
                 <section className="about__informations">
+                    <div className="about__informations__background"></div>
                     <picture>
                         <source media="(min-width: 996px)" srcSet={ziiemliDesktop} />
                         <img className="about__informations__img" src={ziiemliMobile} alt={"Zilin Moulin, aka Ziiemli"} />
@@ -38,7 +39,7 @@ const About = () => {
                     <h3>Artist, Visual Designer & Front Developer</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div className="about__informations__socialMedia">
                         <img src={mail} alt="mail icon" />
@@ -131,7 +132,7 @@ const About = () => {
                     <div className="backgroundLinesProjects__line  lineAbout"></div>
                 </div>
             </main>
-            <RedirectTopPage />
+            <RedirectTopPage displayNone="displayNone" />
             <Footer />
         </div>
     )

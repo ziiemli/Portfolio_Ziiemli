@@ -43,6 +43,7 @@
         flex-direction: row-reverse;
         position: relative;
         overflow: hidden;
+        z-index: 10;
         &::after {
             width: 100vw;
             height: 555px;
@@ -73,7 +74,7 @@
             width: 31%;
             padding-left: 2.2%;
             padding-right: 5.8%;
-            padding-top: 310px;
+            padding-top: 15%;
             z-index: 1;
             &__title {
                 width: 100%;
@@ -88,6 +89,14 @@
             align-self: flex-start;
             margin-left: 16.7%;
             z-index: 1;
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .categoriesTitle {
+        &__informations {
+            padding-top: 230px;
         }
     }
 }

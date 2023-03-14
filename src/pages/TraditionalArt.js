@@ -27,7 +27,7 @@ const TraditionalArt = () => {
 
     return (
         <div id="topTraditional">
-            <Header />
+            <Header fixed="positionFixed"/>
             <main className="traditionalArt">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects traditionalArtworks={traditionalArtworks} />

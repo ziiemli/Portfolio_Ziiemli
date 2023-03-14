@@ -65,7 +65,7 @@ const WebDevDesign = () => {
 
     return (
         <div id="topDev">
-            <Header />
+            <Header fixed="positionFixed"/>
             <main className="webDevDesign heightHomeCategories">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects webData={projects} />

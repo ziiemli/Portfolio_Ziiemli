@@ -24,6 +24,7 @@
     .redirectTopPage {
         background-color: $background-color;
     }
+
 }
 
 @media screen and (min-width: 996px) {
@@ -31,5 +32,9 @@
         position: fixed;
         top: 88%;
         right: 10%;
+    }
+
+    .displayNone{
+        display: none;
     }
 }

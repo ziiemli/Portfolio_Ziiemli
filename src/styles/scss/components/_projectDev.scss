@@ -4,6 +4,9 @@
     width: 100%;
     height: auto;
     padding-bottom: 70px;
+    &__title {
+        padding-right: 4px;
+    }
     &__thumbnail {
         position: relative;
         margin-top: 16px;

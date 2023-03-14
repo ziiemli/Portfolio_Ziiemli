@@ -1,8 +1,8 @@
 import React from "react"
 
-const RedirectTopPage = ({anchor}) => {
+const RedirectTopPage = ({anchor, displayNone}) => {
     return (
-        <section>
+        <section className={displayNone}>
             <div className="redirectTopPage">
                 {/* arrow */}
                 <a className="redirectTopPage__svg" href={"#" + anchor} >

@@ -23,7 +23,7 @@ const Others = () => {
 
     return (
         <div id="topOthers">
-            <Header />
+            <Header fixed="positionFixed"/>
             <main className="others">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />
                 <Projects othersData={projects}/>

@@ -22,20 +22,34 @@
             position: relative;
             display: flex;
         }
+        p {
+            transition: 0.5s;
+        }
         &__diamond {
-            width: 15.2px;
+            width: 16px;
             height: auto;
             align-self: center;
             position: absolute;
-            left: -100px;
+            left: 35%;
         }
         &__shop {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
             margin-bottom: 128px;
         }
         &__page {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
             margin-bottom: 67px;
         }
     }
+}
+
+.diamondOpacity {
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .heightHomeCategories {
@@ -46,16 +60,37 @@
     overflow: hidden;
 }
 
+//HOVER
+.menu__active__nav__page, .menu__active__nav__shop {
+    p:hover {
+        transition: 0.5s;
+        transform: scale(1.1);
+        ~ .diamondOpacity {
+            opacity: 1;
+            transition: 0.5s;
+        }
+    }
+}
 //_____HOME RESPONSIVE_____//
 
 @media screen and (min-width: 996px) {
     .menu__active {
         margin-top: -75px;
         &__nav {
-            padding-top: 320px;
             &__diamond {
-                width: 35px;
-                left: -150px;
+                width: 25px;
+            }
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .menu__active {
+        height: 105vh;
+        &__nav {
+            padding-top: 18%;
+            &__shop {
+                margin-bottom: 8%;
             }
         }
     }

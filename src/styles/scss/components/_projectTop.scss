@@ -94,3 +94,11 @@
         filter: brightness(0.5);
     }
 }
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .projectTop {
+        &__infos {
+            padding-top: 30vh;
+        }
+    }
+}

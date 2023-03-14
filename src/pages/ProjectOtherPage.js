@@ -1,8 +1,6 @@
 import React from "react"
 import Fetch from "../components/Fetch"
 import Header from "../components/Header"
-import ProjectDevContent from "../components/ProjectDevContent"
-import ProjectTop from "../components/ProjectTop"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
@@ -28,7 +26,7 @@ const ProjectOtherPage = () => {
  const dataProjectContent = data && data.othersProjects
     return (
         <div className="project" id="topProject">
-        <Header />
+        <Header fixed="positionFixed"/>
         <main>
             <TopOtherProject data={dataProject} dataProjects={dataProjects}/>
             <ProjectOtherContent data={dataProjectContent}/>

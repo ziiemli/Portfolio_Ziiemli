@@ -33,7 +33,9 @@ header {
     }
 }
 
-
+.positionFixed {
+    position: fixed;
+}
 
 //___HEADER RESPONSIVE___//
 
@@ -42,7 +44,7 @@ header {
         padding-left: 6.1%;
         padding-right: 6.1%;
         top: 75px;
-        height: 56px;
+        height: 40px;
         //logo
         img {
             height: 100%;
@@ -50,9 +52,23 @@ header {
     }
 
     .menu{
-        width: 28px;
-        height: 22px;
-        top: 19px;
-        right: 48px;
+        width: 26px;
+        height: 20px;
+        top: 28%;
+        right: 5%;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    header {
+        height: 42px;
+        padding-left: 3%;
+        padding-right: 3%;
+        top: 55px;
+        .menu {
+            width: 28px;
+            height: 22px;
+            right: 48px;
+        }
     }
 }

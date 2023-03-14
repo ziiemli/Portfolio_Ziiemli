@@ -12,6 +12,7 @@
         display: flex;
         justify-content: center;
         position: relative;
+        transition: 0.5s;
         &__title {
             position: absolute;
             z-index: 1;
@@ -23,6 +24,7 @@
             height: 100%;
             object-fit: cover;
             filter: grayscale(100%);
+            transition: 1s;
         }
         &::after {
             width: 100%;
@@ -96,9 +98,10 @@
             &__title {
                 padding-left: 2px;
                 padding-right: 2px;
+                bottom: 50px;
             }
             &::after {
-                height: 24%;
+                height: 30%;
             }
         }
     }
@@ -116,5 +119,19 @@
 @media screen and (max-width: 996px) {
     .backgroundLines {
         display: none;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .homeCategories {
+        &__article {
+            &__title {
+                bottom: 60px;
+            }
+            &::after {
+                height: 40%;
+                bottom: 0%;
+            }
+        }
     }
 }

@@ -220,37 +220,49 @@
 //_____ABOUT RESPONSIVE_____//
 @media screen and (min-width: 996px) {
     .about {
+        height: 100vh;
         padding-left: 0;
         padding-right: 0;
         &__informations {
+            position: relative;
             padding-left: 52%;
-            padding-top: 15%;
+            padding-top: 6%;
+            &__background {
+                width: 100vw;
+                height: 40%;
+                position: fixed;
+                left: 50.1%;
+                top: 0;
+                background-color: #070707;
+                z-index: 10;
+            }
             &__img {
                 height: 100vh;
                 position: fixed;
-                bottom: 0;
-                left: 0;
+                // bottom: ;
+                // left: 10%;
+                // padding-left: 18%;
             }
             h1 {
                 position: fixed;
-                z-index: 2;
-                top: 25%;
+                z-index: 11;
+                top: 20%;
             }
             h2 {
                 position: fixed;
-                z-index: 2;
-                top: 32%;
+                z-index: 11;
+                top: 27%;
             }
             h3 {
                 position: fixed;
-                z-index: 2;
-                top: 35%;
+                z-index: 11;
+                top: 30%;
             }
             p{
                 position: relative;
                 z-index: 2;
                 padding-left: 50%;
-                padding-right: 2%;
+                padding-right: 10%;
                 padding-top: 30%;
                 padding-bottom: 40px;
             }
@@ -258,7 +270,7 @@
                 position: relative;
                 z-index: 2;
                 padding-left: 50%;
-                padding-right: 12%;
+                padding-right: 18%;
             }
             &__line{
                 display: none;
@@ -269,7 +281,7 @@
             z-index: 2;
             left: 52%;
             top: 0;
-            padding-top: 28%;
+            padding-top: 20%;
             ul{
                 padding-bottom: 27%;
             }
@@ -279,7 +291,8 @@
         }
         &__career{
             padding-left: 52%;
-            padding-top: 25%;
+            padding-top: 20%;
+            padding-right: 4%;
             position: relative;
             z-index: 2;
             &__trainings{
@@ -298,7 +311,7 @@
             position: relative;
             z-index: 2;
             padding-left: 52%;
-            padding-right: 2%;
+            padding-right: 4%;
             padding-top: 20%;
             div {
                 width: 48%;
@@ -312,8 +325,9 @@
             position: relative;
             z-index: 2;
             padding-left: 52%;
-            padding-right: 2%;
+            padding-right: 4%;
             padding-top: 20%;
+            padding-bottom: 10%;
             div{
                 width: 48%;
             }
@@ -322,7 +336,6 @@
             }
         }
     }
-
     .linesAbout {
         top: 0;
         position: fixed;
@@ -338,5 +351,16 @@
 @media screen and (max-width: 996px) {
     .linesAbout {
         display: none;
+    }
+}
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .about{
+        &__informations{
+            padding-top: 14%;
+        }
+        &__skills {
+            padding-top: 28%;
+        }
     }
 }

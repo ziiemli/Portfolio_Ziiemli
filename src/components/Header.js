@@ -2,9 +2,9 @@ import React from "react"
 import Logo from "./Logo"
 import Menu from "./Menu"
 
-const Header = () => {
+const Header = ({fixed}) => {
     return (
-        <header>
+        <header className={fixed}>
             <Logo/>
             <Menu />
         </header>
