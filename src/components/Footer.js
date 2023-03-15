@@ -4,17 +4,17 @@ import {Link} from "react-router-dom"
 const Footer = () => {
     return (
         <footer>
-            <ul>
+            <div>
                 <Link to="/LegalNotice">
-                    <li>Legal Notice</li>
+                    Legal Notice
                 </Link>
                 <Link to="/PrivacyPolicy">
-                    <li>Privacy Policy</li>
+                    Privacy Policy
                 </Link>
                 <Link to="/TermsAndConditions">
-                    <li>Terms and Conditions</li>
+                    Terms and Conditions
                 </Link>
-            </ul>
+            </div>
         </footer>
     )
 }

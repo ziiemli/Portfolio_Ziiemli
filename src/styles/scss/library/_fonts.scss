@@ -43,6 +43,8 @@
     --about_career_p: 1rem;
     --about_stacks_softwares: 1.2rem;
     --about_stacks_softwares_figcaption: 0.9rem;
+
+    --footer: 1.1rem;
 }
 
 @font-face {
@@ -320,7 +322,5 @@ a:visited {
 //FOOTER
 footer {
     color: white;
-    li {
-        color: white;
-    }
+    font-size: var(--footer);
 }
