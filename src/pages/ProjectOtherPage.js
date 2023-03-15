@@ -6,35 +6,42 @@ import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
 import TopOtherProject from "../components/TopOtherProject"
 import ProjectOtherContent from "../components/ProjectOtherContent"
+import { Helmet } from "react-helmet"
 
 const ProjectOtherPage = () => {
- //recover url
- const querystring = window.location.pathname.split("/Others/projects/").join("")
- //recover name
- const name = querystring.split("_").join(" ")
- console.log(name);
+    //recover url
+    const querystring = window.location.pathname.split("/Others/projects/").join("")
+    //recover name
+    const name = querystring.split("_").join(" ")
+    console.log(name)
 
- //data
- const {data, error} = Fetch()
- if (error) console.log(error)
+    //data
+    const {data, error} = Fetch()
+    if (error) console.log(error)
 
- //data Dev
- const dataProjects = data && data.others
- //find data of good project > Project Top
- const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
- //data Projects Dev > ProjectDevContent
- const dataProjectContent = data && data.othersProjects
+    //data Dev
+    const dataProjects = data && data.others
+    //find data of good project > Project Top
+    const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
+    //data Projects Dev > ProjectDevContent
+    const dataProjectContent = data && data.othersProjects
+
     return (
         <div className="project" id="topProject">
-        <Header fixed="positionFixed"/>
-        <main>
-            <TopOtherProject data={dataProject} dataProjects={dataProjects}/>
-            <ProjectOtherContent data={dataProjectContent}/>
-        </main>
-        <RedirectTopPage anchor="topProject" />
-        <Footer />
-        <ProjectsNext data={dataProject} dataProjects={dataProjects} category="Others"/>
-    </div>
+            <Helmet>
+                <title>{dataProject && "Ziiemli - " + dataProject.nameProject}</title>
+                <meta name="description" content={dataProject && "Others, " + dataProject.nameProject + " project."} />
+                <link rel="canonical" href={querystring && "/Others/projects/" + querystring} />
+            </Helmet>
+            <Header fixed="positionFixed" />
+            <main>
+                <TopOtherProject data={dataProject} dataProjects={dataProjects} />
+                <ProjectOtherContent data={dataProjectContent} />
+            </main>
+            <RedirectTopPage anchor="topProject" />
+            <Footer />
+            <ProjectsNext data={dataProject} dataProjects={dataProjects} category="Others" />
+        </div>
     )
 }
 

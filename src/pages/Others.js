@@ -6,6 +6,7 @@ import RecoverDataPageCategory from "../components/RecoverDataPageCategory"
 import Projects from "../components/Projects"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
+import { Helmet } from "react-helmet"
 
 const Others = () => {
     const {data} = Fetch()
@@ -23,6 +24,11 @@ const Others = () => {
 
     return (
         <div id="topOthers">
+            <Helmet>
+                <title>Ziiemli - Others</title>
+                <meta name="description" content="Others, discover all projects by Ziiemli. UI and UX, Graphic Design, Object Design, Photography, Experiments, Video Game creation, and some others creations." />
+                <link rel="canonical" href="/Others" />
+            </Helmet>
             <Header fixed="positionFixed"/>
             <main className="others">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />

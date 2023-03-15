@@ -3,6 +3,7 @@ import Fetch from "../components/Fetch"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
+import { Helmet } from "react-helmet"
 
 const About = () => {
     const ziiemliMobile = process.env.PUBLIC_URL + "/assets/img/about/About_Mobile.png"
@@ -26,6 +27,11 @@ const About = () => {
 
     return (
         <div id="topAbout">
+            <Helmet>
+                <title>Ziiemli - About</title>
+                <meta name="description" content="About Zilin, discover Ziiemli's skills and background" />
+                <link rel="canonical" href="/About" />
+            </Helmet>
             <Header fixed={"positionFixed"} />
             <main className="about">
                 <section className="about__informations">

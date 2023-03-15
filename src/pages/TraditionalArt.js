@@ -6,6 +6,7 @@ import RecoverDataPageCategory from "../components/RecoverDataPageCategory"
 import Projects from "../components/Projects"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
+import { Helmet } from "react-helmet"
 
 const TraditionalArt = () => {
     //data
@@ -27,6 +28,11 @@ const TraditionalArt = () => {
 
     return (
         <div id="topTraditional">
+            <Helmet>
+                <title>Ziiemli - Traditional Art</title>
+                <meta name="description" content="Traditional Art, discover all artworks (oil painting, acrylic painting, watercolor, pen, pyrography) by Ziiemli" />
+                <link rel="canonical" href="/Traditional_Art" />
+            </Helmet>
             <Header fixed="positionFixed"/>
             <main className="traditionalArt">
                 <CategoriesTitle image={imageBackground} imageDesktop={imageBackgroundDesktop} title={title} paragraphe={paragraphe} />

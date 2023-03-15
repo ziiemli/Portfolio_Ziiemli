@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import RedirectTopPage from '../components/RedirectTopPage';
@@ -6,6 +7,11 @@ import RedirectTopPage from '../components/RedirectTopPage';
 const PrivacyPolicy = () => {
     return (
         <div>
+            <Helmet>
+                <title>Ziiemli - Privacy Policy</title>
+                <meta name="description" content="Privacy Policy" />
+                <link rel="canonical" href="/PrivacyPolicy" />
+            </Helmet>
             <Header />
             <main className="legalNotice">
                 <h1>Privacy Policy</h1>

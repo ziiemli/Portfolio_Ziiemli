@@ -2,12 +2,9 @@ import React from "react"
 import {NavLink} from "react-router-dom"
 import Header from "../components/Header"
 import Fetch from "../components/Fetch"
-
-
-
+import {Helmet} from "react-helmet-async"
 
 const Home = () => {
-    
     //data Home Page
     const {data, error} = Fetch()
     if (error) console.log(error)
@@ -16,6 +13,14 @@ const Home = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Ziiemli - Home</title>
+                <meta
+                    name="description"
+                    content="Home page, select Web Development and Design, Digital Art, Traditional Art or Others."
+                />
+                <link rel="canonical" href="/home" />
+            </Helmet>
             <Header />
             <main className="homeCategories" id="homeCategoriesHeight">
                 {/* display Categories */}

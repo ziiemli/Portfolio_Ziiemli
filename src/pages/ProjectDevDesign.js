@@ -6,6 +6,7 @@ import ProjectTop from "../components/ProjectTop"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
+import { Helmet } from "react-helmet"
 
 const ProjectDevDesign = () => {
 
@@ -28,6 +29,11 @@ const ProjectDevDesign = () => {
 
     return (
         <div className="project" id="topProject">
+            <Helmet>
+                <title>{dataProject && "Ziiemli - " + dataProject.nameProject}</title>
+                <meta name="description" content={dataProject && "Web development and design, " + dataProject.nameProject + " project. Front-end Development"} />
+                <link rel="canonical" href={querystring && "/Web_Development_and_Design/projects/" + querystring} />
+            </Helmet>
             <Header fixed="positionFixed"/>
             <main className="projectDevDesign">
                 <ProjectTop data={dataProject}  dataProjects={dataProjects}/>

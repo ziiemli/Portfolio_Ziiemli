@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import RedirectTopPage from '../components/RedirectTopPage';
@@ -6,6 +7,11 @@ import RedirectTopPage from '../components/RedirectTopPage';
 const TermsAndConditions = () => {
     return (
         <div>
+            <Helmet>
+                <title>Ziiemli - TermsAndConditions</title>
+                <meta name="description" content="Terms and Conditions" />
+                <link rel="canonical" href="/TermsAndConditions" />
+            </Helmet>
             <Header />
             <main className="legalNotice">
                 <h1>Terms and Conditions</h1>

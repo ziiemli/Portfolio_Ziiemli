@@ -1,9 +1,15 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import {Link} from "react-router-dom"
 
 const Start = () => {
     return (
         <main className="start">
+            <Helmet>
+                <title>Ziiemli - Start</title>
+                <meta name="description" content="Zilin Moulin, alias Ziiemli is a freelancer artist, visual designer and front-end web developer based in Lyon." />
+                <link rel="canonical" href="/" />
+            </Helmet>
             <div className="start__logo">
                 <img src={`${process.env.PUBLIC_URL}/assets/Logo.svg`} alt="Logo of Ziiemli" />
             </div>
