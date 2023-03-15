@@ -26,7 +26,7 @@ const About = () => {
 
     return (
         <div id="topAbout">
-            <Header fixed={"positionFixed"}/>
+            <Header fixed={"positionFixed"} />
             <main className="about">
                 <section className="about__informations">
                     <div className="about__informations__background"></div>
@@ -72,7 +72,13 @@ const About = () => {
                                 <div className="about__career__training" key={index}>
                                     <h5>{el.training}</h5>
                                     <p className="about__career__training__years">{el.years}</p>
-                                    {el.description && el.description.map((des, index) => <p className={"about__career__training__p about__career__training__p__" + el.id + "__" + index} key={index}>{des}</p>)}
+                                    {el.description &&
+                                        el.description.map((des, index) => (
+                                            <p className={"about__career__training__p about__career__training__p__" + el.id + "__" + index} key={index}>
+                                                {des}
+                                            </p>
+                                        ))}
+                                    <div className="about__career__training__separate"></div>
                                 </div>
                             ))}
                     </div>
@@ -81,17 +87,27 @@ const About = () => {
                 <section className="about__dev">
                     <div>
                         <h4>DEV</h4>
-                        {<ul className="about__dev__skills">{devSkillsData && devSkillsData.map((skill, index) => <li className={"about__dev__skills__" + index} key={index}>{skill}</li>)}</ul>}
+                        {
+                            <ul className="about__dev__skills">
+                                {devSkillsData &&
+                                    devSkillsData.map((skill, index) => (
+                                        <li className={"about__dev__skills__" + index} key={index}>
+                                            {skill}
+                                        </li>
+                                    ))}
+                            </ul>
+                        }
                     </div>
+                    <div className="about__dev__separate"></div>
                     <div>
-                        <h5>STACKS</h5>
+                        <h5 className="about__dev__h5__stacks">STACKS</h5>
                         {
                             <ul className="about__dev__stacks">
                                 {devStacksData &&
                                     devStacksData.map((stack, index) => (
                                         <li key={index}>
                                             <figure>
-                                                <img src={stack.stackLogo} alt={stack.stackName} />
+                                                <img src={stack.stackLogo} alt={stack.stackName + "icon"} />
                                                 <figcaption>{stack.stackName}</figcaption>
                                             </figure>
                                         </li>
@@ -104,17 +120,27 @@ const About = () => {
                 <section className="about__art">
                     <div>
                         <h4>ART</h4>
-                        {<ul className="about__art__skills">{artSkillsData && artSkillsData.map((skill, index) => <li className={"about__art__skills__" + index} key={index}>{skill}</li>)}</ul>}
+                        {
+                            <ul className="about__art__skills">
+                                {artSkillsData &&
+                                    artSkillsData.map((skill, index) => (
+                                        <li className={"about__art__skills__" + index} key={index}>
+                                            {skill}
+                                        </li>
+                                    ))}
+                            </ul>
+                        }
                     </div>
+                    <div className="about__art__separate"></div>
                     <div>
-                        <h5>STACKS</h5>
+                        <h5 className="about__art__h5__softwares">STACKS</h5>
                         {
                             <ul className="about__art__softwares">
                                 {artSoftwaresData &&
                                     artSoftwaresData.map((software, index) => (
                                         <li key={index}>
                                             <figure>
-                                                <img src={software.softwareLogo} alt={software.softwareName} />
+                                                <img src={software.softwareLogo} alt={software.softwareName + "icon"} />
                                                 <figcaption>{software.softwareName}</figcaption>
                                             </figure>
                                         </li>
@@ -132,7 +158,7 @@ const About = () => {
                     <div className="backgroundLinesProjects__line  lineAbout"></div>
                 </div>
             </main>
-            <RedirectTopPage displayNone="displayNone" />
+            <RedirectTopPage anchor="topAbout" displayNone="displayNone" />
             <Footer />
         </div>
     )

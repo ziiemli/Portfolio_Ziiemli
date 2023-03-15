@@ -12,11 +12,14 @@
     //logo
     &__logo {
         width: 34px;
-        height: 32px;
+        height: 25px;
         position: absolute;
         z-index: 1;
         left: 25px;
         top: 50px;
+        img {
+            width: 100%;
+        }
     }
     //content
     &__content {
@@ -24,7 +27,7 @@
         text-align: right;
         position: absolute;
         padding-right: 29px;
-        top: 248px;
+        top: 18%;
         z-index: 1;
         //ziiemli
         &__h1 {
@@ -32,7 +35,7 @@
         }
         //Zilin Moulin
         &__h2 {
-            margin-bottom: 293px;
+            margin-bottom: 250px;
         }
         //work
         li {
@@ -46,7 +49,10 @@
         gap: 25px;
         position: absolute;
         z-index: 1;
-        bottom: 53px;
+        bottom: 10%;
+        a {
+            transition: 0.5s;
+        }
         &__line {
             width: 100px;
             height: 2px;
@@ -60,7 +66,7 @@
         display: flex;
         align-self: end;
         position: relative;
-        left: 60%;
+        left: 30%;
         img {
             object-fit: cover;
             height: 100%;
@@ -69,44 +75,67 @@
     }
 }
 
+//HOVER
+.start__button a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
 //_____START RESPONSIVE_____//
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 996px) {
     .start {
-        //background
-        &__background {
-            // left: 25%;
-            // transform: translateX(-25%);
-            animation: 0.5s linear both back1;
+        &__logo {
+            width: auto;
+            height: 40px;
+            left: 6%;
+            top: 7%;
         }
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .start {
-        //background
         &__background {
             left: 0;
-            animation: 0.5s linear forwards back;
-            // transform: left(0) 0.5s linear both;
+            right: 0;
         }
-    }
-}
-
-@keyframes back {
-    from {
-        left: 10%;
-    }
-    to {
-        left: 0;
-    }
-}
-
-@keyframes back1 {
-    from {
-        left: 60%;
-    }
-    to {
-        left: 25%;
+        &__line {
+            height: 100vh;
+            width: 2px;
+            background-color: white;
+            position: absolute;
+            opacity: 0.2;
+        }
+        &__line2 {
+            height: 100vh;
+            width: 2px;
+            background-color: white;
+            position: absolute;
+            opacity: 0.2;
+            margin-left: 66%;
+        }
+        &__content {
+            width: 100%;
+            text-align: left;
+            position: absolute;
+            padding-right: 29px;
+            top: 12%;
+            z-index: 1;
+            //ziiemli
+            &__h1 {
+                margin-bottom: 20px;
+                padding-left: 16%;
+                padding-top: 200px;
+            }
+            //Zilin Moulin
+            &__h2 {
+                margin-bottom: 100px;
+                padding-left: 22%;
+            }
+            //work
+            li {
+                margin-bottom: 12px;
+                margin-right: 50%;
+                text-align: right;
+            }
+        }
     }
 }

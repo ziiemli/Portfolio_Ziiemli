@@ -1,7 +1,6 @@
 import React from "react"
 import {useState} from "react"
 import {NavLink} from "react-router-dom"
-// import Fetch from "../components/Fetch"
 
 const Menu = () => {
     //menu is active ?
@@ -39,19 +38,19 @@ const Menu = () => {
                     <div className="menu__active__nav">
                         <NavLink to="/" className="menu__active__nav__shop">
                             <p>Shop</p>
-                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
                         </NavLink>
                         <NavLink to="/home" className="menu__active__nav__page">
                             <p>Home</p>
-                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
+                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />}
                         </NavLink>
                         <NavLink to="/About" className="menu__active__nav__page">
                             <p>About</p>
-                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />}
+                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />}
                         </NavLink>
                         <NavLink className="menu__active__nav__page" onClick={sendEmail}>
                             <p>Contact</p>
-                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="losage select" />
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
                         </NavLink>
                     </div>
                 </section>

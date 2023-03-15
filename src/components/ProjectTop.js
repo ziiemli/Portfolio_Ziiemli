@@ -9,8 +9,8 @@ const ProjectTop = ({data, dataProjects}) => {
         <section className="projectTop">
             {/* logo */}
             <div className="projectTop__img">
-                <img className="projectTop__img__logo" src={logo} alt="" />
-                <img className="projectTop__img__background" src={image} alt="" />
+                <img className="projectTop__img__logo" src={logo} alt={data && data.nameProject + " logo"} />
+                <img className="projectTop__img__background" src={image} alt={data && "Image of " + data.nameProject + " project"} />
             </div>
             <CarouselDev dataProjects={dataProjects} data={data && data}/>
             {/* infos */}

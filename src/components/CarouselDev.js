@@ -78,14 +78,14 @@ const CarouselDev = ({dataProjects, data}) => {
             <div>
                 <h1 className="carouselDev__title">{data && data.nameProject}</h1>
                 <div className="carouselDev__slide">
-                    <img className="carouselDev__slide__img" src={data && data.thumbnail} alt={"Thumbnail of "} />
-                    <img className="carouselDev__slide__leftArrow" src={leftArrow} alt="Flèche en direction de la gauche" onClick={prevProject} />
-                    <img className="carouselDev__slide__rightArrow" src={rightArrow} alt="Flèche en direction de la droite" onClick={nextProject} />
+                    <img className="carouselDev__slide__img" src={data && data.thumbnail} alt={data && "Thumbnail of " + data.nameProject + " project"} />
+                    <img className="carouselDev__slide__leftArrow" src={leftArrow} alt="arrow to the left" onClick={prevProject} />
+                    <img className="carouselDev__slide__rightArrow" src={rightArrow} alt="arrow to the right" onClick={nextProject} />
                 </div>
-                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={"Background of "} />
+                <img className="thumbnailDesktopBackground" src={data && data.thumbnailBackground} alt={data && "Background of " + data.nameProject + " project"} />
                 <div className="carouselDev__back">
                     <a href="/Web_Development_and_Design">
-                        <img src={arrowBack && arrowBack} alt="left arrow" />
+                        <img src={arrowBack && arrowBack} alt="arrow to the left" />
                         <p>Projects</p>
                     </a>
                     <p>{currentProjectIndicate}</p>

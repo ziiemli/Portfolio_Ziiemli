@@ -145,7 +145,7 @@
             "description": "Illustration, personal project",
             "date": "June, 2021",
             "img": "assets/img/digitalArt/Stairs_at_night.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Illustration Stairs at night, by Ziiemli. Environment with stairs",
             "className": "stairsAtNight"
         },
         {
@@ -153,7 +153,7 @@
             "description": "Illustration, personal project",
             "date": "July 2023",
             "img": "assets/img/digitalArt/Purple_Landscape.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Illustration Purple Landscape, by Ziiemli. A sort of cave, with gems and plants with a water feature.",
             "className": "purpleLandscape"
         },
         {
@@ -161,7 +161,7 @@
             "description": "Illustration, personal project",
             "date": "September, 2021",
             "img": "assets/img/digitalArt/Waterfall.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Illustration Waterfall, by Ziiemli. Cascade entourée de rochers et de végétations.",
             "className": "waterfall"
         },
         {
@@ -169,7 +169,7 @@
             "description": "Illustration, personal project",
             "date": "June, 2022",
             "img": "assets/img/digitalArt/Sea.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Illustration Sea, by Ziiemli. ",
             "className": "sea"
         },
         {
@@ -179,7 +179,7 @@
                     "description": "Concept Art, board of Environment Researches",
                     "date": "March, 2022",
                     "img": "assets/img/digitalArt/EnvironmentResearches.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Concept art, by Ziiemli. Environment researches.",
                     "className": "environmentResearches"
                 },
                 {
@@ -187,7 +187,7 @@
                     "description": "Concept Art of pharmaceutical building, Sci-fi thematic",
                     "date": "October, 2021",
                     "img": "assets/img/digitalArt/PharmaceuticalBuilding.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Concept art, by Ziiemli. Pharmaceutical Building with gray shades.",
                     "className": "pharmaceuticalBuilding"
                 },
                 {
@@ -195,7 +195,7 @@
                     "description": "Concept Art for a school assignment. Create a micro-world with a treehouse and integrate a bus. Two versions: colorful and Halloween.",
                     "date": "November, 2021",
                     "img": "assets/img/digitalArt/MicroWorld.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Concept art, by Ziiemli. Micro-world concept, with threehouse and a bus. Two versions: colorful and Halloween.",
                     "className": "microWorld"
                 },
                 {
@@ -203,7 +203,7 @@
                     "description": "Concept Art for a school assignment. Create the evolution of a mirror.",
                     "date": "November, 2021",
                     "img": "assets/img/digitalArt/MirrorEvolution.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Concept art, by Ziiemli. Creation of an evolution of a mirror in three steps with a holographic hand coming out of the mirrors.",
                     "className": "mirrorEvolution"
                 }
             ]
@@ -213,7 +213,7 @@
             "description": "Concept art, personal project",
             "date": "August, 2021",
             "img": "assets/img/digitalArt/SF_Tower.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Concept art, by Ziiemli. SF Tower.",
             "className": "sfTower"
         },
         {
@@ -221,7 +221,7 @@
             "description": "Chibi, personal project",
             "date": "August, 2022",
             "img": "assets/img/digitalArt/Chibi.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Man chibi, with glasses and long coat, by Ziiemli",
             "className": "chibi"
         },
         {
@@ -229,16 +229,16 @@
             "description": "Book cover, young adult, personal project",
             "date": "January, 2022",
             "img": "assets/img/digitalArt/Fragment_of_Time.jpg",
-            "alt": "Blablablabalba",
-            "className": "chibi"
+            "alt": "Book cover, by Ziiemli. Main color is blue, and there is a girl sit on stairs in shadow, she's reading a book",
+            "className": "fragmentOfTime"
         },
         {
             "titleArtwork": "The hands of darkness",
             "description": " I realized this illustration for an exhibition inspired by the world of Hans Ruedi Giger.",
             "date": "December, 2021",
             "img": "assets/img/digitalArt/Hands_of_Darkness.jpg",
-            "alt": "Blablablabalba",
-            "className": "chibi"
+            "alt": "Illustration inspired by Giger. Two hands, with mechanic elements and some references to giger artworks.",
+            "className": "handsOfDarkness"
         },
         {
             "digitalPortraits": [
@@ -247,7 +247,7 @@
                     "description": "Jonathan Bertin portrait",
                     "date": "January, 2021",
                     "img": "assets/img/digitalArt/Jonathan_Bertin.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Jonathan Bertin Portrait",
                     "className": "jonathanBertin"
                 },
                 {
@@ -255,7 +255,7 @@
                     "description": "Nuit Incolore portrait",
                     "date": "September, 2022",
                     "img": "assets/img/digitalArt/Nuit_Incolore.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Nuit Incolore portrait",
                     "className": "nuitIncolore"
                 },
                 {
@@ -263,7 +263,7 @@
                     "description": "Character conception",
                     "date": "December, 2022",
                     "img": "assets/img/digitalArt/Chara.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Girl with long black hair and buns. She wears a kind of crop-top and a jogging suit.",
                     "className": "chara"
                 },
                 {
@@ -271,7 +271,7 @@
                     "description": "Model Vtuber and animations tracking",
                     "date": "June, 2022",
                     "img": "assets/img/digitalArt/Model_Vtuber.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Vtuber of Ziiemli. Girl with long white hairs and tow buns.",
                     "className": "modelVtuber"
                 }
             ]
@@ -283,7 +283,7 @@
             "description": "Line on sketchbook",
             "date": "April, 2021",
             "img": "assets/img/traditionalArt/House_Sketch.jpg",
-            "alt": "Blablablabalba",
+            "alt": "sketch of a house on sketchbook",
             "className": "houseSketch"
         },
         {
@@ -291,7 +291,7 @@
             "description": "China Ink, Art, technique and civilization highschool sketchbook",
             "date": "September, 2018",
             "img": "assets/img/traditionalArt/Skull.jpg",
-            "alt": "Blablablabalba",
+            "alt": "skull on sketchook, India Ink",
             "className": "skull"
         },
         {
@@ -299,7 +299,7 @@
             "description": "Oil painting, 50x50, hand thematic",
             "date": "August, 2020",
             "img": "assets/img/traditionalArt/Oil_Hand.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Oil painting, by Ziiemli. Hand on the middle with white lines and around there are some eyes.",
             "className": "oilHand"
         },
         {
@@ -307,7 +307,7 @@
             "description": "Oil painting, based on feeling",
             "date": "June, 2022",
             "img": "assets/img/traditionalArt/Spirit.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Oil painting",
             "className": "spirit"
         },
         {
@@ -315,7 +315,7 @@
             "description": "Oil painting, 50x50, hand thematic",
             "date": "April, 2020",
             "img": "assets/img/traditionalArt/Acrylic_Hand.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Acrylic painting with a hand on the middle.",
             "className": "acrylicHand"
         },
         {
@@ -325,7 +325,7 @@
                     "description": "Oil painting, size?",
                     "date": "April, 2021",
                     "img": "assets/img/traditionalArt/Nature.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Oil painting of landscape with threes and blue, yellow sky",
                     "className": "nature"
                 },
                 {
@@ -333,7 +333,7 @@
                     "description": "First oil painting",
                     "date": "July, 2020",
                     "img": "assets/img/traditionalArt/Purple_Sky.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Oil painting with blue and purple sky.",
                     "className": "purpleSky"
                 },
                 {
@@ -341,7 +341,7 @@
                     "description": "Oil painting, water thematic",
                     "date": "August, 2022",
                     "img": "assets/img/traditionalArt/Water_Scene.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Oil painting with some rocks.",
                     "className": "waterScene"
                 },
                 {
@@ -349,7 +349,7 @@
                     "description": "Acrylic painting",
                     "date": "August, 2019",
                     "img": "assets/img/traditionalArt/Mask.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Acrylic painting. Mask subject and red, purple main colors.",
                     "className": "mask"
                 }
             ]
@@ -359,7 +359,7 @@
             "description": "white pen on black paper, observation drawing",
             "date": "November, 2019",
             "img": "assets/img/traditionalArt/Teddy.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Teddy bear draw on black paper with white pen.",
             "className": "teddy"
         },
         {
@@ -367,7 +367,7 @@
             "description": "toas school project, decorate a block of wood",
             "date": "January, 2019",
             "img": "assets/img/traditionalArt/Toas.jpg",
-            "alt": "Blablablabalba",
+            "alt": "Toas, decoration of a block of wood with acrylic. There are a lot of hands.",
             "className": "toas"
         },
         {
@@ -377,7 +377,7 @@
                     "description": "First pyrography",
                     "date": "April, 2020",
                     "img": "assets/img/traditionalArt/Pyrography_01.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Pyrography of a Chinese door",
                     "className": "pyrography01"
                 },
                 {
@@ -385,7 +385,7 @@
                     "description": "pyrography on wood",
                     "date": "July, 2021",
                     "img": "assets/img/traditionalArt/Pyrography_02.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography02"
                 },
                 {
@@ -393,7 +393,7 @@
                     "description": "pyrography on wood",
                     "date": "July, 2021",
                     "img": "assets/img/traditionalArt/Pyrography_03.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography03"
                 },
                 {
@@ -401,7 +401,7 @@
                     "description": "pyrography on wood",
                     "date": "July, 2021",
                     "img": "assets/img/traditionalArt/Pyrography_04.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography04"
                 },
                 {
@@ -409,7 +409,7 @@
                     "description": "pyrography on wood, hands thematic",
                     "date": "June, 2021",
                     "img": "assets/img/traditionalArt/Pyrography_05.jpg",
-                    "alt": "Blablablabalba",
+                    "alt": "Pyrography of two hands.",
                     "className": "pyrography05"
                 }
             ]
@@ -468,35 +468,35 @@
             "visualsOfGame": [
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "3D interior of a video game"
                 },
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "3D interior of a video game"
                 }
             ],
             "conceptArt": [
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "Concept art board of a bathroom"
                 },
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "Concept art board of a mirror"
                 }
             ],
             "uiUx":  [
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "UI & UX of Le Recueil de l'étrange video game."
                 }
             ]
         },
@@ -505,7 +505,7 @@
             "boardGame": [
                 {
                     "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
-                    "description": "blabalbalbalbal"
+                    "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board. "
                 }
             ]
         },

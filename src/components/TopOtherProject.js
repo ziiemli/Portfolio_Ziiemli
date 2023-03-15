@@ -48,7 +48,7 @@ const TopOtherProject = ({data, dataProjects}) => {
                 <h1>{data && data.nameProject}</h1>
                 <picture className="topOtherProject__img">
                     <source media="(min-width: 996px)" srcSet={imageDesktop} />
-                    <img className="topOtherProject__img__background" src={image} alt="" />
+                    <img className="topOtherProject__img__background" src={image} alt="Background in relation to the project" />
                 </picture>
             </div>
             {/* infos */}
@@ -69,12 +69,12 @@ const TopOtherProject = ({data, dataProjects}) => {
                 {/* projects next */}
                 <div className="projectNextOther">
                     <a href="/Others">
-                        <img src={arrowBack && arrowBack} alt="left arrow" />
+                        <img src={arrowBack && arrowBack} alt="arrow to the left" />
                         <p>Projects</p>
                     </a>
                     <a href={nextProject} onClick={nextProject}>
                         <p>Next</p>
-                        <img src={arrowRight} alt="arrow Right" />
+                        <img src={arrowRight} alt="arrow to the right" />
                     </a>
                 </div>
             </div>

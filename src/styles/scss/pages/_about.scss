@@ -258,81 +258,149 @@
                 z-index: 11;
                 top: 30%;
             }
-            p{
+            p {
                 position: relative;
                 z-index: 2;
-                padding-left: 50%;
-                padding-right: 10%;
-                padding-top: 30%;
+                padding-left: 40%;
+                padding-right: 12%;
+                padding-top: 58%;
                 padding-bottom: 40px;
             }
-            &__socialMedia{
+            &__socialMedia {
                 position: relative;
                 z-index: 2;
-                padding-left: 50%;
+                padding-left: 40%;
                 padding-right: 18%;
             }
-            &__line{
+            &__line {
                 display: none;
             }
         }
-        &__skills{
+        &__skills {
+            width: 14%;
             position: absolute;
             z-index: 2;
             left: 52%;
             top: 0;
-            padding-top: 20%;
-            ul{
+            padding-top: 34%;
+            &__fields {
+                flex-wrap: wrap;
+                ul {
+                    li {
+                        justify-content: start;
+                        padding-left: 10%;
+                    }
+                }
+                &__art {
+                    width: auto;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin-bottom: 10px;
+                }
+                &__dev {
+                    width: auto;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin-bottom: 10px;
+                }
+            }
+            ul {
                 padding-bottom: 27%;
             }
-            &__line{
+            &__line {
                 display: none;
             }
         }
-        &__career{
+        &__career {
             padding-left: 52%;
             padding-top: 20%;
             padding-right: 4%;
             position: relative;
             z-index: 2;
-            &__trainings{
+            &__trainings {
                 display: flex;
-                gap: 2%;
+                gap: 3%;
             }
-            &__training{
+            &__training {
                 width: 30%;
+                position: relative;
+                h5,
+                p {
+                    padding-right: 7%;
+                }
+                &__separate {
+                    width: 1px;
+                    height: 230px;
+                    position: absolute;
+                    top: 55px;
+                    right: 0;
+                    background-color: white;
+                }
             }
-            &__line{
+            &__line {
                 display: none;
             }
         }
-        &__dev{
+        &__dev {
             display: flex;
+            justify-content: space-between;
             position: relative;
             z-index: 2;
             padding-left: 52%;
-            padding-right: 4%;
+            padding-right: 8%;
             padding-top: 20%;
-            div {
-                width: 48%;
+            &__separate {
+                width: 1px;
+                height: 30%;
+                position: absolute;
+                top: 55%;
+                bottom: 0;
+                left: 68%;
+                background-color: white;
             }
-            &__line{
+            &__line {
                 display: none;
             }
+            &__h5__stacks {
+                width: 50%;
+                padding-top: 35%;
+            }
+            &__stacks {
+                gap: 4%;
+            }
         }
-        &__art{
+        &__art {
             display: flex;
+            justify-content: space-between;
             position: relative;
             z-index: 2;
             padding-left: 52%;
-            padding-right: 4%;
+            padding-right: 8%;
             padding-top: 20%;
             padding-bottom: 10%;
-            div{
-                width: 48%;
+            &__separate {
+                width: 1px;
+                height: 30%;
+                position: absolute;
+                top: 45%;
+                bottom: 0;
+                left: 68%;
+                background-color: white;
             }
-            &__line{
+            &__line {
                 display: none;
+            }
+            &__skills{
+                width: 70%;
+            }
+            &__h5__softwares {
+                padding-top: 35%;
+                padding-left: 9%;
+            }
+            &__softwares {
+                padding-left: 9%;
+                // padding-right: 65%;
+                gap: 4%;
             }
         }
     }
@@ -342,6 +410,7 @@
         padding-left: 17.8%;
         padding-right: 17.8%;
         z-index: 1;
+        opacity: 0.2;
     }
     .lineAbout {
         opacity: 0;
@@ -352,15 +421,87 @@
     .linesAbout {
         display: none;
     }
+    .about__career__training__separate {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 42%;
+            }
+        }
+        &__skills {
+            padding-top: 26%;
+        }
+    }
+}
+@media screen and (min-width: 1400px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 41%;
+            }
+        }
+        &__skills {
+            padding-top: 25%;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 35%;
+            }
+        }
+        &__skills {
+            padding-top: 22%;
+        }
+    }
+}
+@media screen and (min-width: 1800px) {
+    .about {
+        &__informations {
+            p {
+                padding-top: 28%;
+            }
+        }
+        &__skills {
+            padding-top: 20%;
+        }
+    }
 }
 
 @media (hover: none) and (pointer: coarse) and (min-width: 996px) {
-    .about{
-        &__informations{
-            padding-top: 14%;
+    .about {
+        &__informations {
+            p{
+                padding-top: 47%;
+            }
         }
         &__skills {
-            padding-top: 28%;
+            padding-top: 29%;
+        }
+        &__dev{
+            padding-right: 4.5%;
+        }
+        &__art{
+            padding-right: 2%;
+            position: relative;
+            overflow: hidden;
+            &__h5__softwares {
+                padding-top: 6%;
+                padding-left: 11%;
+            }
+            &__softwares {
+                padding-right: 0;
+                padding-left: -10%;
+                width: 70%;
+            }
         }
     }
 }

@@ -16,8 +16,6 @@
     height: 100vh;
     grid-column-start: 1;
     grid-column-end: 18;
-    // grid-row-start: 1;
-    // grid-row-end: 6;
     display: flex;
     justify-content: space-between;
     opacity: 0.3;
@@ -36,8 +34,8 @@
         grid-template-columns: 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px 2% 20% 2% 2px;
         grid-template-rows: 50% 50%;
         position: relative;
-        padding-left: 17.8%;
-        padding-right: 17.8%;
+        padding-left: 17.65%;
+        padding-right: 17.65%;
         padding-top: 12%;
         &__title {
             display: none;
@@ -45,8 +43,8 @@
     }
     .projectsArt, .projectsOther {
         position: relative;
-        padding-left: 17.8%;
-        padding-right: 17.8%;
+        padding-left: 17.65%;
+        padding-right: 17.65%;
         padding-top: 15%;
     }
     .linesDev {
@@ -81,5 +79,13 @@
 @media screen and (max-width: 996px) {
     .backgroundLinesProjects {
         display: none;
+    }
+}
+
+
+@media (hover: none) and (pointer: coarse) and (min-width: 996px) {
+    .projects, .projectsArt, .projectsOther{
+        padding-left: 17.8%;
+        padding-right: 17.8%;
     }
 }
