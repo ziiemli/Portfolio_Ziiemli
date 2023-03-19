@@ -36,10 +36,10 @@ const Menu = () => {
             {menu && (
                 <section className="menu__active">
                     <div className="menu__active__nav">
-                        <NavLink to="/" className="menu__active__nav__shop">
+                        <a href="https://zi-shop.sumupstore.com" className="menu__active__nav__shop" target="_blank" rel="noreferrer">
                             <p>Shop</p>
                             <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
-                        </NavLink>
+                        </a>
                         <NavLink to="/home" className="menu__active__nav__page">
                             <p>Home</p>
                             {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />}
