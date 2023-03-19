@@ -45,6 +45,10 @@
     --about_stacks_softwares_figcaption: 0.9rem;
 
     --footer: 1.1rem;
+
+    --mentions_h1: 2rem;
+    --mentions_h2: 1.2rem;
+    --mentions_p: 1rem;
 }
 
 @font-face {
@@ -323,4 +327,17 @@ a:visited {
 footer {
     color: white;
     font-size: var(--footer);
+}
+
+//LEGAL NOTICE
+.legalNotice {
+    h1 {
+        font-size: var(--mentions_h1);
+    }
+    h2 {
+        font-size: var(--mentions_h2);
+    }
+    p {
+        font-size: var(--mentions_p);
+    }
 }

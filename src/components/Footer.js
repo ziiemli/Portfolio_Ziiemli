@@ -4,7 +4,6 @@ import {Link} from "react-router-dom"
 const Footer = () => {
     return (
         <footer>
-            <div>
                 <Link to="/LegalNotice">
                     Legal Notice
                 </Link>
@@ -14,7 +13,6 @@ const Footer = () => {
                 <Link to="/TermsAndConditions">
                     Terms and Conditions
                 </Link>
-            </div>
         </footer>
     )
 }
