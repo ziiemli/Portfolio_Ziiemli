@@ -3,7 +3,7 @@ import Fetch from "../components/Fetch"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
-import { Helmet } from "react-helmet"
+import {Helmet} from "react-helmet"
 
 const About = () => {
     const ziiemliMobile = process.env.PUBLIC_URL + "/assets/img/about/About_Mobile.png"
@@ -14,6 +14,7 @@ const About = () => {
     const github = process.env.PUBLIC_URL + "/assets/github.svg"
     const artstation = process.env.PUBLIC_URL + "/assets/artstation.svg"
     const instagram = process.env.PUBLIC_URL + "/assets/Instagram.svg"
+    const twitch = process.env.PUBLIC_URL + "/assets/Twitch.svg"
 
     //data
     const {data} = Fetch()
@@ -48,11 +49,24 @@ const About = () => {
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div className="about__informations__socialMedia">
-                        <img src={mail} alt="mail icon" />
-                        <img src={twitter} alt="twitter icon" />
-                        <img src={github} alt="github icon" />
-                        <img src={artstation} alt="artstation icon" />
-                        <img src={instagram} alt="instagram icon" />
+                        <a href="mailto:ziiemli@outlook.fr" target="_blank" rel="noreferrer">
+                            <img src={mail} alt="mail icon" />
+                        </a>
+                        <a href="https://twitter.com/ziiemli" target="_blank" rel="noreferrer">
+                            <img src={twitter} alt="twitter icon" />
+                        </a>
+                        <a href="https://github.com/ziiemli" target="_blank" rel="noreferrer">
+                            <img src={github} alt="github icon" />
+                        </a>
+                        <a href="https://www.artstation.com/ziiemli" target="_blank" rel="noreferrer">
+                            <img src={artstation} alt="artstation icon" />
+                        </a>
+                        <a href="https://www.instagram.com/ziiemli/" target="_blank" rel="noreferrer">
+                            <img src={instagram} alt="instagram icon" />
+                        </a>
+                        <a href="https://www.twitch.tv/ziiemli" target="_blank" rel="noreferrer">
+                            <img src={twitch} alt="twitch icon" />
+                        </a>
                     </div>
                     <div className="about__informations__line"></div>
                 </section>
