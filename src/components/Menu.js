@@ -36,7 +36,7 @@ const Menu = () => {
             {menu && (
                 <section className="menu__active">
                     <div className="menu__active__nav">
-                        <a href="https://zi-shop.sumupstore.com" className="menu__active__nav__shop" target="_blank" rel="noreferrer">
+                        <a href="https://shop.ziiemli.com/" className="menu__active__nav__shop" target="_blank" rel="noreferrer">
                             <p>Shop</p>
                             <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
                         </a>
