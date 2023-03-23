@@ -26,7 +26,7 @@ const Home = () => {
                 {/* display Categories */}
                 {categories &&
                     categories.map((category) => (
-                        <NavLink to={category.nav} className="nav" key={category.id}>
+                        <NavLink to={"/" + category.nav} className="nav" key={category.id}>
                             <article className="homeCategories__article">
                                 <h2 className="homeCategories__article__title">{category.category}</h2>
                                 <div className="homeCategories__article__gradient"></div>

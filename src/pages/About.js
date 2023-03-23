@@ -11,8 +11,8 @@ const About = () => {
 
     const mail = process.env.PUBLIC_URL + "/assets/About_Mail.svg"
     const twitter = process.env.PUBLIC_URL + "/assets/Twitter.svg"
-    const github = process.env.PUBLIC_URL + "/assets/github.svg"
-    const artstation = process.env.PUBLIC_URL + "/assets/artstation.svg"
+    const github = process.env.PUBLIC_URL + "/assets/GitHub.svg"
+    const artstation = process.env.PUBLIC_URL + "/assets/Artstation.svg"
     const instagram = process.env.PUBLIC_URL + "/assets/Instagram.svg"
     const twitch = process.env.PUBLIC_URL + "/assets/Twitch.svg"
 

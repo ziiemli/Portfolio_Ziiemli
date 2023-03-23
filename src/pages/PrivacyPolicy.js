@@ -6,7 +6,7 @@ import RedirectTopPage from "../components/RedirectTopPage"
 
 const PrivacyPolicy = () => {
     return (
-        <div>
+        <div id="topPrivacyPolicy">
             <Helmet>
                 <title>Ziiemli - Privacy Policy</title>
                 <meta name="description" content="Privacy Policy" />
@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
                     <p>Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité ou la manière dont Zilin Moulin utilise vos informations personnelles, veuillez contacter Zilin Moulin à l'adresse ziiemli.com.</p>
                 </div>
             </main>
-            <RedirectTopPage />
+            <RedirectTopPage anchor="topPrivacyPolicy"/>
             <Footer />
         </div>
     )

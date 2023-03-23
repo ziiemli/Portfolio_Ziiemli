@@ -6,7 +6,7 @@ import RedirectTopPage from "../components/RedirectTopPage"
 
 const TermsAndConditions = () => {
     return (
-        <div>
+        <div id="topTermsAndConditions">
             <Helmet>
                 <title>Ziiemli - TermsAndConditions</title>
                 <meta name="description" content="Terms and Conditions" />
@@ -108,7 +108,7 @@ const TermsAndConditions = () => {
                     <p>Les annexes, incluant le contrat et le devis, font partie intégrante des présentes CGV et sont soumises aux mêmes dispositions en matière de validité et d'exécution.</p>
                 </div>
             </main>
-            <RedirectTopPage />
+            <RedirectTopPage anchor="topTermsAndConditions"/>
             <Footer />
         </div>
     )

@@ -38,19 +38,19 @@ const Menu = () => {
                     <div className="menu__active__nav">
                         <a href="https://shop.ziiemli.com/" className="menu__active__nav__shop" target="_blank" rel="noreferrer">
                             <p>Shop</p>
-                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
                         </a>
                         <NavLink to="/home" className="menu__active__nav__page">
                             <p>Home</p>
-                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />}
+                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />}
                         </NavLink>
                         <NavLink to="/About" className="menu__active__nav__page">
                             <p>About</p>
-                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />}
+                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />}
                         </NavLink>
                         <NavLink className="menu__active__nav__page" onClick={sendEmail}>
                             <p>Contact</p>
-                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/Diamond.svg"} alt="diamond indicating selection" />
+                            <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
                         </NavLink>
                     </div>
                 </section>

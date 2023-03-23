@@ -16,8 +16,8 @@
             "category": "Digital Art",
             "image": "/assets/img/home/Digital_Art.jpg",
             "nav": "Digital_Art",
-            "categoryBackground": "/assets/img/digitalArt/digitalArt_TitleBackground.png",
-            "categoryBackgroundDesktop": "/assets/img/digitalArt/digitalArt_TitleBackground_Desktop.png",
+            "categoryBackground": "/assets/img/digitalArt/DigitalArt_TitleBackground.png",
+            "categoryBackgroundDesktop": "/assets/img/digitalArt/DigitalArt_TitleBackground_Desktop.png",
             "description": "I create digital illustrations and concept art. Most of the time I create environments, but also like to imagine characters."
         },
         {

@@ -6,7 +6,7 @@ import RedirectTopPage from "../components/RedirectTopPage"
 
 const LegalNotice = () => {
     return (
-        <div>
+        <div id="topLegalNotice">
             <Helmet>
                 <title>Ziiemli - Legal Notice</title>
                 <meta name="description" content="Legal Notice" />
@@ -70,7 +70,7 @@ const LegalNotice = () => {
                     </p>
                 </div>
             </main>
-            <RedirectTopPage />
+            <RedirectTopPage anchor="topLegalNotice"/>
             <Footer />
         </div>
     )
