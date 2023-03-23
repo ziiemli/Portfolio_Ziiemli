@@ -106,6 +106,7 @@
         filter: brightness(0.5);
     }
     .linesOther {
+        width: 100%;
         opacity: 0.4;
     }
     .projectNextOther{
@@ -127,6 +128,12 @@
 
 @media screen and (max-width: 996px) {
     .projectNextOther{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 996px) and (max-width: 1200px) {
+    .middleLineProjectDev{
         display: none;
     }
 }

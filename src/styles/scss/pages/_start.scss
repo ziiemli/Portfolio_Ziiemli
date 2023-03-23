@@ -19,6 +19,7 @@
         top: 50px;
         img {
             width: 100%;
+            height: auto;
         }
     }
     //content
@@ -69,6 +70,7 @@
         left: 30%;
         img {
             object-fit: cover;
+            width: auto;
             height: 100%;
             position: relative;
         }

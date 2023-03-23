@@ -82,8 +82,8 @@ const TopOtherProject = ({data, dataProjects}) => {
             <div className="topOtherProject__line"></div>
             <div className="backgroundLinesProjects linesProjectDev linesOther">
                 <div className="backgroundLinesProjects__line"></div>
-                <div className="backgroundLinesProjects__line  lastLineProjectDev"></div>
-                <div className="backgroundLinesProjects__line"></div>
+                <div className="backgroundLinesProjects__line lastLineProjectDev"></div>
+                <div className="backgroundLinesProjects__line middleLineProjectDev"></div>
                 <div className="backgroundLinesProjects__line lastLineProjectDev"></div>
                 <div className="backgroundLinesProjects__line lastLineProjectDev"></div>
             </div>

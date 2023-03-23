@@ -11,25 +11,43 @@ const ProjectOtherContent = ({data}) => {
     
     const LeRecueilDeLetrange = querystring === "Le_Recueil_de_letrange"
     const LeTresorDeKhnoumkhoufou = querystring === "Le_tresor_de_Khnoumkhoufou"
+    const Bleu = querystring === "Bleu"
 
     const visualsOfGame = dataContent && dataContent.visualsOfGame
     const conceptArt = dataContent && dataContent.conceptArt
     const uiUx = dataContent && dataContent.uiUx
 
+    const boxBoardGame = dataContent && dataContent.boxBoardGame
     const boardGame = dataContent && dataContent.boardGame
+    const momieCharacter = dataContent && dataContent.momieCharacter
+    const adventurerCharacters = dataContent && dataContent.adventurerCharacters
+    const momieCards = dataContent && dataContent.momieCards
+    const adventurerCards = dataContent && dataContent.adventurerCards
+
+    const bleuExperiments = dataContent && dataContent.experiments
 
     return (
         <section className="screensOtherContent">
             {LeRecueilDeLetrange && (
                 <div>
-                    <ScreenOtherProject title="Visuals Of Game" screens={visualsOfGame} id="visualsOfGame" />
-                    <ScreenOtherProject title="Concept Art" screens={conceptArt} id="conceptArt" />
+                    <ScreenOtherProject title="VISUALS OF GAME" screens={visualsOfGame} id="visualsOfGame" />
+                    <ScreenOtherProject title="CONCEPT ART " screens={conceptArt} id="conceptArt" />
                     <ScreenOtherProject title="UI & UX" screens={uiUx} id="uiUx" />
                 </div>
             )}
             {LeTresorDeKhnoumkhoufou && (
                 <div>
-                    <ScreenOtherProject title="Board game" screens={boardGame} id="boardGame" />
+                    <ScreenOtherProject title="BOARD GAME BOX" screens={boxBoardGame} id="boxBoardGame" />
+                    <ScreenOtherProject title="BOARD GAME" screens={boardGame} id="boardGame" />
+                    <ScreenOtherProject title="MOMIE CHARACTER" screens={momieCharacter} id="momieCharacter" />
+                    <ScreenOtherProject title="ADVENTURER CHARACTERS" screens={adventurerCharacters} id="adventurerCharacters" />
+                    <ScreenOtherProject title="MOMIE GAME CARDS" screens={momieCards} id="momieCards" />
+                    <ScreenOtherProject title="ADVENTURER GAME CARDS" screens={adventurerCards} id="adventurerCards" />
+                </div>
+            )}
+            {Bleu && (
+                <div>
+                    <ScreenOtherProject title="BLUE EXPERIMENTS" screens={bleuExperiments} id="bleuExperiments" />
                 </div>
             )}
         </section>

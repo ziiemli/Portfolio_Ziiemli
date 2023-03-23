@@ -36,7 +36,7 @@
             "nav": "Others",
             "categoryBackground": "/assets/img/others/Others_TitleBackground.png",
             "categoryBackgroundDesktop": "/assets/img/others/Others_TitleBackground_Desktop.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+            "description": "Various projects that I have been able to realize. Graphic design, UI&UX, video games, board games, photography, object design, etc. "
         }
     ],
     "dev": [
@@ -432,7 +432,7 @@
             "nameProject": "Le trésor de Khnoumkhoufou",
             "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.jpg",
             "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.jpg",
-            "description": "Le trésor de Khnoumkhoufou is a board game project, school assignment with team mates.",
+            "description": "Le trésor de Khnoumkhoufou is a board game project, school assignment with team mates: Alan Albiach, Anthony C.",
             "date": "October, 2021",
             "techs": "Photoshop",
             "roles": "Illustrator, UI/UX Designer",
@@ -448,7 +448,7 @@
             "date": "October, 2022",
             "techs": "Sony A6400",
             "roles": "Photographer",
-            "backgroundDesktop": "/assets/img/devDesign/LaPanthere/LaPanthere_ThumbnailBackground.jpg"
+            "backgroundDesktop": "/assets/img/others/Lyon/Lyon_BackgroundDesktop.jpg"
         },
         {
             "id": "02_04",
@@ -459,7 +459,7 @@
             "date": "September, 2022",
             "techs": "Sony RX100",
             "roles": "Artist",
-            "backgroundDesktop": "/assets/img/devDesign/OhMyFood/OhMyFood_ThumbnailBackground.jpg"
+            "backgroundDesktop": "/assets/img/others/Bleu/Bleu_BackgroundDesktop.jpg"
         }
     ],
     "othersProjects":[
@@ -473,6 +473,14 @@
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
                     "description": "3D interior of a video game"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.jpg",
+                    "description": "3D interior of a video game"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.jpg",
+                    "description": "3D interior of a video game"
                 }
             ],
             "conceptArt": [
@@ -483,6 +491,10 @@
                 {
                     "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
                     "description": "Concept art board of a mirror"
+                },
+                {
+                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.jpg",
+                    "description": "Concept art, game atmosphere"
                 }
             ],
             "uiUx":  [
@@ -502,18 +514,68 @@
         },
         {
             "nameProject": "Le trésor de Khnoumkhoufou",
+            "boxBoardGame": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.jpg",
+                    "description": "Le trésor de Khnoumkhoufou game box."
+                }
+            ],
             "boardGame": [
                 {
                     "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
-                    "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board. "
+                    "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board."
+                },
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.jpg",
+                    "description": "Game pieces and about the game."
+                }
+            ],
+            "momieCharacter": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.jpg",
+                    "description": "Momie character of the board game."
+                }
+            ],
+            "adventurerCharacters": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.jpg",
+                    "description": "Adventurer characters of the board game."
+                }
+            ],
+            "momieCards": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.jpg",
+                    "description": "Momie game cards"
+                }
+            ],
+            "adventurerCards": [
+                {
+                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.jpg",
+                    "description": "Adventurers game cards"
                 }
             ]
+            
         },
         {
-            "nameProject": "Le Recueil de l'étrange",
-            "visualsOfGame": "/assets/others/",
-            "conceptArt": "/assets/others/",
-            "uiUx": "/assets/others/"
+            "nameProject": "Bleu",
+            "experiments":  [
+                {
+                    "screen":"/assets/img/others/Bleu/Bleu_hands.jpg",
+                    "description": "Blue hands."
+                },
+                {
+                    "screen":"/assets/img/others/Bleu/Bleu_Palette.jpg",
+                    "description": "Blue blend."
+                },
+                {
+                    "screen":"/assets/img/others/Bleu/Bleu_lightBall.jpg",
+                    "description": "Light blue ball."
+                },
+                {
+                    "screen":"/assets/img/others/Bleu/Bleu_DarkBlueBall.jpg",
+                    "description": "Black and blue balls."
+                }
+            ]
         },
         {
             "nameProject": "Le Recueil de l'étrange",

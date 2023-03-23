@@ -55,18 +55,21 @@
     font-family: "SegoeUi";
     src: url(../fonts/SegoeUIVariable.woff);
     src: url(../fonts/SegoeUIVariable.woff2);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Cyrene";
     src: url(../fonts/Cyrene.woff);
     src: url(../fonts/Cyrene.woff2);
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Raleway";
     src: url(../fonts/Raleway.woff);
     src: url(../fonts/Raleway.woff2);
+    font-display: swap;
 }
 
 //BODY
@@ -85,6 +88,7 @@ a:visited {
     font-family: "SegoeUi", sans-serif;
     font-size: var(--menu);
     font-weight: 100;
+    color: white;
     // text-align: center;
 }
 
@@ -176,6 +180,11 @@ a:visited {
     h2 {
         font-size: var(--projectTop__link);
     }
+}
+
+//OTHERS
+.screenOtherProject h3{
+    font-weight: lighter;
 }
 
 //WEB DEV DESIGN PROJECTS / OTHERS
@@ -327,6 +336,9 @@ a:visited {
 footer {
     color: white;
     font-size: var(--footer);
+    a{
+        color: white;
+    }
 }
 
 //LEGAL NOTICE

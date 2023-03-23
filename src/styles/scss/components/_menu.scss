@@ -84,6 +84,18 @@
     }
 }
 
+@media screen and (max-width: 380px) {
+    .menu__active__nav__diamond {
+        left: 25%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .menu__active__nav{
+        padding-top: 140px;
+    }
+}
+
 @media (hover: none) and (pointer: coarse) and (min-width: 996px) {
     .menu__active {
         height: 105vh;

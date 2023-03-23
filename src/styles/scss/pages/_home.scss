@@ -54,6 +54,7 @@
     background-color: $background_color;
     overflow: hidden;
     img {
+        width: auto;
         height: 100vh;
         object-fit: cover;
     }
@@ -119,6 +120,15 @@
 @media screen and (max-width: 996px) {
     .backgroundLines {
         display: none;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .start__content__h2 {
+        margin-bottom: 150px;
+    }
+    .start__button {
+        bottom: 15%;
     }
 }
 
