@@ -11,9 +11,12 @@ const ProjectOtherContent = ({data}) => {
     
     const LeRecueilDeLetrange = querystring === "Le_Recueil_de_letrange"
     const LeTresorDeKhnoumkhoufou = querystring === "Le_tresor_de_Khnoumkhoufou"
+    const Sirius = querystring === "Sirius"
     const Bleu = querystring === "Bleu"
+    const Lyon = querystring === "Lyon"
 
     const visualsOfGame = dataContent && dataContent.visualsOfGame
+    console.log(visualsOfGame)
     const conceptArt = dataContent && dataContent.conceptArt
     const uiUx = dataContent && dataContent.uiUx
 
@@ -31,7 +34,7 @@ const ProjectOtherContent = ({data}) => {
             {LeRecueilDeLetrange && (
                 <div>
                     <ScreenOtherProject title="VISUALS OF GAME" screens={visualsOfGame} id="visualsOfGame" />
-                    <ScreenOtherProject title="CONCEPT ART " screens={conceptArt} id="conceptArt" />
+                    <ScreenOtherProject title="CONCEPT ART" screens={conceptArt} id="conceptArt" />
                     <ScreenOtherProject title="UI & UX" screens={uiUx} id="uiUx" />
                 </div>
             )}
@@ -44,6 +47,15 @@ const ProjectOtherContent = ({data}) => {
                     <ScreenOtherProject title="MOMIE GAME CARDS" screens={momieCards} id="momieCards" />
                     <ScreenOtherProject title="ADVENTURER GAME CARDS" screens={adventurerCards} id="adventurerCards" />
                 </div>
+            )}
+            {Sirius && (
+                <div>
+                    <ScreenOtherProject title="VISUALS OF GAME" screens={visualsOfGame} id="sirius" />
+                    <ScreenOtherProject title="CONCEPT ART" screens={conceptArt} id="sirius" />
+                </div>
+            )}
+            {Lyon && (
+                <h3 className="contentAvailable">Content will be available soon</h3>
             )}
             {Bleu && (
                 <div>

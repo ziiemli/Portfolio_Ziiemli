@@ -40,7 +40,7 @@ const ProjectOtherPage = () => {
             </main>
             <RedirectTopPage anchor="topProject" />
             <Footer />
-            <ProjectsNext data={dataProject} dataProjects={dataProjects} category="Others" />
+            <ProjectsNext projects={"/Others"} data={dataProject} dataProjects={dataProjects} category="Others" />
         </div>
     )
 }

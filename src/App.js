@@ -30,7 +30,7 @@ const App = () => {
                 <Route path="/LegalNotice" element={<LegalNotice />} />
                 <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
                 <Route path="/TermsAndConditions" element={<TermsAndConditions />} />
-                <Route path="*" element={<Error />} />
+                <Route path="*" element={<Error />}/>
             </Routes>
         </BrowserRouter>
     )

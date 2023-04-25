@@ -41,7 +41,7 @@ const ProjectDevDesign = () => {
             </main>
             <RedirectTopPage anchor="topProject" />
             <Footer />
-            <ProjectsNext data={dataProject} dataProjects={dataProjects} category="Web_Development_and_Design"/>
+            <ProjectsNext projects={"/Web_Development_and_Design"} data={dataProject} dataProjects={dataProjects} category="Web_Development_and_Design"/>
         </div>
     )
 }

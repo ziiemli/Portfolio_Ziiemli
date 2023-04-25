@@ -439,6 +439,17 @@
             "backgroundDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_BackgroundDesktop.jpg"
         },
         {
+            "id": "02_02",
+            "nameProject": "Sirius",
+            "imageDesktop": "/assets/img/others/Sirius/Sirius_Desktop.jpg",
+            "imageMobile": "/assets/img/others/Sirius/Sirius_Mobile.jpg",
+            "description": "Sirius is a Video Game Project (vertical slice) in school realized with Team Mates, it's an Action-Adventure. Art Team mates: Alan Albiach, Anthony C, Alexandre Michel, Maxime Laurent.",
+            "date": "June, 2022",
+            "techs": "Photoshop, Unreal Engine",
+            "roles": "Lead Artist, Concept Artist, Level Art",
+            "backgroundDesktop": "/assets/img/others/Sirius/Sirius_BackgroundDesktop.jpg"
+        },
+        {
             "id": "02_03",
             "nameProject": "Lyon",
             "imageDesktop": "/assets/img/others/Lyon/Lyon_Desktop.jpg",
@@ -462,52 +473,52 @@
             "backgroundDesktop": "/assets/img/others/Bleu/Bleu_BackgroundDesktop.jpg"
         }
     ],
-    "othersProjects":[
+    "othersProjects": [
         {
             "nameProject": "Le Recueil de l'étrange",
             "visualsOfGame": [
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.jpg",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.jpg",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.jpg",
                     "description": "3D interior of a video game"
                 }
             ],
             "conceptArt": [
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.jpg",
                     "description": "Concept art board of a bathroom"
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
                     "description": "Concept art board of a mirror"
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.jpg",
                     "description": "Concept art, game atmosphere"
                 }
             ],
-            "uiUx":  [
+            "uiUx": [
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.jpg",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.jpg",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
-                    "screen":"/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.jpg",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 }
             ]
@@ -516,85 +527,145 @@
             "nameProject": "Le trésor de Khnoumkhoufou",
             "boxBoardGame": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.jpg",
                     "description": "Le trésor de Khnoumkhoufou game box."
                 }
             ],
             "boardGame": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
                     "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board."
                 },
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.jpg",
                     "description": "Game pieces and about the game."
                 }
             ],
             "momieCharacter": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.jpg",
                     "description": "Momie character of the board game."
                 }
             ],
             "adventurerCharacters": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.jpg",
                     "description": "Adventurer characters of the board game."
                 }
             ],
             "momieCards": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.jpg",
                     "description": "Momie game cards"
                 }
             ],
             "adventurerCards": [
                 {
-                    "screen":"/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.jpg",
                     "description": "Adventurers game cards"
                 }
             ]
-            
         },
         {
-            "nameProject": "Bleu",
-            "experiments":  [
+            "nameProject": "Sirius",
+            "visualsOfGame": [
                 {
-                    "screen":"/assets/img/others/Bleu/Bleu_hands.jpg",
-                    "description": "Blue hands."
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_01.jpg",
+                    "description": "visual of Sirius video game"
                 },
                 {
-                    "screen":"/assets/img/others/Bleu/Bleu_Palette.jpg",
-                    "description": "Blue blend."
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_02.jpg",
+                    "description": "visual of Sirius video game"
                 },
                 {
-                    "screen":"/assets/img/others/Bleu/Bleu_lightBall.jpg",
-                    "description": "Light blue ball."
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_03.jpg",
+                    "description": "visual of Sirius video game"
                 },
                 {
-                    "screen":"/assets/img/others/Bleu/Bleu_DarkBlueBall.jpg",
-                    "description": "Black and blue balls."
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_04.jpg",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_05.jpg",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_06.jpg",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_07.jpg",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_08.jpg",
+                    "description": "visual of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_09.jpg",
+                    "description": "visual of Sirius video game"
+                }
+            ],
+            "conceptArt": [
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_01.jpg",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_02.jpg",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_03.jpg",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_04.jpg",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_05.jpg",
+                    "description": "Concept art of Sirius video game"
+                },
+                {
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_06.jpg",
+                    "description": "Concept art of Sirius video game"
                 }
             ]
         },
         {
-            "nameProject": "Le Recueil de l'étrange",
-            "visualsOfGame": "/assets/others/",
-            "conceptArt": "/assets/others/",
-            "uiUx": "/assets/others/"
+            "nameProject": "Bleu",
+            "experiments": [
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_hands.jpg",
+                    "description": "Blue hands."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_Palette.jpg",
+                    "description": "Blue blend."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_lightBall.jpg",
+                    "description": "Light blue ball."
+                },
+                {
+                    "screen": "/assets/img/others/Bleu/Bleu_DarkBlueBall.jpg",
+                    "description": "Black and blue balls."
+                }
+            ]
         }
     ],
     "about": [
         {
             "career": [
                 {
-                    "id":"03_01",
+                    "id": "03_01",
                     "training": "Bac+2, Web Development",
                     "years": "2020 - 2022",
                     "description": ["- 6 projects completed", "- HTML, CSS, Sass, Javascript, React", "- Web integration, CSS Animations, API Management, SEO Referencing"]
                 },
                 {
-                    "id":"03_02",
+                    "id": "03_02",
                     "training": "Bachelor’s degree, Game Art",
                     "years": "2020 - 2022",
                     "description": [
@@ -603,7 +674,7 @@
                     ]
                 },
                 {
-                    "id":"03_03",
+                    "id": "03_03",
                     "training": "Baccaulaureat, STD2A",
                     "years": "2017 - 2020",
                     "description": [
@@ -614,52 +685,52 @@
             ]
         },
         {
-            "dev":["Web Design", "UI & UX", "Web Integration", "API Management", "Animation CSS", "Website Maintenance", "SEO Referencing"],
+            "dev": ["Web Design", "UI & UX", "Web Integration", "API Management", "Animation CSS", "Website Maintenance", "SEO Referencing"],
             "stacks": [
                 {
-                    "stackName":"HTML",
-                    "stackLogo":"/assets/html.svg"
+                    "stackName": "HTML",
+                    "stackLogo": "/assets/html.svg"
                 },
                 {
-                    "stackName":"CSS",
-                    "stackLogo":"/assets/css.svg"
+                    "stackName": "CSS",
+                    "stackLogo": "/assets/css.svg"
                 },
                 {
-                    "stackName":"Sass",
-                    "stackLogo":"/assets/sass.svg"
+                    "stackName": "Sass",
+                    "stackLogo": "/assets/sass.svg"
                 },
                 {
-                    "stackName":"JavaScript",
-                    "stackLogo":"/assets/javascript.svg"
+                    "stackName": "JavaScript",
+                    "stackLogo": "/assets/javascript.svg"
                 },
                 {
-                    "stackName":"React",
-                    "stackLogo":"/assets/react.svg"
+                    "stackName": "React",
+                    "stackLogo": "/assets/react.svg"
                 }
             ]
         },
         {
-            "art":["Traditional Painting (oil, acrylic, watercolor)", "Digital Painting", "Line", "Pyrography", "Graphism & Design", "UI & UX"],
-            "softwares":[
+            "art": ["Traditional Painting (oil, acrylic, watercolor)", "Digital Painting", "Line", "Pyrography", "Graphism & Design", "UI & UX"],
+            "softwares": [
                 {
-                    "softwareName":"Photoshop",
-                    "softwareLogo":"/assets/photoshop.svg"
+                    "softwareName": "Photoshop",
+                    "softwareLogo": "/assets/photoshop.svg"
                 },
                 {
-                    "softwareName":"InDesign",
-                    "softwareLogo":"/assets/inDesign.svg"
+                    "softwareName": "InDesign",
+                    "softwareLogo": "/assets/inDesign.svg"
                 },
                 {
-                    "softwareName":"Illustrator",
-                    "softwareLogo":"/assets/illustrator.svg"
+                    "softwareName": "Illustrator",
+                    "softwareLogo": "/assets/illustrator.svg"
                 },
                 {
-                    "softwareName":"Figma",
-                    "softwareLogo":"/assets/figma.svg"
+                    "softwareName": "Figma",
+                    "softwareLogo": "/assets/figma.svg"
                 },
                 {
-                    "softwareName":"Maya",
-                    "softwareLogo":"/assets/maya.svg"
+                    "softwareName": "Maya",
+                    "softwareLogo": "/assets/maya.svg"
                 }
             ]
         }

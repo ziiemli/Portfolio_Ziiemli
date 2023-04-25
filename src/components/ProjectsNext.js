@@ -1,6 +1,6 @@
 import React from "react"
 
-const ProjectsNext = ({data, dataProjects, category}) => {
+const ProjectsNext = ({data, dataProjects, category, projects}) => {
     //name of Actual Project
     const nameOfProject = data && data.nameProject
     //index of Actuel Project
@@ -37,7 +37,7 @@ const ProjectsNext = ({data, dataProjects, category}) => {
 
     return (
         <section className="projectsNext">
-            <a href="/Web_Development_and_Design">PROJECTS</a>
+            <a href={projects}>PROJECTS</a>
             <a href={nextProject} onClick={nextProject}>NEXT</a>
         </section>
     )
