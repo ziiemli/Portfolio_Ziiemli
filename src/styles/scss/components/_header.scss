@@ -11,6 +11,7 @@ header {
     top: 50px;
     img {
         height: 32px;
+        width: 100%;
     }
 }
 
@@ -44,14 +45,24 @@ header {
         //logo
         img {
             height: 100%;
+            transition: 0.5s;
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
         }
     }
 
-    .menu{
+    .menu {
         width: 26px;
         height: 20px;
         top: 28%;
         right: 5%;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
     }
 
     .positionFixed {

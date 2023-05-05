@@ -15,10 +15,7 @@ const Home = () => {
         <div>
             <Helmet>
                 <title>Ziiemli - Home</title>
-                <meta
-                    name="description"
-                    content="Home page, select Web Development and Design, Digital Art, Traditional Art or Others."
-                />
+                <meta name="description" content="Home page, select Web Development and Design, Digital Art, Traditional Art or Others." />
                 <link rel="canonical" href="/home" />
             </Helmet>
             <Header />
@@ -30,7 +27,10 @@ const Home = () => {
                             <article className="homeCategories__article">
                                 <h2 className="homeCategories__article__title">{category.category}</h2>
                                 <div className="homeCategories__article__gradient"></div>
-                                <img src={category.image} alt={"image to illustrate the " + category.category + " category"} />
+                                <picture>
+                                    <source media="(min-width: 996px)" srcSet={category.imageDesktop} />
+                                    <img src={category.imageMobile} alt={"image to illustrate the " + category.category + " category"} loading="lazy"/>
+                                </picture>
                             </article>
                         </NavLink>
                     ))}
@@ -45,7 +45,7 @@ const Home = () => {
                 </div>
                 <picture>
                     <source media="(min-width: 996px)" srcSet={`${process.env.PUBLIC_URL}/assets/img/home/Background_Desktop.png`} />
-                    <img src={`${process.env.PUBLIC_URL}/assets/img/home/Background_Mobile.png`} alt="Gray background with soft forms in translucent" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/img/home/Background_Mobile.webp`} alt="Gray background with soft forms in translucent" loading="lazy"/>
                 </picture>
             </div>
         </div>

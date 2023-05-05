@@ -1,5 +1,6 @@
 import React from "react"
 import Screen from "../components/Screen"
+import Video from "../components/Video"
 
 const ProjectDevContent = ({data}) => {
     //recover url
@@ -22,6 +23,10 @@ const ProjectDevContent = ({data}) => {
             {dataContent && dataContent.contact && <Screen title={"CONTACT"} img={dataContent.contact} projectName={dataContent.nameProject} />}
             {/* MENU PAGE (OhMyFood) */}
             {dataContent && dataContent.menu && <Screen title={"MENU"} img={dataContent.menu} projectName={dataContent.nameProject} />}
+            {/* STREAMERS */}
+            {dataContent && dataContent.streamers && <Video video={dataContent.streamers}/>}
+            {/* SCHEDULE */}
+            {dataContent && dataContent.schedule && <Video video={dataContent.schedule}/>}
         </section>
     )
 }

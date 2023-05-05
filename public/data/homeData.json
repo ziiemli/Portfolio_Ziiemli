@@ -5,6 +5,8 @@
             "id": 1,
             "category": "Web Development & Design",
             "image": "/assets/img/home/Web_Development.jpg",
+            "imageMobile": "/assets/img/home/Web_Development_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Web_Development_Desktop.webp",
             "nav": "Web_Development_and_Design",
             "categoryBackground": "/assets/img/devDesign/WebDevDesign_TitleBackground.png",
             "categoryBackgroundDesktop": "/assets/img/devDesign/WebDevDesign_TitleBackground_Desktop.png",
@@ -15,6 +17,8 @@
             "id": 2,
             "category": "Digital Art",
             "image": "/assets/img/home/Digital_Art.jpg",
+            "imageMobile": "/assets/img/home/Digital_Art_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Digital_Art_Desktop.webp",
             "nav": "Digital_Art",
             "categoryBackground": "/assets/img/digitalArt/DigitalArt_TitleBackground.png",
             "categoryBackgroundDesktop": "/assets/img/digitalArt/DigitalArt_TitleBackground_Desktop.png",
@@ -24,6 +28,8 @@
             "id": 3,
             "category": "Traditional Art",
             "image": "/assets/img/home/Traditional_Art.jpg",
+            "imageMobile": "/assets/img/home/Traditional_Art_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Traditional_Art_Desktop.webp",
             "nav": "Traditional_Art",
             "categoryBackground": "/assets/img/traditionalArt/TraditionalArt_TitleBackground.png",
             "categoryBackgroundDesktop": "/assets/img/traditionalArt/TraditionalArt_TitleBackground_Desktop.png",
@@ -33,6 +39,8 @@
             "id": 4,
             "category": "Others",
             "image": "/assets/img/home/Others.jpg",
+            "imageMobile": "/assets/img/home/Others_Mobile.webp",
+            "imageDesktop": "/assets/img/home/Others_Desktop.webp",
             "nav": "Others",
             "categoryBackground": "/assets/img/others/Others_TitleBackground.png",
             "categoryBackgroundDesktop": "/assets/img/others/Others_TitleBackground_Desktop.png",
@@ -40,6 +48,20 @@
         }
     ],
     "dev": [
+        {
+            "id": "01_00",
+            "nameProject": "TeKiToa",
+            "imageDesktop": "/assets/img/devDesign/TeKiToa/TeKiToa_Desktop.jpg",
+            "imageMobile": "/assets/img/devDesign/TeKiToa/TeKiToa_Mobile.jpg",
+            "logo": "/assets/img/devDesign/TeKiToa/TeKiToa_Logo.svg",
+            "description": "TeKiToa is a show to discover new streamers created by MaucSama. The website of the show being already existing, the mission was to rework the accessibility of the website and the user experience. Creation of Figma models and prototypes.",
+            "link": "https://www.tekitoa.fr/home",
+            "date": "April, 2023",
+            "techs": "Figma",
+            "roles": "UI/UX Designer, Webdesigner",
+            "thumbnail": "/assets/img/devDesign/TeKiToa/TeKiToa_Thumbnail.jpg",
+            "thumbnailBackground": "/assets/img/devDesign/TeKiToa/TeKiToa_ThumbnailBackground.jpg"
+        },
         {
             "id": "01_01",
             "nameProject": "Kasa",
@@ -112,6 +134,13 @@
         }
     ],
     "devProject": [
+        {
+            "nameProject": "TeKiToa",
+            "home": "/assets/img/devDesign/TeKiToa/TeKiToa_Home.jpg",
+            "about": "/assets/img/devDesign/TeKiToa/TeKiToa_About.jpg",
+            "streamers": "/assets/img/devDesign/TeKiToa/TeKiToa_Streamers.webm",
+            "schedule": "/assets/img/devDesign/TeKiToa/TeKiToa_Schedule.webm"
+        },
         {
             "nameProject": "Kasa",
             "home": "/assets/img/devDesign/Kasa/Kasa_Home.jpg",

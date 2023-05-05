@@ -45,8 +45,8 @@ const About = () => {
                     <h2>Freelance</h2>
                     <h3>Artist, Visual Designer & Front Developer</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Hello everyone! I'm Zilin, aka Ziiemli. I'm an artist, visual designer and front-end developer. I'm passionate about visuals and the creation. Don't hesitate to contact me to
+                        talk about your project!
                     </p>
                     <div className="about__informations__socialMedia">
                         <a href="mailto:ziiemli@outlook.fr" target="_blank" rel="noreferrer">
