@@ -79,6 +79,22 @@
 
 //_____START RESPONSIVE_____//
 
+@media screen and (max-width: 340px){
+    .start {
+        &__background {
+            left: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 340px) and (max-width: 420px){
+    .start {
+        &__background {
+            left: 50%;
+        }
+    }
+}
+
 @media screen and (min-width: 996px) {
     .start {
         &__logo {
