@@ -7,7 +7,7 @@ import {Helmet} from "react-helmet"
 
 const About = () => {
     const ziiemliMobile = process.env.PUBLIC_URL + "/assets/img/about/About_Mobile.png"
-    const ziiemliDesktop = process.env.PUBLIC_URL + "/assets/img/about/About_Desktop.png"
+    const ziiemliDesktop = process.env.PUBLIC_URL + "/assets/img/about/About_Desktop.webp"
 
     const mail = process.env.PUBLIC_URL + "/assets/About_Mail.svg"
     const twitter = process.env.PUBLIC_URL + "/assets/Twitter.svg"
