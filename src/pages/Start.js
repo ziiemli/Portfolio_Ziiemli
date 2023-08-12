@@ -30,7 +30,7 @@ const Start = () => {
                 <div className="start__button__line"></div>
             </div>
             <div className="start__background">
-                <img className="start_photography_background" src={process.env.PUBLIC_URL + "assets/img/start/Photography_Background.png"} alt="Photography of Zilin Moulin, alias Ziiemli" />
+                <img className="start_photography_background" src={process.env.PUBLIC_URL + "assets/img/start/Photography_Background.webp"} alt="Photography of Zilin Moulin, alias Ziiemli" />
             </div>
             <div className="start__line"></div>
             <div className="start__line2"></div>
