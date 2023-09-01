@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import Fetch from "../components/Fetch"
 import Header from "../components/Header"
 import ProjectDevContent from "../components/ProjectDevContent"
@@ -6,10 +6,9 @@ import ProjectTop from "../components/ProjectTop"
 import RedirectTopPage from "../components/RedirectTopPage"
 import Footer from "../components/Footer"
 import ProjectsNext from "../components/ProjectsNext"
-import { Helmet } from "react-helmet"
+import {Helmet} from "react-helmet"
 
 const ProjectDevDesign = () => {
-
     //recover url
     const querystring = window.location.pathname.split("/Web_Development_and_Design/projects/").join("")
     //recover name
@@ -27,6 +26,11 @@ const ProjectDevDesign = () => {
     //data Projects Dev > ProjectDevContent
     const dataProjectContent = data && data.devProject
 
+    //reinitial position to the top page
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="project" id="topProject">
             <Helmet>
@@ -34,14 +38,14 @@ const ProjectDevDesign = () => {
                 <meta name="description" content={dataProject && "Web development and design, " + dataProject.nameProject + " project. Front-end Development"} />
                 <link rel="canonical" href={querystring && "/Web_Development_and_Design/projects/" + querystring} />
             </Helmet>
-            <Header fixed="positionFixed"/>
+            <Header fixed="positionFixed" />
             <main className="projectDevDesign">
-                <ProjectTop data={dataProject}  dataProjects={dataProjects}/>
-                <ProjectDevContent data={dataProjectContent}/>
+                <ProjectTop data={dataProject} dataProjects={dataProjects} />
+                <ProjectDevContent data={dataProjectContent} />
             </main>
             <RedirectTopPage anchor="topProject" />
             <Footer />
-            <ProjectsNext projects={"/Web_Development_and_Design"} data={dataProject} dataProjects={dataProjects} category="Web_Development_and_Design"/>
+            <ProjectsNext projects={"/Web_Development_and_Design"} data={dataProject} dataProjects={dataProjects} category="Web_Development_and_Design" />
         </div>
     )
 }

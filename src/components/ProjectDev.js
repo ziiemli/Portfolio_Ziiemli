@@ -7,6 +7,7 @@ const ProjectDev = ({data}) => {
     //url
     const url = `projects/${urlName}`
     const urlNameNoAccents = url.normalize("NFD").replace(/[\u0300-\u036f']/g, "")
+    
     return (
         <article className="projectDev" id={urlName.normalize("NFD").replace(/[\u0300-\u036f']/g, "")}>
             <Link to={urlNameNoAccents}>

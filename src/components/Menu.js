@@ -9,13 +9,17 @@ const Menu = () => {
     //no scroll when menu is open
     //select body tag
     const bodyContent = document.querySelector("body")
+    //select body tag
+    const htmlContent = document.querySelector("html")
     //if menu false > remove overflow = hidden to body tag
     if (!menu) {
         bodyContent && bodyContent.classList.remove("bodyOverflow")
+        htmlContent && htmlContent.classList.remove("bodyOverflow")
     }
     //if menu true > add overflow = hidden to body tag
     else {
         bodyContent && bodyContent.classList.add("bodyOverflow")
+        htmlContent && htmlContent.classList.add("bodyOverflow")
     }
 
     //diamond selected page active?
@@ -42,11 +46,19 @@ const Menu = () => {
                         </a>
                         <NavLink to="/home" className="menu__active__nav__page">
                             <p>Home</p>
-                            {querystring && querystring === "home" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />}
+                            {querystring && querystring === "home" ? (
+                                <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
+                            ) : (
+                                <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
+                            )}
                         </NavLink>
                         <NavLink to="/About" className="menu__active__nav__page">
                             <p>About</p>
-                            {querystring && querystring === "About" ? <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" /> : <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />}
+                            {querystring && querystring === "About" ? (
+                                <img className="menu__active__nav__diamond" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
+                            ) : (
+                                <img className="menu__active__nav__diamond diamondOpacity" src={process.env.PUBLIC_URL + "/assets/diamond.svg"} alt="diamond indicating selection" />
+                            )}
                         </NavLink>
                         <NavLink className="menu__active__nav__page" onClick={sendEmail}>
                             <p>Contact</p>
