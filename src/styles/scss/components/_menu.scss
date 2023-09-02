@@ -5,7 +5,6 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    // bottom: 0;
     left: 0;
     margin-top: -50px;
     background: rgba(39, 39, 39, 0.71);
@@ -16,7 +15,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 250px;
+        padding-top: 12rem;
         padding-bottom: 266px;
         a {
             position: relative;
@@ -30,13 +29,13 @@
             height: auto;
             align-self: center;
             position: absolute;
-            left: 35%;
+            left: 30%;
         }
         &__shop {
             width: 100vw;
             display: flex;
             justify-content: center;
-            margin-bottom: 128px;
+            margin-bottom: 7rem;
         }
         &__page {
             width: 100vw;
