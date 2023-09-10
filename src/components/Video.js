@@ -3,7 +3,7 @@ import React from "react"
 const Video = ({Webm, Mp4}) => {
     return (
         <div className="projectDevContent__screen">
-            <video controls autoplay loop muted playsinline>
+            <video controls autoPlay loop muted playsInline>
                 <source src={Webm} type="video/webm" />
                 <source src={Mp4} type="video/mp4" />
             </video>
