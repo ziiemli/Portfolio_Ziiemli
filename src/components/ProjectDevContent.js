@@ -24,9 +24,9 @@ const ProjectDevContent = ({data}) => {
             {/* MENU PAGE (OhMyFood) */}
             {dataContent && dataContent.menu && <Screen title={"MENU"} img={dataContent.menu} projectName={dataContent.nameProject} />}
             {/* STREAMERS */}
-            {dataContent && dataContent.streamers && <Video video={dataContent.streamers}/>}
+            {dataContent && dataContent.streamers && dataContent.streamers2 && <Video Webm={dataContent.streamers} Mp4={dataContent.streamers2}/>}
             {/* SCHEDULE */}
-            {dataContent && dataContent.schedule && <Video video={dataContent.schedule}/>}
+            {dataContent && dataContent.schedule && dataContent.schedule2 && <Video Webm={dataContent.schedule} Mp4={dataContent.schedule2}/>}
         </section>
     )
 }
