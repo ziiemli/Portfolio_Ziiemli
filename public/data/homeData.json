@@ -327,7 +327,7 @@
         },
         {
             "titleArtwork": "Oil Hand",
-            "description": "Oil painting, 50x50, hand thematic",
+            "description": "Oil painting, 50x50 cm, hand thematic",
             "date": "August, 2020",
             "img": "assets/img/traditionalArt/Oil_Hand.jpg",
             "alt": "Oil painting, by Ziiemli. Hand on the middle with white lines and around there are some eyes.",
@@ -343,7 +343,7 @@
         },
         {
             "titleArtwork": "Acrylic Hand",
-            "description": "Oil painting, 50x50, hand thematic",
+            "description": "Oil painting, 50x50 cm, hand thematic",
             "date": "April, 2020",
             "img": "assets/img/traditionalArt/Acrylic_Hand.jpg",
             "alt": "Acrylic painting with a hand on the middle.",
@@ -353,35 +353,27 @@
             "traditionalPaintings": [
                 {
                     "titleArtwork": "Nature",
-                    "description": "Oil painting, size?",
+                    "description": "Oil painting, 61x50 cm",
                     "date": "April, 2021",
-                    "img": "assets/img/traditionalArt/Nature.jpg",
+                    "img": "assets/img/traditionalArt/Nature.webp",
                     "alt": "Oil painting of landscape with threes and blue, yellow sky",
                     "className": "nature"
                 },
                 {
                     "titleArtwork": "Purple Sky",
-                    "description": "First oil painting",
+                    "description": "First oil painting, 46x38 cm",
                     "date": "July, 2020",
-                    "img": "assets/img/traditionalArt/Purple_Sky.jpg",
+                    "img": "assets/img/traditionalArt/Purple_Sky.webp",
                     "alt": "Oil painting with blue and purple sky.",
                     "className": "purpleSky"
                 },
                 {
                     "titleArtwork": "Water scene",
-                    "description": "Oil painting, water thematic",
+                    "description": "Oil painting, water thematic, 32x24 cm",
                     "date": "August, 2022",
-                    "img": "assets/img/traditionalArt/Water_Scene.jpg",
+                    "img": "assets/img/traditionalArt/Water_Scene.webp",
                     "alt": "Oil painting with some rocks.",
                     "className": "waterScene"
-                },
-                {
-                    "titleArtwork": "Mask",
-                    "description": "Acrylic painting",
-                    "date": "August, 2019",
-                    "img": "assets/img/traditionalArt/Mask.jpg",
-                    "alt": "Acrylic painting. Mask subject and red, purple main colors.",
-                    "className": "mask"
                 }
             ]
         },
@@ -404,44 +396,92 @@
         {
             "traditionalPyrography": [
                 {
-                    "titleArtwork": "Pyrography 01",
+                    "titleArtwork": "Pyrography",
                     "description": "First pyrography",
                     "date": "April, 2020",
-                    "img": "assets/img/traditionalArt/Pyrography_01.jpg",
+                    "img": "assets/img/traditionalArt/Pyrography_01.webp",
                     "alt": "Pyrography of a Chinese door",
                     "className": "pyrography01"
                 },
                 {
-                    "titleArtwork": "Pyrography 02",
+                    "titleArtwork": "Japanese Temple Pyrography",
                     "description": "pyrography on wood",
                     "date": "July, 2021",
-                    "img": "assets/img/traditionalArt/Pyrography_02.jpg",
+                    "img": "assets/img/traditionalArt/Pyrography_02.webp",
                     "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography02"
                 },
                 {
-                    "titleArtwork": "Pyrography 03",
+                    "titleArtwork": "Japanese Temple Pyrography",
+                    "description": "pyrography on wood and oil painting",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_02_1.webp",
+                    "alt": "Pyrography of a Japanese temple and oil painting",
+                    "className": "pyrography02"
+                },
+                {
+                    "titleArtwork": "Kanda Myojin Hall Pyrography",
                     "description": "pyrography on wood",
                     "date": "July, 2021",
-                    "img": "assets/img/traditionalArt/Pyrography_03.jpg",
+                    "img": "assets/img/traditionalArt/Pyrography_03.webp",
                     "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography03"
                 },
                 {
-                    "titleArtwork": "Pyrography 04",
+                    "titleArtwork": "Zojoji Temple Pyrography",
                     "description": "pyrography on wood",
                     "date": "July, 2021",
-                    "img": "assets/img/traditionalArt/Pyrography_04.jpg",
+                    "img": "assets/img/traditionalArt/Pyrography_04.webp",
                     "alt": "Pyrography of a Japanese temple",
                     "className": "pyrography04"
                 },
                 {
-                    "titleArtwork": "Pyrography 05",
+                    "titleArtwork": "Hands Pyrography",
                     "description": "pyrography on wood, hands thematic",
                     "date": "June, 2021",
-                    "img": "assets/img/traditionalArt/Pyrography_05.jpg",
+                    "img": "assets/img/traditionalArt/Pyrography_05.webp",
                     "alt": "Pyrography of two hands.",
                     "className": "pyrography05"
+                },
+                {
+                    "titleArtwork": "Japanese Temple Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "July, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_06.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography06"
+                },
+                {
+                    "titleArtwork": "Kumano Shrine Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "November, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_07.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography07"
+                },
+                {
+                    "titleArtwork": "Daikokutendo Shrine Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "November, 2021",
+                    "img": "assets/img/traditionalArt/Pyrography_08.webp",
+                    "alt": "Pyrography of a Japanese temple",
+                    "className": "pyrography08"
+                },
+                {
+                    "titleArtwork": "Chibi",
+                    "description": "pyrography on wood",
+                    "date": "March, 2023",
+                    "img": "assets/img/traditionalArt/Pyrography_09.webp",
+                    "alt": "Pyrography of a cute chibi",
+                    "className": "pyrography09"
+                },
+                {
+                    "titleArtwork": "Temple of Heaven Pyrography",
+                    "description": "pyrography on wood",
+                    "date": "March, 2023",
+                    "img": "assets/img/traditionalArt/Pyrography_10.webp",
+                    "alt": "Temple of Heaven pyrography",
+                    "className": "pyrography10"
                 }
             ]
         }

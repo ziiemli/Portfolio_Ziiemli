@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect} from "react"
 import Fetch from "../components/Fetch"
 import Header from "../components/Header"
 import RedirectTopPage from "../components/RedirectTopPage"
@@ -25,6 +25,11 @@ const ProjectOtherPage = () => {
     const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
     //data Projects Dev > ProjectDevContent
     const dataProjectContent = data && data.othersProjects
+
+    //reinitial position to the top page
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className="project" id="topProject">
