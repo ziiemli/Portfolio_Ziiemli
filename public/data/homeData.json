@@ -488,6 +488,17 @@
     ],
     "others": [
         {
+            "id": "02_00",
+            "nameProject": "AlienZone",
+            "imageDesktop": "/assets/img/others/AlienZone/AlienZone_Desktop.jpg",
+            "imageMobile": "/assets/img/others/AlienZone/AlienZone_Mobile.jpg",
+            "description": "AlienZone is a customer project. I realized a large map illustration for their website.",
+            "date": "November, 2023",
+            "techs": "Photoshop, Maya",
+            "roles": "Concept Artist, Illutrator",
+            "backgroundDesktop": "/assets/img/others/AlienZone/AlienZone_BackgroundDesktop.jpg"
+        },
+        {
             "id": "02_01",
             "nameProject": "Le Recueil de l'étrange",
             "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.jpg",
@@ -545,6 +556,103 @@
         }
     ],
     "othersProjects": [
+        {
+            "nameProject": "AlienZone",
+            "DayNight": [
+                {
+                    "daylight": "assets/img/others/AlienZone/AlienZone_Map_Daylight.jpg",
+                    "night": "assets/img/others/AlienZone/AlienZone_Map_Night.jpg"
+                }
+            ],
+            "conceptArt":[
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Octopus_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v2.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino2_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Stadium_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Yacht_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v3.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v2.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v1.jpg",
+                    "description": "Concept Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v2.jpg",
+                    "description": "Concept Art building AlienZone"
+                }
+            ],
+            "LineBuilding":[
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/HallofFame.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Octopus.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/PurpleGuy.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Dojo.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino1.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino2.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Stadium.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Statues.jpg",
+                    "description": "Line Art building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Yacht.jpg",
+                    "description": "Line Art building AlienZone"
+                }
+            ]
+        },
         {
             "nameProject": "Le Recueil de l'étrange",
             "visualsOfGame": [
