@@ -1,5 +1,7 @@
 import React from "react"
 import ScreenOtherProject from "./ScreenOtherProject"
+import Carousel2 from "./Carousel2"
+import Carousel from "./Carousel"
 
 const ProjectOtherContent = ({data}) => {
     //recover url
@@ -8,15 +10,16 @@ const ProjectOtherContent = ({data}) => {
     const name = querystring.split("_").join(" ")
     //find good data of project
     const dataContent = data && data.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
-    
+
     const LeRecueilDeLetrange = querystring === "Le_Recueil_de_letrange"
     const LeTresorDeKhnoumkhoufou = querystring === "Le_tresor_de_Khnoumkhoufou"
     const Sirius = querystring === "Sirius"
     const Bleu = querystring === "Bleu"
     const Lyon = querystring === "Lyon"
+    const AlienZone = querystring === "AlienZone"
 
     const visualsOfGame = dataContent && dataContent.visualsOfGame
-    console.log(visualsOfGame)
+
     const conceptArt = dataContent && dataContent.conceptArt
     const uiUx = dataContent && dataContent.uiUx
 
@@ -28,6 +31,10 @@ const ProjectOtherContent = ({data}) => {
     const adventurerCards = dataContent && dataContent.adventurerCards
 
     const bleuExperiments = dataContent && dataContent.experiments
+
+    const dayNight = dataContent && dataContent.dayNight
+    const D = dataContent && dataContent.D
+    // const LineBuilding = dataContent && dataContent.lineBuilding
 
     return (
         <section className="screensOtherContent">
@@ -54,12 +61,17 @@ const ProjectOtherContent = ({data}) => {
                     <ScreenOtherProject title="CONCEPT ART" screens={conceptArt} id="sirius" />
                 </div>
             )}
-            {Lyon && (
-                <h3 className="contentAvailable">Content will be available soon</h3>
-            )}
+            {Lyon && <h3 className="contentAvailable">Content will be available soon</h3>}
             {Bleu && (
                 <div>
                     <ScreenOtherProject title="BLUE EXPERIMENTS" screens={bleuExperiments} id="bleuExperiments" />
+                </div>
+            )}
+            {AlienZone && (
+                <div>
+                    <ScreenOtherProject title="DAYLIGHT AND NIGHT" screens={dayNight} id="dayNight" />
+                    <Carousel2 title="CONCEPT ART" screens={conceptArt}/>
+                    <ScreenOtherProject title="3D" screens={D} id="3D" />
                 </div>
             )}
         </section>

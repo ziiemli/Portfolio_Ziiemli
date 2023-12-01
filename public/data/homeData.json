@@ -558,13 +558,17 @@
     "othersProjects": [
         {
             "nameProject": "AlienZone",
-            "DayNight": [
+            "dayNight": [
                 {
-                    "daylight": "assets/img/others/AlienZone/AlienZone_Map_Daylight.jpg",
-                    "night": "assets/img/others/AlienZone/AlienZone_Map_Night.jpg"
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.jpg",
+                    "description": "Daylight Map illustration AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Night.jpg",
+                    "description": "Night Map illustration AlienZone"
                 }
             ],
-            "conceptArt":[
+            "conceptArt": [
                 {
                     "screen": "/assets/img/others/AlienZone/ConceptArt/Octopus_v1.jpg",
                     "description": "Concept Art building AlienZone"
@@ -614,7 +618,41 @@
                     "description": "Concept Art building AlienZone"
                 }
             ],
-            "LineBuilding":[
+            "D": [
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Dojo.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Stadium.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_PurpleGuy.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Octopus.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Yacht.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_HallofFame.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino1.jpg",
+                    "description": "3D building AlienZone"
+                },
+                {
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino2.jpg",
+                    "description": "3D building AlienZone"
+                }
+            ],
+            "LineBuilding": [
                 {
                     "screen": "/assets/img/others/AlienZone/LineBuilding/HallofFame.jpg",
                     "description": "Line Art building AlienZone"
