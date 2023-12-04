@@ -1,8 +1,9 @@
-import React from "react"
+import React, {useEffect} from "react"
 import {NavLink} from "react-router-dom"
 import Header from "../components/Header"
 import Fetch from "../components/Fetch"
 import {Helmet} from "react-helmet-async"
+import gsap from "gsap"
 
 const Home = () => {
     //data Home Page
@@ -10,6 +11,28 @@ const Home = () => {
     if (error) console.log(error)
 
     const categories = data.home
+
+    // Animation individuelle en fonction de l'ID
+    useEffect(() => {
+        if (categories) {
+            categories.forEach((category, index) => {
+                gsap.fromTo(
+                    `.article-${category.id}`,
+                    {
+                        opacity: 0,
+                        y: 5000,
+                    },
+                    {
+                        opacity: 1, // Assurez-vous que opacity est réglé sur 1 dans la configuration finale
+                        y: 0,
+                        ease: "power3.out",
+                        duration: 1,
+                        delay: 0.2 * index,
+                    }
+                )
+            })
+        }
+    }, [categories])
 
     return (
         <div>
@@ -24,12 +47,12 @@ const Home = () => {
                 {categories &&
                     categories.map((category) => (
                         <NavLink to={"/" + category.nav} className="nav" key={category.id}>
-                            <article className="homeCategories__article">
+                            <article className={`homeCategories__article article-${category.id}`}>
                                 <h2 className="homeCategories__article__title">{category.category}</h2>
                                 <div className="homeCategories__article__gradient"></div>
                                 <picture>
                                     <source media="(min-width: 996px)" srcSet={category.imageDesktop} />
-                                    <img src={category.imageMobile} alt={"image to illustrate the " + category.category + " category"} loading="lazy"/>
+                                    <img src={category.imageMobile} alt={"image to illustrate the " + category.category + " category"} loading="lazy" />
                                 </picture>
                             </article>
                         </NavLink>
@@ -45,7 +68,7 @@ const Home = () => {
                 </div>
                 <picture>
                     <source media="(min-width: 996px)" srcSet={`${process.env.PUBLIC_URL}/assets/img/home/Background_Desktop.png`} />
-                    <img src={`${process.env.PUBLIC_URL}/assets/img/home/Background_Mobile.webp`} alt="Gray background with soft forms in translucent" loading="lazy"/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/img/home/Background_Mobile.webp`} alt="Gray background with soft forms in translucent" loading="lazy" />
                 </picture>
             </div>
         </div>
