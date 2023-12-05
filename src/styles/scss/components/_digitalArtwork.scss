@@ -21,6 +21,12 @@
             padding-top: 40%;
             padding-bottom: 5%;
         }
+        &__project {
+            margin-top: 10%;
+            margin-bottom: 20%;
+            padding: 8% 0 8% 25%;
+            border: 2px solid;
+        }
     }
     &:hover .digitalArtwork__description {
         opacity: 1;
@@ -35,7 +41,7 @@
 //_____RESPONSIVE DIGITAL ARTWORK_____//
 
 @media screen and (min-width: 996px) {
-    .digitalArtwork{
+    .digitalArtwork {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -44,23 +50,27 @@
         padding-left: 20%;
         padding-right: 20%;
         padding-bottom: 20%;
-        img{
+        img {
             width: 100%;
         }
         &__title__desktop {
             align-self: flex-end;
             padding-top: 2vh;
         }
+        &__description__project {
+            margin-top: 10%;
+            padding: 8% 0 8% 35%;
+        }
     }
-    .carousel{
+    .carousel {
         padding-left: 10%;
         padding-right: 10%;
     }
-    #stairsAtNight{
+    #stairsAtNight {
         grid-column-start: 1;
         grid-row-start: 1;
     }
-    #purpleLandscape{
+    #purpleLandscape {
         grid-column-start: 2;
         grid-row-start: 1;
     }
@@ -69,7 +79,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
     }
-    #sfTower{
+    #sfTower {
         grid-column-start: 1;
     }
     #digitalPortraits {
@@ -77,30 +87,38 @@
         padding-left: 50%;
         padding-right: 50%;
     }
+    #alienMap {
+        width: 200%;
+        justify-self: auto;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 10%;
+        padding-bottom: 90%;
+    }
     //traditionalArtworks
-    #acrylicHand{
+    #acrylicHand {
         width: 180%;
         grid-column: 2;
         margin-right: 100%;
     }
-    #traditionalPaintings{
+    #traditionalPaintings {
         width: 200%;
         grid-column: 2;
         margin-left: -100%;
     }
-    #traditionalPyrography{
+    #traditionalPyrography {
         width: 200%;
     }
 }
 
 @media screen and (max-width: 996px) {
-    .digitalArtwork__title__desktop{
+    .digitalArtwork__title__desktop {
         display: none;
     }
 }
 
 @media screen and (min-width: 996px) {
-    .digitalArtwork__description{
+    .digitalArtwork__description {
         width: 50%;
         left: 25%;
         top: 15%;

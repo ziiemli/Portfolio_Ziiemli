@@ -306,6 +306,12 @@
                     "className": "modelVtuber"
                 }
             ]
+        },
+        {
+            "titleArtwork": "AlienZone Map",
+            "img": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.jpg",    
+            "alt": "Map Illustration created for AlienZone.",
+            "className": "alienMap"
         }
     ],
     "traditional": [

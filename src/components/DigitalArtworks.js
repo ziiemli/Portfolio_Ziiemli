@@ -1,6 +1,7 @@
 import React from "react"
 import Carousel from "./Carousel"
 import DigitalArtwork from "./DigitalArtwork"
+import ArtworkProject from "./ArtworkProject"
 
 const DigitalArtworks = ({data}) => {
     const stairsAtNight = data[0]
@@ -13,6 +14,7 @@ const DigitalArtworks = ({data}) => {
     const fragmentOfTime = data[7]
     const handsOfDarkness = data[8]
     const digitalPortraits = data[9].digitalPortraits
+    const alienMap = data[10]
 
     return (
         <section className="digitalArtworks">
@@ -32,6 +34,8 @@ const DigitalArtworks = ({data}) => {
             <DigitalArtwork data={handsOfDarkness} />
 
             <Carousel data={digitalPortraits} id="digitalPortraits" classDescription="descriptionPortraits" />
+
+            <ArtworkProject data={alienMap} nameProject="AlienZone"/>
         </section>
     )
 }
