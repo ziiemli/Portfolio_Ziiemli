@@ -5,6 +5,7 @@
     position: absolute;
     top: 134px;
     bottom: 0;
+    overflow-y: hidden;
     z-index: 10;
     &__article {
         width: 100%;

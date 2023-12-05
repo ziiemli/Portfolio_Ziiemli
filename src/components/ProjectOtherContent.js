@@ -1,7 +1,7 @@
 import React from "react"
 import ScreenOtherProject from "./ScreenOtherProject"
 import Carousel2 from "./Carousel2"
-import Carousel from "./Carousel"
+// import Carousel from "./Carousel"
 
 const ProjectOtherContent = ({data}) => {
     //recover url

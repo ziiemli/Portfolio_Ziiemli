@@ -12,27 +12,21 @@ const Home = () => {
 
     const categories = data.home
 
-    // Animation individuelle en fonction de l'ID
+    //Animation for Navlinks
     useEffect(() => {
         if (categories) {
             categories.forEach((category, index) => {
                 gsap.fromTo(
                     `.article-${category.id}`,
                     {
-                        opacity: 0,
-                        y: 5000,
+                        y: 750,
+                        opacity: 1,
                     },
-                    {
-                        opacity: 1, // Assurez-vous que opacity est réglé sur 1 dans la configuration finale
-                        y: 0,
-                        ease: "power3.out",
-                        duration: 1,
-                        delay: 0.2 * index,
-                    }
+                    {y: 0, ease: "power3.out", duration: 1, delay: 0.2 * index}
                 )
             })
         }
-    }, [categories])
+    }, [categories]) //categories to wait data
 
     return (
         <div>
@@ -46,8 +40,8 @@ const Home = () => {
                 {/* display Categories */}
                 {categories &&
                     categories.map((category) => (
-                        <NavLink to={"/" + category.nav} className="nav" key={category.id}>
-                            <article className={`homeCategories__article article-${category.id}`}>
+                        <NavLink to={"/" + category.nav} className={`nav article-${category.id}`} key={category.id}>
+                            <article className={`homeCategories__article`}>
                                 <h2 className="homeCategories__article__title">{category.category}</h2>
                                 <div className="homeCategories__article__gradient"></div>
                                 <picture>
