@@ -1,7 +1,8 @@
 import React from "react"
 import ScreenOtherProject from "./ScreenOtherProject"
 import Carousel2 from "./Carousel2"
-// import Carousel from "./Carousel"
+import AlienZone3D from "./AlienZone3D"
+import Carouselbis from "./Carouselbis"
 
 const ProjectOtherContent = ({data}) => {
     //recover url
@@ -34,7 +35,7 @@ const ProjectOtherContent = ({data}) => {
 
     const dayNight = dataContent && dataContent.dayNight
     const D = dataContent && dataContent.D
-    // const LineBuilding = dataContent && dataContent.lineBuilding
+    const LineBuilding = dataContent && dataContent.LineBuilding
 
     return (
         <section className="screensOtherContent">
@@ -71,7 +72,8 @@ const ProjectOtherContent = ({data}) => {
                 <div>
                     <ScreenOtherProject title="DAYLIGHT AND NIGHT" screens={dayNight} id="dayNight" />
                     <Carousel2 title="CONCEPT ART" screens={conceptArt}/>
-                    <ScreenOtherProject title="3D" screens={D} id="3D" />
+                    <AlienZone3D title="3D" screens={D} id="3D" />
+                    <Carouselbis title="LINE" data={LineBuilding}/>
                 </div>
             )}
         </section>
