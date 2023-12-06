@@ -1,8 +1,112 @@
-import React from "react"
-import { Helmet } from "react-helmet"
+import React, {useEffect} from "react"
+import {Helmet} from "react-helmet"
 import {Link} from "react-router-dom"
+import gsap from "gsap"
 
 const Start = () => {
+    useEffect(() => {
+        //background
+        gsap.fromTo(
+            ".start__background",
+            {
+                opacity: 0,
+                duration: 10,
+                ease: "power2.out",
+            },
+            {
+                opacity: 1,
+            }
+        )
+        //line
+        gsap.fromTo(
+            ".start__line",
+            {
+                opacity: 0,
+                y: -1300,
+                duration: 1.5,
+                ease: "power2.out",
+            },
+            {
+                opacity: 0.2,
+                y: 0,
+            }
+        )
+        //line2
+        gsap.fromTo(
+            ".start__line2",
+            {
+                opacity: 0,
+                y: -1300,
+                duration: 1.5,
+                ease: "power2.out",
+            },
+            {
+                opacity: 0.2,
+                y: 0,
+                delay:0.2
+            }
+        )
+
+        //ZIIEMLI
+        gsap.fromTo(
+            ".start__content__h1",
+            {
+                opacity: 0,
+                x: 50,
+                duration: 1,
+                ease: "power2.out",
+            },
+            {
+                opacity: 1,
+                x:0
+            }
+        )
+        //Zilin M.
+        gsap.fromTo(
+            ".start__content__h2",
+            {
+                opacity: 0,
+                x: 50,
+                duration: 1,
+                ease: "power2.out",
+            },
+            {
+                opacity: 1,
+                x:0
+            }
+        )
+        //job
+        gsap.fromTo(
+            ".start__content__ul",
+            {
+                opacity: 0,
+                x: 50,
+                duration: 1,
+                ease: "power2.out",
+            },
+            {
+                opacity: 1,
+                x:0,
+                delay:0.2
+            }
+        )
+        //start
+        gsap.fromTo(
+            ".start__button",
+            {
+                opacity: 0,
+                scale:2,
+                duration: 1,
+                ease: "power2.out",
+            },
+            {
+                opacity: 1,
+                scale:1,
+                delay:0.8
+            }
+        )
+    }, [])
+
     return (
         <main className="start">
             <Helmet>
@@ -16,7 +120,7 @@ const Start = () => {
             <div className="start__content">
                 <h1 className="start__content__h1">ZIIEMLI</h1>
                 <h2 className="start__content__h2">Zilin Moulin</h2>
-                <ul>
+                <ul className="start__content__ul">
                     <li>Artist</li>
                     <li>Visual Designer</li>
                     <li>Front-end Developer</li>
