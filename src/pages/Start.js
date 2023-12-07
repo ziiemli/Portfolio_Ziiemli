@@ -11,7 +11,7 @@ const Start = () => {
             {
                 opacity: 0,
                 duration: 10,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 1,
@@ -24,7 +24,7 @@ const Start = () => {
                 opacity: 0,
                 y: -1300,
                 duration: 1.5,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 0.2,
@@ -38,7 +38,7 @@ const Start = () => {
                 opacity: 0,
                 y: -1300,
                 duration: 1.5,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 0.2,
@@ -54,7 +54,7 @@ const Start = () => {
                 opacity: 0,
                 x: 50,
                 duration: 1,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 1,
@@ -68,7 +68,7 @@ const Start = () => {
                 opacity: 0,
                 x: 50,
                 duration: 1,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 1,
@@ -82,7 +82,7 @@ const Start = () => {
                 opacity: 0,
                 x: 50,
                 duration: 1,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 1,
@@ -97,7 +97,7 @@ const Start = () => {
                 opacity: 0,
                 scale:2,
                 duration: 1,
-                ease: "power2.out",
+                ease: "power3.out",
             },
             {
                 opacity: 1,

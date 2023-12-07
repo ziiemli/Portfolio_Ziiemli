@@ -36,6 +36,7 @@ const ProjectOtherContent = ({data}) => {
     const dayNight = dataContent && dataContent.dayNight
     const D = dataContent && dataContent.D
     const LineBuilding = dataContent && dataContent.LineBuilding
+    const evolution = dataContent && dataContent.evolution
 
     return (
         <section className="screensOtherContent">
@@ -74,6 +75,7 @@ const ProjectOtherContent = ({data}) => {
                     <Carousel2 title="CONCEPT ART" screens={conceptArt}/>
                     <AlienZone3D title="3D" screens={D} id="3D" />
                     <Carouselbis title="LINE" data={LineBuilding}/>
+                    <ScreenOtherProject title="EVOLUTION" screens={evolution} id="evolution"/>
                 </div>
             )}
         </section>

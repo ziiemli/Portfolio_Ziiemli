@@ -24,6 +24,7 @@ const Home = () => {
                     },
                     {y: 0, ease: "power3.out", duration: 1, delay: 0.2 * index}
                 )
+                console.log(`Animation triggered for .article-${category.id}`);
             })
         }
     }, [categories]) //categories to wait data

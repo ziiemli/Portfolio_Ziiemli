@@ -9,7 +9,7 @@ const CategoriesTitle = ({image, imageDesktop, title, paragraphe}) => {
         //group of informations
         gsap.fromTo(".categoriesTitle", {
           opacity: 0,
-          ease: "power2.out",
+          ease: "power3.out",
         }, {
             opacity:1
         });
@@ -19,7 +19,7 @@ const CategoriesTitle = ({image, imageDesktop, title, paragraphe}) => {
           opacity: 0,
           x: -50,
           duration: 1,
-          ease: "power2.out",
+          ease: "power3.out",
         },{
             opacity:1,
             x: 0
@@ -30,7 +30,7 @@ const CategoriesTitle = ({image, imageDesktop, title, paragraphe}) => {
             opacity: 0,
             x: -50,
             duration: 1,
-            ease: "power2.out",
+            ease: "power3.out",
         },{
             opacity:1,
             x: 0,
@@ -42,7 +42,7 @@ const CategoriesTitle = ({image, imageDesktop, title, paragraphe}) => {
             opacity: 0,
             y: -600,
             duration: 1,
-            ease: "power2.out",
+            ease: "power3.out",
         },{
             opacity:1,
             y: 0,
