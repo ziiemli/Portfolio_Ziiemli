@@ -4,15 +4,18 @@
     width: 100%;
 }
 
-.alice-carousel__stage-item {
-    //    margin-right: 5%;
-    padding-right: 5%;
-}
-
 h3 {
     padding-bottom: 25px;
 }
 
 .Carousel2 {
     padding-bottom: 30%;
+}
+
+//______RESPONSIVE CAROUSEL2_____//
+
+@media screen and (min-width: 996px){
+    .alice-carousel__stage-item {
+        padding-right: 5%;
+    }
 }

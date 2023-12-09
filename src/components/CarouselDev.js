@@ -1,4 +1,5 @@
-import React from "react"
+import React, {useEffect} from "react"
+import gsap from "gsap"
 
 const CarouselDev = ({dataProjects, data}) => {
     // const pictures = dataProjects
@@ -72,6 +73,48 @@ const CarouselDev = ({dataProjects, data}) => {
     const arrowBack = process.env.PUBLIC_URL + "/assets/ArrowBack.svg"
     const projectNumber = indexActualProject && indexActualProject === 0 ? 1 : indexActualProject + 1
     const currentProjectIndicate = dataProjects && projectNumber && ` 0${projectNumber} / 0${dataProjects.length} `
+
+    //gsap
+    useEffect(() => {
+        //title
+        gsap.fromTo(
+            ".carouselDev__title",
+            {
+                opacity: 0,
+                x: -50,
+                ease: "power3.out",
+            },
+            {
+                opacity: 1,
+                x: 0,
+                duration: 1,
+            }
+        )
+        //carousel
+        gsap.fromTo(
+            ".carouselDev__slide",
+            {
+                opacity: 0,
+                ease: "power3.out",
+            },
+            {
+                opacity: 1,
+                duration: 1.2,
+            }
+        )
+        //back next
+        gsap.fromTo(
+            ".carouselDev__back",
+            {
+                opacity: 0,
+                ease: "power3.out",
+            },
+            {
+                opacity: 1,
+            }
+        )
+        
+    })
 
     return (
         <section className="carouselDev">
