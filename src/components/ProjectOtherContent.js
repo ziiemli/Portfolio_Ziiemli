@@ -63,7 +63,11 @@ const ProjectOtherContent = ({data}) => {
                     <ScreenOtherProject title="CONCEPT ART" screens={conceptArt} id="sirius" />
                 </div>
             )}
-            {Lyon && <h3 className="contentAvailable">Content will be available soon</h3>}
+            {Lyon && (
+                <div>
+                    
+                </div>
+            )}
             {Bleu && (
                 <div>
                     <ScreenOtherProject title="BLUE EXPERIMENTS" screens={bleuExperiments} id="bleuExperiments" />

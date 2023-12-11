@@ -539,15 +539,14 @@
         },
         {
             "id": "02_03",
-            "nameProject": "Lyon",
-            "imageDesktop": "/assets/img/others/Lyon/Lyon_Desktop.jpg",
-            "imageMobile": "/assets/img/others/Lyon/Lyon_Mobile.jpg",
+            "nameProject": "Photography",
+            "imageDesktop": "/assets/img/others/Photography/Lyon_Desktop.jpg",
+            "imageMobile": "/assets/img/others/Photography/Lyon_Mobile.jpg",
             "description": "Somes pictures takes in Lyon.",
-            "link": "https://github.com/ziiemli/La_Panthere",
             "date": "October, 2022",
             "techs": "Sony A6400",
             "roles": "Photographer",
-            "backgroundDesktop": "/assets/img/others/Lyon/Lyon_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/Photography/Lyon_BackgroundDesktop.jpg"
         },
         {
             "id": "02_04",

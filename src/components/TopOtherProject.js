@@ -1,4 +1,5 @@
 import React, {useEffect} from "react"
+import { Link } from "react-router-dom"
 import gsap from "gsap"
 
 const TopOtherProject = ({data, dataProjects}) => {
@@ -93,7 +94,7 @@ const TopOtherProject = ({data, dataProjects}) => {
                 opacity: 1,
                 x: 0,
                 duration: 1,
-                delay: 0.2
+                delay: 0.2,
             }
         )
         //date techs roles
@@ -108,7 +109,7 @@ const TopOtherProject = ({data, dataProjects}) => {
                 opacity: 1,
                 x: 0,
                 duration: 1,
-                delay: 0.4
+                delay: 0.4,
             }
         )
         //back next project
@@ -121,7 +122,7 @@ const TopOtherProject = ({data, dataProjects}) => {
             {
                 opacity: 1,
                 duration: 1,
-                delay: 0.4
+                delay: 0.4,
             }
         )
         //line
@@ -135,7 +136,7 @@ const TopOtherProject = ({data, dataProjects}) => {
             {
                 opacity: 1,
                 x: 0,
-                duration: 1.2
+                duration: 1.2,
             }
         )
     })
@@ -167,14 +168,14 @@ const TopOtherProject = ({data, dataProjects}) => {
                 </div>
                 {/* projects next */}
                 <div className="projectNextOther">
-                    <a href="/Others">
+                    <Link to={"/Others"}>
                         <img src={arrowBack && arrowBack} alt="arrow to the left" />
                         <p>Projects</p>
-                    </a>
-                    <a href={nextProject} onClick={nextProject}>
+                    </Link>
+                    <Link to={nextProject} onClick={nextProject}>
                         <p>Next</p>
                         <img src={arrowRight} alt="arrow to the right" />
-                    </a>
+                    </Link>
                 </div>
             </div>
             {/* separation */}

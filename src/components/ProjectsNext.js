@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 const ProjectsNext = ({data, dataProjects, category, projects}) => {
     //name of Actual Project
@@ -37,8 +38,8 @@ const ProjectsNext = ({data, dataProjects, category, projects}) => {
 
     return (
         <section className="projectsNext">
-            <a href={projects}>PROJECTS</a>
-            <a href={nextProject} onClick={nextProject}>NEXT</a>
+            <Link to={projects}>PROJECTS</Link>
+            <Link to={nextProject}>NEXT</Link>
         </section>
     )
 }
