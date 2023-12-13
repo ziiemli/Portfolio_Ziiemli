@@ -3,6 +3,7 @@ import ScreenOtherProject from "./ScreenOtherProject"
 import Carousel2 from "./Carousel2"
 import AlienZone3D from "./AlienZone3D"
 import Carouselbis from "./Carouselbis"
+import GalleryPhotos from "./GalleryPhotos"
 
 const ProjectOtherContent = ({data}) => {
     //recover url
@@ -16,7 +17,7 @@ const ProjectOtherContent = ({data}) => {
     const LeTresorDeKhnoumkhoufou = querystring === "Le_tresor_de_Khnoumkhoufou"
     const Sirius = querystring === "Sirius"
     const Bleu = querystring === "Bleu"
-    const Lyon = querystring === "Lyon"
+    const Photography = querystring === "Photography"
     const AlienZone = querystring === "AlienZone"
 
     const visualsOfGame = dataContent && dataContent.visualsOfGame
@@ -30,6 +31,8 @@ const ProjectOtherContent = ({data}) => {
     const adventurerCharacters = dataContent && dataContent.adventurerCharacters
     const momieCards = dataContent && dataContent.momieCards
     const adventurerCards = dataContent && dataContent.adventurerCards
+
+    const photos = dataContent && dataContent.photos
 
     const bleuExperiments = dataContent && dataContent.experiments
 
@@ -63,9 +66,9 @@ const ProjectOtherContent = ({data}) => {
                     <ScreenOtherProject title="CONCEPT ART" screens={conceptArt} id="sirius" />
                 </div>
             )}
-            {Lyon && (
+            {Photography && (
                 <div>
-                    
+                    <GalleryPhotos photos={photos} />
                 </div>
             )}
             {Bleu && (

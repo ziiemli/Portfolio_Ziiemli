@@ -22,7 +22,6 @@ const TopOtherProject = ({data, dataProjects}) => {
         if (dataProjects.length > numberOfArray) {
             //find name of next Project
             const nextName = indexNextArray && indexNextArray.nameProject
-            console.log(nextName)
             //delete space of nameProject
             const urlName = nextName.split(" ").join("_")
             //delete accents

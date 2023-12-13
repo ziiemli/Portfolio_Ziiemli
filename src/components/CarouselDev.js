@@ -43,7 +43,6 @@ const CarouselDev = ({dataProjects, data}) => {
     const prevProject = () => {
         //next Index of Array
         const indexPrevArray = dataProjects[indexActualProject - 1]
-        console.log(indexPrevArray)
         // find the number of actual array
         const numberOfArray = indexPrevArray && dataProjects.indexOf(indexPrevArray)
         //if length of table data > actual number of array = next page

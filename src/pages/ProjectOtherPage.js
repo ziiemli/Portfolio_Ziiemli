@@ -13,7 +13,6 @@ const ProjectOtherPage = () => {
     const querystring = window.location.pathname.split("/Others/projects/").join("")
     //recover name
     const name = querystring.split("_").join(" ")
-    console.log(name)
 
     //data
     const {data, error} = Fetch()
@@ -23,7 +22,7 @@ const ProjectOtherPage = () => {
     const dataProjects = data && data.others
     //find data of good project > Project Top
     const dataProject = dataProjects && dataProjects.find((el) => el.nameProject.normalize("NFD").replace(/[\u0300-\u036f']/g, "") === name)
-    //data Projects Dev > ProjectDevContent
+    //data Projects > ProjectDevContent
     const dataProjectContent = data && data.othersProjects
 
     //reinitial position to the top page

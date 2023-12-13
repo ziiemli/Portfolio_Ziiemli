@@ -881,6 +881,43 @@
                     "description": "Black and blue balls."
                 }
             ]
+        },
+        {
+            "nameProject": "Photography",
+            "photos": [
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/01_Lyon_08_2021.jpg",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/02_Lyon_08_2021.jpg",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "serie":"Summer Time in Lyon",
+                    "src": "/assets/img/others/Photography/photos/03_Lyon_08_2021.jpg",
+                    "date": "August, 2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "src": "/assets/img/others/Photography/photos/01_Lyon_08_2021.jpg"
+                },
+                {
+                    "src": "/assets/img/others/Photography/photos/02_Lyon_08_2021.jpg",
+                    "date": "08.2021",
+                    "description": "During the summer in Lyon"
+                },
+                {
+                    "src": "/assets/img/others/Photography/photos/03_Lyon_08_2021.jpg",
+                    "date": "08.2021",
+                    "description": "During the summer in Lyon"
+                }
+            ]
         }
     ],
     "about": [

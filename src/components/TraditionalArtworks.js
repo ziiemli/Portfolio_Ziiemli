@@ -9,7 +9,6 @@ const TraditionalArtworks = ({data}) => {
     const spirit = data[3]
     const acrylicHand = data[4]
     const traditionalPaintings = data[5].traditionalPaintings
-    console.log(traditionalPaintings);
     const teddy = data[6]
     const toas = data[7]
     const traditionalPyrography = data[8].traditionalPyrography

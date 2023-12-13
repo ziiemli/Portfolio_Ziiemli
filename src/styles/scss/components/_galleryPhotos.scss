@@ -1,0 +1,36 @@
+//_____GALLERY PHOTOS_____//
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 5%;
+    &__img {
+        height: 300px;
+        flex-grow: 1;
+        position: relative;
+        margin: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        &__infos {
+            position: absolute;
+            left: 1023%;
+            top: 30%;
+            opacity: 0;
+            h3 {
+                padding-bottom: 10%;
+            }
+            &__date{
+                padding-top: 40%;
+                strong {
+                    padding-bottom: 5%;
+                }
+            }
+        }
+        &:hover .gallery__img__infos {
+            opacity: 1;
+        }
+    }
+}
