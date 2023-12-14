@@ -12,7 +12,7 @@ const Menu = () => {
             setTimeout(() => {
                 setMenu(!menu)
             }, 500)
-            //gsap
+            //gsap menu disapear
             gsap.fromTo(".menu__active", {opacity: 1}, {opacity: 0})
         } else {
             setMenu(!menu)
@@ -20,6 +20,7 @@ const Menu = () => {
             gsap.fromTo(".menu__active", {opacity: 0}, {opacity: 1})
         }
     }
+    //menu apparition
     useEffect(() => {
         if (menu) {
             gsap.fromTo(".menu__active", {opacity: 0}, {opacity: 1})

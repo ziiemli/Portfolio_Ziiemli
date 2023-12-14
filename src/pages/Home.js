@@ -14,15 +14,19 @@ const Home = () => {
 
     //Animation gsap for Navlinks
     useEffect(() => {
+        //mobile
+        const isMobile = window.innerWidth <= 768
+
+        //desktop
         if (categories) {
             categories.forEach((category, index) => {
                 gsap.fromTo(
                     `.article-${category.id}`,
                     {
-                        y: 750,
-                        opacity: 1,
+                        y: isMobile ? 200 : 750,
+                        opacity: isMobile ? 0 : 1,
                     },
-                    {y: 0, ease: "power3.out", duration: 1, delay: 0.2 * index}
+                    {y: 0, opacity: 1, ease: "power3.out", duration: 1, delay: 0.2 * index}
                 )
             })
         }
