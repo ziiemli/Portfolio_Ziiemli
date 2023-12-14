@@ -1,10 +1,30 @@
-import React from "react"
+import React, {useEffect} from "react"
 import {useState} from "react"
 import {NavLink} from "react-router-dom"
+import gsap from "gsap"
 
 const Menu = () => {
     //menu is active ?
     const [menu, setMenu] = useState(false)
+
+    const openCloseMenu = () => {
+        if (menu) {
+            setTimeout(() => {
+                setMenu(!menu)
+            }, 500)
+            //gsap
+            gsap.fromTo(".menu__active", {opacity: 1}, {opacity: 0})
+        } else {
+            setMenu(!menu)
+            //gsap
+            gsap.fromTo(".menu__active", {opacity: 0}, {opacity: 1})
+        }
+    }
+    useEffect(() => {
+        if (menu) {
+            gsap.fromTo(".menu__active", {opacity: 0}, {opacity: 1})
+        }
+    }, [menu])
 
     //no scroll when menu is open
     //select body tag
@@ -32,7 +52,7 @@ const Menu = () => {
 
     return (
         <div>
-            <div className="menu" onClick={(e) => setMenu(!menu)}>
+            <div className="menu" onClick={(e) => openCloseMenu()}>
                 <div className="menu__line"></div>
                 <div className="menu__line"></div>
                 <div className="menu__line"></div>
