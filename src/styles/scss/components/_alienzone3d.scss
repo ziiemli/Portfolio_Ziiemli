@@ -9,3 +9,22 @@
         padding-bottom: 2%;
     }
 }
+
+//_____RESPONSIVE ALIENZONE 3D_____//
+
+@media screen and (min-width: 768px) {
+    .threeD{
+        img{
+            width: 45%;
+            padding-bottom: 2%;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .threeD{
+        img{
+            width: 100%;
+            padding-bottom: 3%;
+        }
+    }
+}
