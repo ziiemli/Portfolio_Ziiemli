@@ -948,12 +948,6 @@
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/11_Lyon_08_2021.jpg",
-                    "date": "August, 2021",
-                    "description": "During the summer in Lyon"
-                },
-                {
-                    "serie":"Summer Time in Lyon",
                     "src": "/assets/img/others/Photography/photos/12_Lyon_08_2021.jpg",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
@@ -1032,12 +1026,6 @@
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/25_Balme_08_2021.jpg",
-                    "date": "August, 2021",
-                    "description": "Pics in Isère, France"
-                },
-                {
-                    "serie":"Les grottes de la Balme",
                     "src": "/assets/img/others/Photography/photos/26_Balme_08_2021.jpg",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
@@ -1067,16 +1055,298 @@
                     "description": "Pics in Isère, France"
                 },
                 {
-                    "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/31_Balme_08_2021.jpg",
-                    "date": "August, 2021",
-                    "description": "Pics in Isère, France"
+                    "serie":"Confluence",
+                    "src": "/assets/img/others/Photography/photos/37_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Confluence Time, France"
                 },
                 {
-                    "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/32_Balme_08_2021.jpg",
+                    "serie":"Confluence",
+                    "src": "/assets/img/others/Photography/photos/38_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Confluence Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/39_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/40_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/41_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Lyon Happy Hour",
+                    "src": "/assets/img/others/Photography/photos/42_Lyon_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Lyon Photography Time, France"
+                },
+                {
+                    "serie":"Forest",
+                    "src": "/assets/img/others/Photography/photos/43_Forest_08_2021.jpg",
                     "date": "August, 2021",
-                    "description": "Pics in Isère, France"
+                    "description": "Forest Photography, France"
+                },
+                {
+                    "serie":"Forest",
+                    "src": "/assets/img/others/Photography/photos/44_Forest_08_2021.jpg",
+                    "date": "August, 2021",
+                    "description": "Forest Photography, France"
+                },
+                {
+                    "serie":"Moment",
+                    "src": "/assets/img/others/Photography/photos/45_Moment_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Moment Photography, Lyon"
+                },
+                {
+                    "serie":"Moment",
+                    "src": "/assets/img/others/Photography/photos/46_Moment_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Moment Photography, Lyon"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/47_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/48_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/49_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/50_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/51_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/52_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/53_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/54_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/55_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Annecy",
+                    "src": "/assets/img/others/Photography/photos/56_Annecy_09_2021.jpg",
+                    "date": "September, 2021",
+                    "description": "Annecy Trip photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/57_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/58_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/59_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/60_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/61_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/62_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/63_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/64_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Cap d'Agde",
+                    "src": "/assets/img/others/Photography/photos/65_Agde_04_2022.jpg",
+                    "date": "April, 2022",
+                    "description": "Cap d'Agde photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/66_Ravin_05_2022.jpg",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/67_Ravin_05_2022.jpg",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/68_Ravin_05_2022.jpg",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Ravin de Corboeuf",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.jpg",
+                    "date": "Mai, 2022",
+                    "description": "Ravin de Corboeuf photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.jpg",
+                    "date": "Mai, 2022",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/70_Agde_09_2023.jpg",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/71_Agde_09_2023.jpg",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Summer Time in the South",
+                    "src": "/assets/img/others/Photography/photos/72_Agde_09_2023.jpg",
+                    "date": "September, 2023",
+                    "description": "South photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/73_Patricia_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/74_Patricia_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Friend Portrait",
+                    "src": "/assets/img/others/Photography/photos/75_Patricia_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Friend photography"
+                },
+                {
+                    "serie":"Lyon Moment",
+                    "src": "/assets/img/others/Photography/photos/76_Lyon_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Lyon photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/77_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/78_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/79_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/80_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/81_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/82_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/83_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
+                },
+                {
+                    "serie":"One day in Pérouges",
+                    "src": "/assets/img/others/Photography/photos/84_Perouges_10_2023.jpg",
+                    "date": "October, 2023",
+                    "description": "Pérouges photography"
                 }
             ]
         }
