@@ -12,14 +12,14 @@
     }
     &__leftArrow {
         position: absolute;
-        left: -7%;
+        left: -9%;
         top: 45%;
         cursor: pointer;
         z-index: 1;
     }
     &__rightArrow {
         position: absolute;
-        right: -7%;
+        right: -9%;
         top: 45%;
         cursor: pointer;
         z-index: 1;
@@ -44,10 +44,10 @@
         }
     }
 }
-.descriptionConcepts{
+.descriptionConcepts {
     top: 25%;
 }
-.descriptionPortraits{
+.descriptionPortraits {
     top: 35%;
 }
 
@@ -59,9 +59,9 @@
     }
 }
 
-//dots 
+//dots
 
-.slick-dots li button::before{
+.slick-dots li button::before {
     color: white;
     font-size: 1rem;
     top: 80%;
@@ -72,12 +72,29 @@
 }
 
 //_____RESPONSIVE  CAROUSEL_____//
+
+//mobile dots sie for traditionalPyrography
+@media screen and (max-width: 996px) {
+    #traditionalPyrography {
+        .slick-dots li {
+            width: 9px;
+            height: 9px;
+        }
+    }
+}
+
 @media screen and (min-width: 996px) {
-    .carousel{
+    .carousel {
         left: -4%;
         padding-bottom: 60%;
+        &__leftArrow {
+            left: -7%;
+        }
+        &__rightArrow {
+            right: -7%;
+        }
     }
-    .descriptionConcepts{
+    .descriptionConcepts {
         top: 23%;
     }
     .descriptionPortraits {
