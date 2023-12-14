@@ -12,6 +12,28 @@ h3 {
     padding-bottom: 30%;
 }
 
+//size of dots
+.alice-carousel__dots-item:not(.__custom) {
+    width: 15px;
+    height: 15px;
+}
+
+//space between dots
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+    margin-right: 18px;
+}
+
+//dot normal
+.alice-carousel__dots-item{
+    opacity: 0.5;
+}
+
+//dot active
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active{
+    background-color: white;
+    opacity: 1;
+}
+
 //______RESPONSIVE CAROUSEL2_____//
 
 @media screen and (min-width: 996px){
