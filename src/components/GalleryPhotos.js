@@ -1,9 +1,8 @@
 import React, {useState} from "react"
-import Gallery from "react-photo-gallery"
 
 const GalleryPhotos = ({photos}) => {
     //data photos
-    const images = photos && photos
+    const images = photos && [...photos].reverse()
 
     const rightArrow = process.env.PUBLIC_URL + "/assets/Right_Arrow.svg"
     const leftArrow = process.env.PUBLIC_URL + "/assets/Left_Arrow.svg"
