@@ -35,6 +35,14 @@ h3 {
     opacity: 1;
 }
 
+//arrow
+.alice-carousel__next-btn-item, .alice-carousel__prev-btn-item{
+    color: white;
+    &:hover{
+        color: grey;
+    }
+}
+
 //______RESPONSIVE CAROUSEL2_____//
 
 @media screen and (min-width: 996px) {

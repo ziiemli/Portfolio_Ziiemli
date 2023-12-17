@@ -30,12 +30,12 @@ const GalleryPhotos = ({photos}) => {
             {images &&
                 images.map((image, index) => (
                     <div className="gallery__img" key={index} onClick={() => openPhoto(index)}>
-                        <img src={image.src} alt={image.description} />
+                        <img src={image.src} alt={image.description} loading="lazy"/>
                         <div className="gallery__img__infos">
                             <h3>{image.serie}</h3>
                             <p>{image.description}</p>
                             <div className="gallery__img__infos__date">
-                                <strong>DATE</strong>
+                                <strong className="gallery__img__infos__date__h">DATE</strong>
                                 <p>{image.date}</p>
                             </div>
                         </div>

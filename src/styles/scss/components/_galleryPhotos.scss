@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-bottom: 10%;
+    margin-bottom: 18%;
     &__img {
         height: 300px;
         flex-grow: 1;
@@ -28,8 +28,8 @@
             }
             &__date {
                 padding-top: 40%;
-                strong {
-                    padding-bottom: 5%;
+                p {
+                    padding-top: 5%;
                 }
             }
         }
@@ -66,7 +66,7 @@
     }
     &__arrow {
         width: auto;
-        height: 8%;
+        height: 6%;
         z-index: 10;
         cursor: pointer;
     }
@@ -77,5 +77,17 @@
         top: 0;
         position: absolute;
         background: rgba(10, 10, 10, 0.9);
+    }
+}
+
+//_____RESPONSIVE GALLERY PHOTOS_____//
+
+@media screen and (min-width: 996px) {
+    .galleryPhotoModal {
+        padding-left: 4%;
+        padding-right: 4%;
+        &__arrow {
+            height: 8%;
+        }
     }
 }

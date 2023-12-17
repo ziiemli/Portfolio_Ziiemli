@@ -496,68 +496,68 @@
         {
             "id": "02_00",
             "nameProject": "AlienZone",
-            "imageDesktop": "/assets/img/others/AlienZone/AlienZone_Desktop.jpg",
-            "imageMobile": "/assets/img/others/AlienZone/AlienZone_Mobile.jpg",
+            "imageDesktop": "/assets/img/others/AlienZone/AlienZone_Desktop.webp",
+            "imageMobile": "/assets/img/others/AlienZone/AlienZone_Mobile.webp",
             "description": "AlienZone is a customer project. I realized a large map illustration for their website.",
             "date": "November, 2023",
-            "techs": "Photoshop, Maya",
+            "techs": "Photoshop, Maya, Unity",
             "roles": "Concept Artist, Illutrator",
-            "backgroundDesktop": "/assets/img/others/AlienZone/AlienZone_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/AlienZone/AlienZone_BackgroundDesktop.webp"
         },
         {
             "id": "02_01",
             "nameProject": "Le Recueil de l'étrange",
-            "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.jpg",
-            "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.jpg",
+            "imageDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Desktop.webp",
+            "imageMobile": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_Mobile.webp",
             "description": "Le recueil de l'étrange is a Video Game Project in school realized with Team Mates, it's an Adventure/Puzzle Game Directives.",
             "date": "April, 2022",
             "techs": "Photoshop, Maya, Unreal Engine",
             "roles": "Concept Artist, UI/UX Designer, Texture Artist",
-            "backgroundDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_BackgroundDesktop.webp"
         },
         {
             "id": "02_02",
             "nameProject": "Le trésor de Khnoumkhoufou",
-            "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.jpg",
-            "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.jpg",
+            "imageDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Desktop.webp",
+            "imageMobile": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Mobile.webp",
             "description": "Le trésor de Khnoumkhoufou is a board game project, school assignment with team mates: Alan Albiach, Anthony C.",
             "date": "October, 2021",
-            "techs": "Photoshop",
+            "techs": "Photoshop, InDesign",
             "roles": "Illustrator, UI/UX Designer",
-            "backgroundDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_BackgroundDesktop.webp"
         },
         {
             "id": "02_02",
             "nameProject": "Sirius",
-            "imageDesktop": "/assets/img/others/Sirius/Sirius_Desktop.jpg",
-            "imageMobile": "/assets/img/others/Sirius/Sirius_Mobile.jpg",
+            "imageDesktop": "/assets/img/others/Sirius/Sirius_Desktop.webp",
+            "imageMobile": "/assets/img/others/Sirius/Sirius_Mobile.webp",
             "description": "Sirius is a Video Game Project (vertical slice) in school realized with Team Mates, it's an Action-Adventure. Art Team mates: Alan Albiach, Anthony C, Alexandre Michel, Maxime Laurent.",
             "date": "June, 2022",
             "techs": "Photoshop, Unreal Engine",
             "roles": "Lead Artist, Concept Artist, Level Art",
-            "backgroundDesktop": "/assets/img/others/Sirius/Sirius_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/Sirius/Sirius_BackgroundDesktop.webp"
         },
         {
             "id": "02_03",
             "nameProject": "Photography",
-            "imageDesktop": "/assets/img/others/Photography/Lyon_Desktop.jpg",
-            "imageMobile": "/assets/img/others/Photography/Lyon_Mobile.jpg",
-            "description": "Somes pictures takes in Lyon.",
-            "date": "October, 2022",
-            "techs": "Sony A6400",
+            "imageDesktop": "/assets/img/others/Photography/Lyon_Desktop.webp",
+            "imageMobile": "/assets/img/others/Photography/Lyon_Mobile.webp",
+            "description": "Life moments through my lens.",
+            "date": "2021 - 2023",
+            "techs": "Sony A6400, Iphone 6s, Iphone 12 pro",
             "roles": "Photographer",
-            "backgroundDesktop": "/assets/img/others/Photography/Lyon_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/Photography/Lyon_BackgroundDesktop.webp"
         },
         {
             "id": "02_04",
             "nameProject": "Bleu",
-            "imageDesktop": "/assets/img/others/Bleu/Bleu_Desktop.jpg",
-            "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.jpg",
+            "imageDesktop": "/assets/img/others/Bleu/Bleu_Desktop.webp",
+            "imageMobile": "/assets/img/others/Bleu/Bleu_Mobile.webp",
             "description": "Some experiments around Blue Thematic. HighSchool Assignment",
             "date": "September, 2022",
             "techs": "Sony RX100",
             "roles": "Artist",
-            "backgroundDesktop": "/assets/img/others/Bleu/Bleu_BackgroundDesktop.jpg"
+            "backgroundDesktop": "/assets/img/others/Bleu/Bleu_BackgroundDesktop.webp"
         }
     ],
     "othersProjects": [
@@ -565,133 +565,133 @@
             "nameProject": "AlienZone",
             "dayNight": [
                 {
-                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.jpg",
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Daylight.webp",
                     "description": "Daylight Map illustration AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Night.jpg",
+                    "screen": "/assets/img/others/AlienZone/AlienZone_Map_Night.webp",
                     "description": "Night Map illustration AlienZone"
                 }
             ],
             "conceptArt": [
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Octopus_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Octopus_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v2.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino1_v2.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino2_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Casino2_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Stadium_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Stadium_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Yacht_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Yacht_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v3.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/PurpleGuy_v3.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v2.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/HallofFame_v2.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v1.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v1.webp",
                     "description": "Concept Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v2.jpg",
+                    "screen": "/assets/img/others/AlienZone/ConceptArt/Map_v2.webp",
                     "description": "Concept Art building AlienZone"
                 }
             ],
             "D": [
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Dojo.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Dojo.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Stadium.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Stadium.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_PurpleGuy.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_PurpleGuy.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Octopus.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Octopus.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Yacht.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Yacht.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_HallofFame.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_HallofFame.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino1.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino1.webp",
                     "description": "3D building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino2.jpg",
+                    "screen": "/assets/img/others/AlienZone/3D/3D_Casino2.webp",
                     "description": "3D building AlienZone"
                 }
             ],
             "LineBuilding": [
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/HallofFame.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/HallofFame.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Octopus.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Octopus.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/PurpleGuy.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/PurpleGuy.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Dojo.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Dojo.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino1.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino1.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino2.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Casino2.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Stadium.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Stadium.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Statues.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Statues.webp",
                     "description": "Line Art building AlienZone"
                 },
                 {
-                    "screen": "/assets/img/others/AlienZone/LineBuilding/Yacht.jpg",
+                    "screen": "/assets/img/others/AlienZone/LineBuilding/Yacht.webp",
                     "description": "Line Art building AlienZone"
                 }
             ],
@@ -706,47 +706,47 @@
             "nameProject": "Le Recueil de l'étrange",
             "visualsOfGame": [
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_01.webp",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_02.webp",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_03.webp",
                     "description": "3D interior of a video game"
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_visualsOfGame_04.webp",
                     "description": "3D interior of a video game"
                 }
             ],
             "conceptArt": [
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_01.webp",
                     "description": "Concept art board of a bathroom"
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_02.webp",
                     "description": "Concept art board of a mirror"
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_conceptArt_03.webp",
                     "description": "Concept art, game atmosphere"
                 }
             ],
             "uiUx": [
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_01.webp",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_02.webp",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 },
                 {
-                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.jpg",
+                    "screen": "/assets/img/others/LeRecueilDeLetrange/LeRecueilDeLetrange_uiUx_03.webp",
                     "description": "UI & UX of Le Recueil de l'étrange video game."
                 }
             ]
@@ -755,41 +755,41 @@
             "nameProject": "Le trésor de Khnoumkhoufou",
             "boxBoardGame": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Box.webp",
                     "description": "Le trésor de Khnoumkhoufou game box."
                 }
             ],
             "boardGame": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_01.webp",
                     "description": "Board game of Le Trésor de Khnoumkhoufou. The board and the squares are square. the starting square takes the whole length of one side of the board."
                 },
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_boardGame_02.webp",
                     "description": "Game pieces and about the game."
                 }
             ],
             "momieCharacter": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie.webp",
                     "description": "Momie character of the board game."
                 }
             ],
             "adventurerCharacters": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Characters.webp",
                     "description": "Adventurer characters of the board game."
                 }
             ],
             "momieCards": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Momie_cards.webp",
                     "description": "Momie game cards"
                 }
             ],
             "adventurerCards": [
                 {
-                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.jpg",
+                    "screen": "/assets/img/others/LeTresorDeKhnoumkhoufou/LeTresorDeKhnoumkhoufou_Adventurer_cards.webp",
                     "description": "Adventurers game cards"
                 }
             ]
@@ -798,65 +798,65 @@
             "nameProject": "Sirius",
             "visualsOfGame": [
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_01.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_01.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_02.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_02.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_03.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_03.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_04.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_04.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_05.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_05.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_06.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_06.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_07.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_07.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_08.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_08.webp",
                     "description": "visual of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_09.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_visualsOfGame_09.webp",
                     "description": "visual of Sirius video game"
                 }
             ],
             "conceptArt": [
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_01.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_01.webp",
                     "description": "Concept art of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_02.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_02.webp",
                     "description": "Concept art of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_03.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_03.webp",
                     "description": "Concept art of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_04.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_04.webp",
                     "description": "Concept art of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_05.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_05.webp",
                     "description": "Concept art of Sirius video game"
                 },
                 {
-                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_06.jpg",
+                    "screen": "/assets/img/others/Sirius/Sirius_conceptArt_06.webp",
                     "description": "Concept art of Sirius video game"
                 }
             ]
@@ -865,19 +865,19 @@
             "nameProject": "Bleu",
             "experiments": [
                 {
-                    "screen": "/assets/img/others/Bleu/Bleu_hands.jpg",
+                    "screen": "/assets/img/others/Bleu/Bleu_hands.webp",
                     "description": "Blue hands."
                 },
                 {
-                    "screen": "/assets/img/others/Bleu/Bleu_Palette.jpg",
+                    "screen": "/assets/img/others/Bleu/Bleu_Palette.webp",
                     "description": "Blue blend."
                 },
                 {
-                    "screen": "/assets/img/others/Bleu/Bleu_lightBall.jpg",
+                    "screen": "/assets/img/others/Bleu/Bleu_lightBall.webp",
                     "description": "Light blue ball."
                 },
                 {
-                    "screen": "/assets/img/others/Bleu/Bleu_DarkBlueBall.jpg",
+                    "screen": "/assets/img/others/Bleu/Bleu_DarkBlueBall.webp",
                     "description": "Black and blue balls."
                 }
             ]
@@ -887,464 +887,464 @@
             "photos": [
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/01_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/01_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
 
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/02_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/02_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/03_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/03_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/04_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/04_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/05_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/05_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/06_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/06_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/07_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/07_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/08_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/08_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/09_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/09_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/10_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/10_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/12_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/12_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/13_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/13_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/14_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/14_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/15_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/15_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/16_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/16_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/17_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/17_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/18_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/18_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/19_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/19_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/20_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/20_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/21_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/21_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/22_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/22_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Summer Time in Lyon",
-                    "src": "/assets/img/others/Photography/photos/23_Lyon_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/23_Lyon_08_2021.webp",
                     "date": "August, 2021",
                     "description": "During the summer in Lyon"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/24_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/24_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/26_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/26_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/27_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/27_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/28_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/28_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/29_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/29_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Les grottes de la Balme",
-                    "src": "/assets/img/others/Photography/photos/30_Balme_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/30_Balme_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Pics in Isère, France"
                 },
                 {
                     "serie":"Confluence",
-                    "src": "/assets/img/others/Photography/photos/37_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/37_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Confluence Time, France"
                 },
                 {
                     "serie":"Confluence",
-                    "src": "/assets/img/others/Photography/photos/38_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/38_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Confluence Time, France"
                 },
                 {
                     "serie":"Lyon Happy Hour",
-                    "src": "/assets/img/others/Photography/photos/39_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/39_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Lyon Photography Time, France"
                 },
                 {
                     "serie":"Lyon Happy Hour",
-                    "src": "/assets/img/others/Photography/photos/40_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/40_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Lyon Photography Time, France"
                 },
                 {
                     "serie":"Lyon Happy Hour",
-                    "src": "/assets/img/others/Photography/photos/41_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/41_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Lyon Photography Time, France"
                 },
                 {
                     "serie":"Lyon Happy Hour",
-                    "src": "/assets/img/others/Photography/photos/42_Lyon_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/42_Lyon_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Lyon Photography Time, France"
                 },
                 {
                     "serie":"Forest",
-                    "src": "/assets/img/others/Photography/photos/43_Forest_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/43_Forest_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Forest Photography, France"
                 },
                 {
                     "serie":"Forest",
-                    "src": "/assets/img/others/Photography/photos/44_Forest_08_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/44_Forest_08_2021.webp",
                     "date": "August, 2021",
                     "description": "Forest Photography, France"
                 },
                 {
                     "serie":"Moment",
-                    "src": "/assets/img/others/Photography/photos/45_Moment_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/45_Moment_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Moment Photography, Lyon"
                 },
                 {
                     "serie":"Moment",
-                    "src": "/assets/img/others/Photography/photos/46_Moment_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/46_Moment_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Moment Photography, Lyon"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/47_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/47_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/48_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/48_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/49_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/49_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/50_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/50_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/51_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/51_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/52_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/52_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/53_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/53_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/54_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/54_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/55_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/55_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Annecy",
-                    "src": "/assets/img/others/Photography/photos/56_Annecy_09_2021.jpg",
+                    "src": "/assets/img/others/Photography/photos/56_Annecy_09_2021.webp",
                     "date": "September, 2021",
                     "description": "Annecy Trip photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/57_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/57_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/58_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/58_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/59_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/59_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/60_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/60_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/61_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/61_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/62_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/62_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/63_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/63_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/64_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/64_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Cap d'Agde",
-                    "src": "/assets/img/others/Photography/photos/65_Agde_04_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/65_Agde_04_2022.webp",
                     "date": "April, 2022",
                     "description": "Cap d'Agde photography"
                 },
                 {
                     "serie":"Ravin de Corboeuf",
-                    "src": "/assets/img/others/Photography/photos/66_Ravin_05_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/66_Ravin_05_2022.webp",
                     "date": "Mai, 2022",
                     "description": "Ravin de Corboeuf photography"
                 },
                 {
                     "serie":"Ravin de Corboeuf",
-                    "src": "/assets/img/others/Photography/photos/67_Ravin_05_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/67_Ravin_05_2022.webp",
                     "date": "Mai, 2022",
                     "description": "Ravin de Corboeuf photography"
                 },
                 {
                     "serie":"Ravin de Corboeuf",
-                    "src": "/assets/img/others/Photography/photos/68_Ravin_05_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/68_Ravin_05_2022.webp",
                     "date": "Mai, 2022",
                     "description": "Ravin de Corboeuf photography"
                 },
                 {
                     "serie":"Ravin de Corboeuf",
-                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.webp",
                     "date": "Mai, 2022",
                     "description": "Ravin de Corboeuf photography"
                 },
                 {
                     "serie":"Summer Time in the South",
-                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.jpg",
+                    "src": "/assets/img/others/Photography/photos/69_Ravin_05_2022.webp",
                     "date": "Mai, 2022",
                     "description": "South photography"
                 },
                 {
                     "serie":"Summer Time in the South",
-                    "src": "/assets/img/others/Photography/photos/70_Agde_09_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/70_Agde_09_2023.webp",
                     "date": "September, 2023",
                     "description": "South photography"
                 },
                 {
                     "serie":"Summer Time in the South",
-                    "src": "/assets/img/others/Photography/photos/71_Agde_09_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/71_Agde_09_2023.webp",
                     "date": "September, 2023",
                     "description": "South photography"
                 },
                 {
                     "serie":"Summer Time in the South",
-                    "src": "/assets/img/others/Photography/photos/72_Agde_09_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/72_Agde_09_2023.webp",
                     "date": "September, 2023",
                     "description": "South photography"
                 },
                 {
                     "serie":"Friend Portrait",
-                    "src": "/assets/img/others/Photography/photos/73_Patricia_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/73_Patricia_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Friend photography"
                 },
                 {
                     "serie":"Friend Portrait",
-                    "src": "/assets/img/others/Photography/photos/74_Patricia_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/74_Patricia_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Friend photography"
                 },
                 {
                     "serie":"Friend Portrait",
-                    "src": "/assets/img/others/Photography/photos/75_Patricia_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/75_Patricia_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Friend photography"
                 },
                 {
                     "serie":"Lyon Moment",
-                    "src": "/assets/img/others/Photography/photos/76_Lyon_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/76_Lyon_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Lyon photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/77_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/77_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/78_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/78_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/79_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/79_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/80_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/80_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/81_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/81_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/82_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/82_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/83_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/83_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 },
                 {
                     "serie":"One day in Pérouges",
-                    "src": "/assets/img/others/Photography/photos/84_Perouges_10_2023.jpg",
+                    "src": "/assets/img/others/Photography/photos/84_Perouges_10_2023.webp",
                     "date": "October, 2023",
                     "description": "Pérouges photography"
                 }
